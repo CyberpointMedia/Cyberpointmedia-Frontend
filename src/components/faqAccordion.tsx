@@ -1,6 +1,12 @@
-import FAQAccordion from '@/components/accordionItems';
+import React, { useState } from 'react';
 
-const FaqPage = () => {
+const FAQAccordion = () => {
+  const [activeIndex, setActiveIndex] = useState(null);
+
+  const toggleAccordion = (index) => {
+    setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
+  };
+
   const faqs = [
     {
       question: "Are you a full-service digital product development company?",
@@ -45,11 +51,19 @@ const FaqPage = () => {
             <div className="max-w-5xl mx-auto px-6">
                <div className="subtitle mb-4"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>08 — FAQ</div>
                <h2 className="text-5xl text-black mb-6">Frequently Asked Questions</h2>
-                <FAQAccordion faqs={faqs} />
+                {/* <FAQAccordion faqs={faqs} /> */}
+                <div className="faq-accordion"> 
+                  {faqs.map((faq, index) => (
+                    <div key={index} className={`faq-item border-b border-[#DAD2C7] mb-6 pb-6 ${activeIndex === index ? 'active' : ''}`} onClick={() => toggleAccordion(index)}>
+                      <div className="question text-xl font-normal text-[#2C2D36]">{faq.question}</div>
+                      <div className="answer text-xl text-[#878787] font-normal">{activeIndex === index && <p>{faq.answer}</p>}</div>
+                    </div>
+                  ))}
+                </div>
             </div>
       </section>
     </div>
   );
 };
 
-export default FaqPage;
+export default FAQAccordion;

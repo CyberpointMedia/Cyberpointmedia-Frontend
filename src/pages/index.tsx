@@ -14,7 +14,7 @@ import OurTechnology from '@/components/ourTechnology';
 import AboutImg from '@/assets/about-img.svg';
 import LogoBrands from "@/components/logoBrands";
 import ClientTestimonials from "@/components/testimonials";
-import FaqPage from "@/components/faqAccordion";
+import FAQAccordion from "@/components/faqAccordion";
 import Footer from "@/components/footer";
 
 export default function Page() {
@@ -168,7 +168,7 @@ Digital Excellence</h1>
       <LogoBrands />
 
       {/* faq section start */}
-      <FaqPage />
+      <FAQAccordion />
 
       {/* footer section start */}
       <Footer />

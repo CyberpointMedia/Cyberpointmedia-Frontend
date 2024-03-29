@@ -155,6 +155,28 @@ svg{
 
 .faq-item.active .question{
     margin-bottom: 20px;
+    position: relative;
+}
+
+.faq-item .question{
+    position: relative;
+}
+
+.faq-item .question::before{
+    position: absolute;
+    content: "";
+    right: 0px;
+    top: 50%;
+    background-image: url(../assets/plus-icon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+    transform: translate(-50%, -50%);
+}
+
+.faq-item.active .question::before{
+    background-image: url(../assets/minus-icon.svg);
 }
 
 @keyframes hero-video_rotateClickIcon__mz4Z7 {
