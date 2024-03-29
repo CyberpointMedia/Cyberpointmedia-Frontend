@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Draggable from "react-draggable";
+// import Draggable from "react-draggable";
 import showcaseImg1 from '@/assets/showcase-img1.svg';
 import showcaseImg2 from '@/assets/showcase-img2.svg';
 import showcaseImg3 from '@/assets/showcase-img3.svg';

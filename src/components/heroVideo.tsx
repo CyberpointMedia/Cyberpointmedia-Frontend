@@ -2,7 +2,7 @@ import React from 'react';
 import { useState, useEffect, useRef } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
-import { useViewportScroll } from 'framer-motion';
+// import { useViewportScroll } from 'framer-motion';
 
 const AnimatedVideo = ({ videoSrc, translateX, translateY, scale }) => {
     const [scrollY, setScrollY] = useState(0);
