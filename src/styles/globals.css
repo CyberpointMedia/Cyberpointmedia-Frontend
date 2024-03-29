@@ -175,6 +175,18 @@ svg{
     transform: translate(-50%, -50%);
 }
 
+.slick-slide + div{
+    margin: 0px 10px;
+}
+
+.slick-slider{
+    height: 340px;
+}
+
+.slick-slider button.slick-arrow {
+    display: none !important;
+}
+
 .faq-item.active .question::before{
     background-image: url(../assets/minus-icon.svg);
 }

@@ -14,12 +14,13 @@ const ClientTestimonials = () => {
     margin:10,
     speed: 500,
     slidesToShow: 4,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    nav: false,
   };
   return (
     <div>
 
-      <section className="bg-[#efeae3] py-16">
+      <section className="bg-[#efeae3] py-16 overflow-hidden">
             <div className="container mx-auto px-6 text-center">
                <div className="subtitle mb-4 flex mx-auto justify-center items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>06 —Testimonials</div>
                <h2 className="text-5xl text-black mb-10">What Our Clients Say</h2>

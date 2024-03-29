@@ -1,35 +1,27 @@
-
-// import { motion } from 'framer-motion';
-import React, { useState, useRef, useEffect } from 'react';
-
-const BackgroundVideo = (videoSource:any) => {
-    const videoRef = useRef() as any;
-  
-    useEffect(() => {
-      const video = videoRef.current;
-  
-      const playPromise = video.play();
-      if (playPromise !== undefined) {
-        playPromise.catch((error: any) => {
-          // Auto-play was prevented
-          // You can handle this situation here
-          console.error('Auto-play prevented:', error);
-        });
-      }
-  
-      return () => {
-        video.pause();
-        video.currentTime = 0;
-      };
-    }, []);
-  
+import React from 'react';
+interface VideoBackgroundProps {
+  url: string;
+  muted?: boolean;
+  loop?: boolean;
+};
+ const BackgroundVideo = ({ url, muted = true, loop = true }: VideoBackgroundProps) => {
     return (
       <div>
-        <video ref={videoRef} autoPlay loop muted playsInline>
-          <source src={videoSource} type="video/mp4" />
+        <video
+            autoPlay
+            muted={muted}
+            loop={loop}
+            playsInline // Ensures inline playback on iOS devices
+        >
+            <source src={url} type="video/mp4" /> // Specify video format
+            <source src={url} type="video/ogg" />  // Optional for broader compatibility
+            Your browser does not support the video tag.
         </video>
-      </div>
+        </div>
     );
-  };
-  
-  export default BackgroundVideo;
+};
+
+export default BackgroundVideo;
+
+
+

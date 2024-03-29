@@ -6,7 +6,6 @@ import BackgroundVideo from "@/components/backgroundvideo";
 import Image from 'next/image';
 import readmoreIcon from '@/assets/read-more-icon.svg';
 import VideoComponent from '@/components/homeVideo';
-import AnimatedVideo from "@/components/heroVideo";
 import designEngineering from '@/assets/design-engineering.svg';
 import devopsIcon from '@/assets/devops-icon.svg';
 import DraggableSlider from '@/components/draggableSlider';
@@ -23,7 +22,7 @@ export default function Page() {
       <section id="hero_sec" className="pt-48 bg-white">
         <div className="container mx-auto px-6 relative">
           <div className="hero_bg_Video">
-            <BackgroundVideo videoSource="/videos/bg-video.webm" />
+            <BackgroundVideo url="/videos/bg-video.webm" />
           </div>
             <div className="flex flex-col md:flex-row items-center justify-between hero_content">
                 <div className="hero_left max-w-4xl w-full">
@@ -33,12 +32,6 @@ Digital Excellence</h1>
                 </div>
                 <div className="">
                   <VideoPlayer/>
-                  {/* <AnimatedVideo
-                      videoSrc="/videos/video.mp4"
-                      translateX={100} // Adjust translation values as needed
-                      translateY={50}
-                      scale={1.2}
-                  /> */}
                 </div>
             </div>
 

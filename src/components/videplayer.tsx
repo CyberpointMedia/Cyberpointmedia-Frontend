@@ -9,14 +9,7 @@ import clickToplay from '@/assets/click-to-play.svg';
     const videoRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
 
-  const handlePlayPause2 = () => {
-    if (isPlaying) {
-      videoRef.current.pause();
-    } else {
-      videoRef.current.play();
-    }
-    setIsPlaying(!isPlaying);
-  };
+
     return (
       <div className="hero_video_wraper">
         <div className="hero-video_play_iframe">
@@ -24,7 +17,7 @@ import clickToplay from '@/assets/click-to-play.svg';
             <source src="/videos/video.mp4" type="video/mp4" />
           </video>
         </div>
-        <button className="hero-video_root_playBtn" onClick={handlePlayPause2}>
+        <button className="hero-video_root_playBtn">
           <Image src={clickToplay} className="hero-video_root_playBtn_click" alt="click icon" />
           {isPlaying ? <Image src={playIcon} alt="play icon" /> : <Image src={playIcon} alt="play icon" />}
         </button>

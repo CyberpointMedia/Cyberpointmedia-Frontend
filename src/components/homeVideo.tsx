@@ -36,14 +36,6 @@ const VideoComponent = () => {
     setZoom(newZoom);
   }, [scrollY]);
 
-  const handlePlayPause = () => {
-    if (isPlaying) {
-      videoRef.current.pause();
-    } else {
-      videoRef.current.play();
-    }
-    setIsPlaying(!isPlaying);
-  };
 
   return (
     <div className="video-bg-color">
@@ -57,7 +49,7 @@ const VideoComponent = () => {
                   }}
               /> */}
               <Image src={videoScreenshot} alt='#' />
-              <button className="hero-video_root_playBtn2" onClick={handlePlayPause}>
+              <button className="hero-video_root_playBtn2">
                 <Image src={clickToplay} className="hero-video_root_playBtn_click" alt="click icon" />
                 {isPlaying ? <Image src={playIcon} alt="play icon" /> : <Image src={playIcon} alt="play icon" />}
               </button>
