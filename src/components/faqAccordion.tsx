@@ -49,12 +49,12 @@ const FAQAccordion = () => {
     <div>
       <section className="bg-[#efeae3] py-16">
             <div className="max-w-5xl mx-auto px-6">
-               <div className="subtitle mb-4"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>08 — FAQ</div>
-               <h2 className="text-5xl text-black mb-6">Frequently Asked Questions</h2>
+               <div className="subtitle mb-4 flex mx-auto justify-center items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>08 — FAQ</div>
+               <h2 className="text-5xl text-black mb-10">Frequently Asked Questions</h2>
                 {/* <FAQAccordion faqs={faqs} /> */}
                 <div className="faq-accordion"> 
                   {faqs.map((faq, index) => (
-                    <div key={index} className={`faq-item border-b border-[#DAD2C7] mb-6 pb-6 ${activeIndex === index ? 'active' : ''}`} onClick={() => toggleAccordion(index)}>
+                    <div key={index} className={`faq-item border-b border-[#DAD2C7] mb-4 pb-4 ${activeIndex === index ? 'active' : ''}`} onClick={() => toggleAccordion(index)}>
                       <div className="question text-xl font-normal text-[#2C2D36]">{faq.question}</div>
                       <div className="answer text-xl text-[#878787] font-normal">{activeIndex === index && <p>{faq.answer}</p>}</div>
                     </div>

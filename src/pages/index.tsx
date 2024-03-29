@@ -64,7 +64,7 @@ Digital Excellence</h1>
       <section className="bg-[#efeae3] py-16">
         <div className="container mx-auto px-6">
           <div className="max-w-screen-md text-center mx-auto">
-            <div className="subtitle mb-4"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>03 - Our Services</div>
+            <div className="subtitle mb-4 flex mx-auto justify-center items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>03 - Our Services</div>
             <h2 className="md:text-6xl text-4xl text-black underline">Explore our services <br />and engagement models</h2>
           </div>
           {/* service box start */}
@@ -126,7 +126,7 @@ Digital Excellence</h1>
           <div className="flex flex-col items-center justify-between md:flex-row mb-10">
             <h2 className="text-5xl text-black w-full md:w-2/5">Tools And Technologies That We Work With</h2>
             <div className="md:w-1/3 w-full">
-               <div className="subtitle mb-4"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>07 - Technologies</div>
+               <div className="subtitle mb-4 flex mx-auto justify-center items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>07 - Technologies</div>
                <h2 className="text-xl text-black">Our proficiency spans cutting-edge technologies, ensuring the best solutions for your business needs.</h2>
             </div>
           </div>
@@ -144,7 +144,7 @@ Digital Excellence</h1>
               <Image src={AboutImg} alt="About" />
             </div>
             <div className="md:w-2/4 w-full md:ms-32">
-              <div className="subtitle mb-4"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>03 - About Us</div>
+              <div className="subtitle mb-4 flex mx-auto justify-center items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>03 - About Us</div>
               <h2 className="md:text-6xl text-4xl text-black mb-6">We’re Your Digital Technological Partners</h2>
               <p className="mb-6">
                 Cyberpoint Media helps establish a powerful online presence for your business. We're passionate about transforming ideas into powerful digital solutions. These solutions will elevate your business reputation, build customer trust, drive sales, and help reach new clients.
