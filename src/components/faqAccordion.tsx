@@ -49,7 +49,7 @@ const FAQAccordion = () => {
     <div>
       <section className="bg-[#efeae3] py-16">
             <div className="max-w-5xl mx-auto px-6">
-               <div className="subtitle mb-4 flex mx-auto justify-center items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>08 — FAQ</div>
+               <div className="subtitle mb-4 flex items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>08 — FAQ</div>
                <h2 className="text-5xl text-black mb-10">Frequently Asked Questions</h2>
                 {/* <FAQAccordion faqs={faqs} /> */}
                 <div className="faq-accordion"> 
