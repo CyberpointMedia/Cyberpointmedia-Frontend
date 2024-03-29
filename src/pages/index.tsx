@@ -19,8 +19,8 @@ import Footer from "@/components/footer";
 export default function Page() {
     return <div>
       <Header></Header>
-      <section id="hero_sec" className="pt-48 bg-white">
-        <div className="container mx-auto px-6 relative">
+      <section id="hero_sec" className="pt-48 bg-white min-h-screen flex">
+      <div className="container mx-auto px-6 relative">
           <div className="hero_bg_Video">
             <BackgroundVideo url="/videos/bg-video.webm" />
           </div>
@@ -48,6 +48,9 @@ Digital Excellence</h1>
               </div>
             </div>
         </div>
+        
+      </section>
+      <section className="">
         <div className="">
           <VideoComponent />
         </div>

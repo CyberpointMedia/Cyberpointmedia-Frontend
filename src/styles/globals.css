@@ -179,18 +179,20 @@ svg{
     margin: 0px 10px;
 }
 
-.slick-slider{
-    height: 340px;
-}
-
-.slick-slider button.slick-arrow {
-    display: none !important;
-}
-
 .faq-item.active .question::before{
     background-image: url(../assets/minus-icon.svg);
 }
 
+.slider_progressbar {
+    position: absolute;
+    left: 50%;
+    bottom: -50px;
+    transform: translate(-50%, -50%);
+}
+.buttonArrow .nextArrow{
+    background-color: #2E2F30;
+    color: #fff;
+}
 @keyframes hero-video_rotateClickIcon__mz4Z7 {
     0% {
         transform: translate(-50%,-50%) rotate(0)
