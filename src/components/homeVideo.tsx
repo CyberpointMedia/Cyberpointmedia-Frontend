@@ -49,8 +49,8 @@ const VideoComponent = () => {
                   }}
               /> */}
               <Image src={videoScreenshot} alt='#' />
-              <button className="hero-video_root_playBtn2">
-                <Image src={clickToplay} className="hero-video_root_playBtn_click" alt="click icon" />
+              <button className="absolute left-2/4 top-2/4 -translate-x-1/2 -translate-y-1/2">
+                <Image src={clickToplay} className="hero-video_root_playBtn_click hero-video_root_playBtn_click absolute top-2/4 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="click icon" />
                 {isPlaying ? <Image src={playIcon} alt="play icon" /> : <Image src={playIcon} alt="play icon" />}
               </button>
         </div>

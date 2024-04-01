@@ -66,41 +66,8 @@ svg{
     width: 405px;
     height: 320px;
 }
-.hero-video_play_iframe {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: inherit;
-    overflow: hidden;
-    border: none;
-    z-index: 9;
-    opacity: 1;
-}
-.hero-video_root_playBtn {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    /* width: 88px;
-    height: 88px; */
-    border-radius: 50%;
-    background: hsla(0, 0%, 100%, .8);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: .4s ease-in-out;
-    transition-property: opacity, visibility;
-    z-index: 3;
-    left: -20px;
-    top: -20px;
-}
+
 .hero-video_root_playBtn_click {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    min-width: 100%;
-    height: 100%;
     animation: hero-video_rotateClickIcon__mz4Z7 10s linear infinite;
 }
 .hero_content{
@@ -143,20 +110,7 @@ svg{
     background-color: rgba(0, 0, 0, 0);
     object-position: 50% 50%;
 }
-.hero-video_root_playBtn2 {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    background: hsla(0, 0%, 100%, .8);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: .4s ease-in-out;
-    transition-property: opacity, visibility;
-    z-index: 9;
-    left: 50%;
-    top: 50%;
-}
+
 .video-bg-color{
     background-color: #e0e0e0;
 }

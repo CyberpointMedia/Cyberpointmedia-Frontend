@@ -26,7 +26,7 @@ export default function Page() {
           </div>
             <div className="flex flex-col md:flex-row items-center justify-between hero_content">
                 <div className="hero_left max-w-4xl w-full">
-                    <h1 className="text-[40px] md:text-[76px] text-black md:leading-[85px] leading-[52px] aeonik-trial-font mb-20 md:mb-0">Transform Your Business With Cyberpoint Media's Digital Excellence</h1>
+                    <h1 className="text-[40px] md:text-[76px] text-black md:leading-[85px] leading-[52px] aeonik-trial-font mb-28 md:mb-0">Transform Your Business With Cyberpoint Media's Digital Excellence</h1>
                 </div>
                 <div className="">
                   <VideoPlayer/>
