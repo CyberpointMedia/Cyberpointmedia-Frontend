@@ -13,17 +13,7 @@ import { useState, useEffect } from "react";
 const ClientTestimonials = () => {
 
   const [progress, setProgress] = useState(10)
-  const [slideToShow] = useState(5)
-
-  const setSlides = () =>{
-    useEffect(()=>{
-      setSlides()
-      setProgress(100 / (slideToShow + 1))
-      window.addEventListener("resize", () => { setSlides() })
-    }, [])
-  }
-
-  
+  const [slideToShow] = useState(5)  
 
   const settings = {
     centerMode: true,
