@@ -7,7 +7,8 @@ import showcaseImg3 from '@/assets/showcase-img3.svg';
 
 const DraggableSlider = () => {
   return (
-    <div className="flex flex-col md:flex-row gap-5">
+    <div className="flex flex-col md:flex-row gap-5 relative">
+      <div className="-mt-10 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white w-32 h-32 text-center text-black z-50 rounded-full"><span className="h-full w-full text-[22px] uppercase flex justify-center items-center">Drag</span></div>
       <div className="card">
         <figure className="relative">
           <div className="absolute top-5 left-0 right-0 w-full px-5 hidden md:block">
