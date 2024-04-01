@@ -50,7 +50,7 @@ const FAQAccordion = () => {
       <section className="bg-[#efeae3] py-16">
             <div className="max-w-[1190px] mx-auto px-6">
                <div className="subtitle mb-4 flex items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>08 — FAQ</div>
-               <h2 className="text-4xl md:text-[62px] text-black aeonik-trial-font mb-10 leading-[65px]">Frequently Asked Questions</h2>
+               <h2 className="text-4xl md:text-[62px] text-black aeonik-trial-font mb-10 md:leading-[65px] leading-[42px]">Frequently Asked Questions</h2>
                 {/* <FAQAccordion faqs={faqs} /> */}
                 <div className="faq-accordion"> 
                   {faqs.map((faq, index) => (

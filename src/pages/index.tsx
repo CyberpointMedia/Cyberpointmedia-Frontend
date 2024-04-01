@@ -20,7 +20,7 @@ export default function Page() {
     return <div>
       <Header></Header>
       <section id="hero_sec" className="bg-white lg:h-screen md:flex lg:items-center lg:justify-center md:pt-30 pt-20">
-      <div className="container mx-auto px-6 relative">
+      <div className="container mx-auto 3xl:container px-6 relative">
           <div className="absolute md:top-10 xl:top-32 top-20 left-2/4 -translate-x-1/2 -translate-y-1/2 md:w-[600px] w-full">
             <BackgroundVideo url="/videos/bg-video.webm" />
           </div>
@@ -59,7 +59,7 @@ export default function Page() {
 
       {/* service section start */}
       <section className="bg-[#efeae3] py-16">
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto 3xl:container px-6">
           <div className="text-center">
             <div className="subtitle mb-4 flex mx-auto justify-center items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>03 - Our Services</div>
             <h2 className="md:text-7xl text-4xl text-black underline aeonik-trial-font">Explore our services <br />and engagement models</h2>
@@ -90,7 +90,7 @@ export default function Page() {
 
       {/* showcase section start */}
       <section className="bg-white py-16">
-        <div className="container mx-auto px-6">
+        <div className="container 3xl:container mx-auto px-6">
           <div className="flex flex-col items-center justify-between md:flex-row mb-10">
             <h2 className="text-4xl md:text-[62px] text-black md:w-[812px] w-full aeonik-trial-font mb-6 md:mb-0 md:leading-[65px] leading-[42px]">Showcase of selected projects and archive</h2>
             <div className="">
@@ -119,7 +119,7 @@ export default function Page() {
 
       {/* work with section start */}
       <section className="bg-[#efeae3] py-16">
-      <div className="container mx-auto px-6">
+      <div className="container 3xl:container mx-auto px-6">
           <div className="flex flex-col items-center justify-between md:flex-row mb-10">
             <h2 className="text-4xl md:text-[62px] text-black md:w-[812px] w-full aeonik-trial-font mb-6 md:mb-0 md:leading-[65px] leading-[42px]">Tools And Technologies<br /> That We Work With</h2>
             <div className="md:w-1/3 w-full">
@@ -135,7 +135,7 @@ export default function Page() {
 
       {/* about section start */}
       <section className="bg-white py-16">
-        <div className="container mx-auto px-6">
+        <div className="container 3xl:container mx-auto px-6">
           <div className="flex flex-col items-center justify-between md:flex-row">
             <div className="md:w-2/4 w-full mb-6 md:mb-0">
               <Image src={AboutImg} alt="About" />

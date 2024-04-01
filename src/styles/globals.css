@@ -160,6 +160,9 @@ svg{
     background-color: #2E2F30;
     color: #fff;
 }
+.max-w-custom{
+    max-width: 1800px;
+}
 @keyframes hero-video_rotateClickIcon__mz4Z7 {
     0% {
         transform: translate(-50%,-50%) rotate(0)

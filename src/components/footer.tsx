@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div>
       <footer className="bg-[#2C2D36] pt-20">
-        <div className="container mx-auto px-6">
+        <div className="container 3xl:container mx-auto px-6">
           <div className="flex flex-col items-center justify-between md:flex-row mb-10">
             <h2 className="text-4xl md:text-5xl text-white md:w-3/5 w-full aeonik-trial-font mb-6 md:mb-0">Get industry insights and creative inspiration straight to your inbox.</h2>
             <div className="">
@@ -26,7 +26,7 @@ const Footer = () => {
 
         <hr className="border-[#3E3F49]" />
 
-        <div className="container mx-auto px-6">
+        <div className="container 3xl:container mx-auto px-6">
           <div className="pb-6 pt-16 lg:pt-24">
             <div className="mt-8 grid grid-cols-2 gap-32 lg:mt-0 lg:grid-cols-5 lg:gap-y-16">
               
@@ -159,7 +159,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-8 bg-[#3E3F49] py-4">
-          <div className="container mx-auto px-6">
+          <div className="container 3xl:container mx-auto px-6">
             <div className="sm:flex sm:justify-between">
               <p className="text-base text-white">© 2024 CyberPoint Media LLC | All Rights Reserved</p>
 
