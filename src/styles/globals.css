@@ -2,9 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://db.onlinewebfonts.com/c/0927e08fbdf95205b63c5b8774adeef6?family=Aeonik+TRIAL');
+@font-face {
+    font-family: 'aeonik_trialregular';
+    src: url('./fonts/aeoniktrial-regular-webfont.woff2') format('woff2'),
+         url('./fonts/aeoniktrial-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@font-face {
+    font-family: 'aeonik_trialbold';
+    src: url('./fonts/aeoniktrial-bold-webfont.woff2') format('woff2'),
+         url('./fonts/aeoniktrial-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aeonik_trialregular';
+    src: url('./fonts/aeoniktrial-regular-webfont.woff2') format('woff2'),
+         url('./fonts/AeonikTRIAL-Regular.otf') format('otf');
+
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.aeonik-trial-font{
+    font-family: 'aeonik_trialregular';
+    font-weight: 400;
+}
 
 *{
     margin: 0px;
@@ -21,9 +52,7 @@ body{
 svg{
     display: inline-block;
 }
-.aeonik-font{
-    font-family: "Aeonik TRIAL";
-}
+
 .v-border{
     position: absolute;
     right: -22px;
@@ -73,13 +102,6 @@ svg{
     min-width: 100%;
     height: 100%;
     animation: hero-video_rotateClickIcon__mz4Z7 10s linear infinite;
-}
-.hero_bg_Video {
-    position: absolute;
-    top: 80px;
-    left: 50%;
-    width: 550px;
-    transform: translate(-50%, -50%);
 }
 .hero_content{
     position: relative;
@@ -202,3 +224,4 @@ svg{
         transform: translate(-50%,-50%) rotate(1turn)
     }
 }
+

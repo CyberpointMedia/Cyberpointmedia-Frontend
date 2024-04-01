@@ -36,6 +36,7 @@ const ClientTestimonials = () => {
     nextArrow: <TestimonialsNextArrow />,
     prevArrow: <TestimonialsPrevArrow />,
     initialSlide: 0,
+    draggable: true,
 
     responsive: [
       {
@@ -65,7 +66,7 @@ const ClientTestimonials = () => {
       <section className="bg-[#efeae3] pt-16 pb-48 overflow-hidden">
         <div className="container mx-auto px-6 text-center">
           <div className="subtitle mb-4 flex mx-auto justify-center items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>06 —Testimonials</div>
-            <h2 className="text-5xl text-black mb-10">What Our Clients Say</h2>
+            <h2 className="text-4xl md:text-5xl text-black mb-10 aeonik_trialregular">What Our Clients Say</h2>
         </div>
         <div className="slider-container relative">
               <Slider {...settings}>

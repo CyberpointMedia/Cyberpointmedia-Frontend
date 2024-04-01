@@ -19,31 +19,30 @@ import Footer from "@/components/footer";
 export default function Page() {
     return <div>
       <Header></Header>
-      <section id="hero_sec" className="pt-48 bg-white min-h-screen flex">
+      <section id="hero_sec" className="pt-20 md:pt-48 bg-white min-h-screen flex">
       <div className="container mx-auto px-6 relative">
-          <div className="hero_bg_Video">
+          <div className="absolute top-20 left-2/4 -translate-x-1/2 -translate-y-1/2 md:w-auto w-full">
             <BackgroundVideo url="/videos/bg-video.webm" />
           </div>
             <div className="flex flex-col md:flex-row items-center justify-between hero_content">
                 <div className="hero_left max-w-4xl w-full">
-                    <h1 className="font-normal text-[40px] md:text-[76px] text-black leading-[85px]">Transform Your Business 
-With Cyberpoint Media's 
-Digital Excellence</h1>
+                    <h1 className="text-[40px] md:text-[76px] text-black md:leading-[85px] leading-[52px] aeonik-trial-font mb-20 md:mb-0">Transform Your Business With Cyberpoint Media's Digital Excellence</h1>
                 </div>
                 <div className="">
                   <VideoPlayer/>
                 </div>
             </div>
 
-            <div className="flex flex-col md:flex-row mt-10 items-center justify-between gap-4">
-              <div className="border py-3 px-5 w-5/6 border-b-0">
-                <p>
-                We are an industry leader in Design and Engineering, Digital Product Design and<br /> Development, Digital Marketing, and Cloud and DevOps.
+            <div className="flex flex-col md:flex-row mt-10 justify-between gap-4">
+              <div className="border py-4 px-5 md:w-4/5 w-full border-b-0">
+                <p className="text-[22px] text-[#2E2F30]">
+                We are an industry leader in <b className="">Design and Engineering, Digital Product Design and<br /> Development, Digital Marketing,</b> and <b className="">Cloud and DevOps.</b>
                 </p>
               </div>
-              <div className="border py-3 px-5 w-2/12 border-b-0">
-                <a href="javascript:void(0)" className="text-black">Become a Client
-                <Image src={readmoreIcon} alt="" className="inline-block ms-3" />
+              <div className="border py-4 px-5 md:w-1/5 w-full border-b-0">
+                <a href="javascript:void(0)" className="text-black text-[22px] flex justify-between items-center">
+                  <span>Become a Client</span>
+                <Image src={readmoreIcon} alt="" className="" />
                 </a>
               </div>
             </div>
@@ -61,25 +60,25 @@ Digital Excellence</h1>
         <div className="container mx-auto px-6">
           <div className="max-w-screen-md text-center mx-auto">
             <div className="subtitle mb-4 flex mx-auto justify-center items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>03 - Our Services</div>
-            <h2 className="md:text-6xl text-4xl text-black underline">Explore our services <br />and engagement models</h2>
+            <h2 className="md:text-6xl text-4xl text-black underline aeonik-trial-font">Explore our services <br />and engagement models</h2>
           </div>
           {/* service box start */}
           <div className="grid grid-cols-1 md:grid-cols-3 mt-16 gap-7">
             <div className="bg-white py-8 px-8 shadow-sm">
                 <div className="service_icon"><Image src={designEngineering} alt="#" className="w-16" /></div>
-                <h3 className="my-5 font-normal text-4xl aeonik-font">Design & Engineering</h3>
+                <h3 className="my-5 text-4xl aeonik-trial-font">Design & Engineering</h3>
                 <p>Your online business needs to be appealing and functional for excellent user engagement. We bring your concepts to life through MVP Software Development and UI/UX Design.</p>
             </div>
 
             <div className="bg-white py-8 px-8 shadow-sm">
                 <div className="service_icon"><Image src={devopsIcon} alt="#" className="w-16" /></div>
-                <h3 className="my-5 font-normal text-4xl aeonik-font">Cloud & DevOps</h3>
+                <h3 className="my-5 text-4xl aeonik-trial-font">Cloud & DevOps</h3>
                 <p>Our Cloud Consulting and DevOps services will enhance the agility and scalability of your projects. Harness the power of AWS, Azure and Google Cloud for agile development.</p>
             </div>
 
             <div className="bg-white py-8 px-8 shadow-sm">
                 <div className="service_icon"><Image src={designEngineering} alt="#" className="w-16" /></div>
-                <h3 className="my-5 font-normal text-4xl aeonik-font">Digital Marketing</h3>
+                <h3 className="my-5 text-4xl aeonik-trial-font">Digital Marketing</h3>
                 <p>Connect with existing and prospective clients through strategic digital marketing solutions. Our tailored strategies, including SEO and SMM, will drive growth and engagement.</p>
             </div>
           </div>
@@ -91,10 +90,10 @@ Digital Excellence</h1>
       <section className="bg-white py-16">
         <div className="container mx-auto px-6">
           <div className="flex flex-col items-center justify-between md:flex-row mb-10">
-            <h2 className="text-5xl text-black w-2/5">Showcase of selected projects and archive</h2>
+            <h2 className="text-4xl md:text-5xl text-black md:w-2/5 w-full aeonik-trial-font mb-6 md:mb-0">Showcase of selected projects and archive</h2>
             <div className="">
-              <div className="flex uppercase items-center">
-                <p className="mr-5">Featuring</p>
+              <div className="flex flex-col uppercase md:items-center">
+                <p className="md:mr-5 mb-6 md:mb-0">Featuring</p>
                 <div className="gap-3 flex items-center">
                   <span className="py-1 px-3 rounded-full bg-[#EFEAE3]">UX-UI</span>
                   <span className="py-1 px-3 rounded-full bg-[#EFEAE3]">Visual Identity</span>
@@ -120,7 +119,7 @@ Digital Excellence</h1>
       <section className="bg-[#efeae3] py-16">
       <div className="container mx-auto px-6">
           <div className="flex flex-col items-center justify-between md:flex-row mb-10">
-            <h2 className="text-5xl text-black w-full md:w-2/5">Tools And Technologies That We Work With</h2>
+            <h2 className="text-4xl md:text-5xl text-black w-full md:w-2/5 aeonik-trial-font mb-6 md:mb-0">Tools And Technologies That We Work With</h2>
             <div className="md:w-1/3 w-full">
                <div className="subtitle mb-4 flex items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>07 - Technologies</div>
                <h2 className="text-xl text-black">Our proficiency spans cutting-edge technologies, ensuring the best solutions for your business needs.</h2>
@@ -136,12 +135,12 @@ Digital Excellence</h1>
       <section className="bg-white py-16">
         <div className="container mx-auto px-6">
           <div className="flex flex-col items-center justify-between md:flex-row">
-            <div className="md:w-2/4 w-full">
+            <div className="md:w-2/4 w-full mb-6 md:mb-0">
               <Image src={AboutImg} alt="About" />
             </div>
             <div className="md:w-2/4 w-full md:ms-32">
               <div className="subtitle mb-4 flex items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>03 - About Us</div>
-              <h2 className="md:text-6xl text-4xl text-black mb-6">We’re Your Digital Technological Partners</h2>
+              <h2 className="md:text-6xl text-4xl text-black mb-6 aeonik_trialregular">We’re Your Digital Technological Partners</h2>
               <p className="mb-6">
                 Cyberpoint Media helps establish a powerful online presence for your business. We're passionate about transforming ideas into powerful digital solutions. These solutions will elevate your business reputation, build customer trust, drive sales, and help reach new clients.
               </p>

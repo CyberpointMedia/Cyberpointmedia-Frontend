@@ -11,8 +11,8 @@ import clickToplay from '@/assets/click-to-play.svg';
 
 
     return (
-      <div className="hero_video_wraper">
-        <div className="hero-video_play_iframe">
+      <div className="hero_video_wrapers relative md:w-[405px] md:h-[320px]">
+        <div className="md:absolute md:inset-0 md:z-10 w-full h-full">
           <video ref={videoRef} autoPlay={true} controls={true} loop={true} >
             <source src="/videos/video.mp4" type="video/mp4" />
           </video>
