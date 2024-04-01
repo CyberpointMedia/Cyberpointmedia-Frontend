@@ -163,7 +163,7 @@ const Footer = () => {
             <div className="sm:flex sm:justify-between">
               <p className="text-base text-white">© 2024 CyberPoint Media LLC | All Rights Reserved</p>
 
-              <ul className="mt-8 flex flex-wrap justify-start gap-4 text-xs sm:mt-0 lg:justify-end">
+              <ul className="mt-8 flex flex-wrap justify-start gap-4 text-xs sm:mt-0 lg:justify-end bootm-footer">
                 <li>
                   <Link href="javascript:void(0);" className="text-white text-base hover:text-orange-400 aeonik-trial-font">
                     Privacy Policy

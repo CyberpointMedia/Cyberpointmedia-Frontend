@@ -163,6 +163,24 @@ svg{
 .max-w-custom{
     max-width: 1800px;
 }
+.bootm-footer li a{
+    position: relative;
+    padding-left: 15px;
+    margin-right: 10px;
+}
+
+.bootm-footer li a:before{
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 100%;
+    left: 0px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 @keyframes hero-video_rotateClickIcon__mz4Z7 {
     0% {
         transform: translate(-50%,-50%) rotate(0)
