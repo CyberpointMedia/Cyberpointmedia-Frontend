@@ -19,7 +19,7 @@ import Footer from "@/components/footer";
 export default function Page() {
     return <div>
       <Header></Header>
-      <section id="hero_sec" className="bg-white h-screen flex items-center justify-center">
+      <section id="hero_sec" className="bg-white h-screen flex items-center justify-center md:pt-48 pt-20">
       <div className="container mx-auto px-6 relative">
           <div className="absolute top-20 left-2/4 -translate-x-1/2 -translate-y-1/2 md:w-auto w-full">
             <BackgroundVideo url="/videos/bg-video.webm" />
