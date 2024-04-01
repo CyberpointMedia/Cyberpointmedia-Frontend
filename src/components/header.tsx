@@ -66,28 +66,28 @@ const Navbar = () => {
 
         <div className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block text-center">
             <div className="text-sm lg:flex-grow">
-                <Link href="/" className="text-black font-medium text-base hover:text-black mr-8">
+                <Link href="/" className="text-black font-medium text-base hover:text-orange-400 mr-8">
                 Services
                 </Link>
-                <Link href="/" className="text-black font-medium text-base hover:text-black mr-8">
+                <Link href="/" className="text-black font-medium text-base hover:text-orange-400 mr-8">
                 Case Studies
                 </Link>
-                <Link href="/" className="text-black font-medium text-base hover:text-black mr-8">
+                <Link href="/" className="text-black font-medium text-base hover:text-orange-400 mr-8">
                 About
                 </Link>
-                <Link href="/" className="text-black font-medium text-base hover:text-black mr-4">
+                <Link href="/" className="text-black font-medium text-base hover:text-orange-400 mr-4">
                 Career
                 </Link>
-                <Link href="/" className="text-black font-medium text-base hover:text-black mr-8">
+                <Link href="/" className="text-black font-medium text-base hover:text-orange-400 mr-8">
                 Blog
                 </Link>
             </div>
             <div>
-                <Link href="/" className="text-black font-medium text-base hover:text-black mr-8 relative">
+                <Link href="/" className="text-black font-medium text-base hover:text-orange-400 mr-8 relative">
                 EN<span className='ms-3 border-b border-[#000] inline-block'>FR</span>
                 <span className='v-border'></span>
                 </Link>
-                <Link href="/" className="text-black font-medium text-base hover:text-black mr-8">
+                <Link href="/" className="text-black font-medium text-base hover:text-orange-400 mr-8">
                 Contact
                 </Link>
             </div>
@@ -98,16 +98,16 @@ const Navbar = () => {
       {isOpen && (
         <div className="lg:hidden" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <Link href="/" className="block mt-4 font-medium text-base text-black hover:text-black">
+                <Link href="/" className="block mt-4 font-medium text-base text-black hover:text-orange-400">
                     Home
                 </Link>
-                <Link href="/" className="block mt-4 font-medium text-base text-black hover:text-black">
+                <Link href="/" className="block mt-4 font-medium text-base text-black hover:text-orange-400">
                     About
                 </Link>
-                <Link href="/" className="block mt-4 font-medium text-base text-black hover:text-black">
+                <Link href="/" className="block mt-4 font-medium text-base text-black hover:text-orange-400">
                     Service
                 </Link>
-                <Link href="/" className="block mt-4 font-medium text-base text-black hover:text-black">
+                <Link href="/" className="block mt-4 font-medium text-base text-black hover:text-orange-400">
                     Contact
                 </Link>
             {/* Add more links as needed */}

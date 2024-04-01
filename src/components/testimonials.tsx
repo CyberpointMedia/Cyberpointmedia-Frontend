@@ -54,13 +54,13 @@ const ClientTestimonials = () => {
   return (
     <div>
       <section className="bg-[#efeae3] pt-16 pb-48 overflow-hidden">
-        <div className="container mx-auto px-6 text-center">
+        <div className="text-center">
           <div className="subtitle mb-4 flex mx-auto justify-center items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>06 —Testimonials</div>
-            <h2 className="text-4xl md:text-5xl text-black mb-10 aeonik_trialregular">What Our Clients Say</h2>
+            <h2 className="text-4xl md:text-[62px] text-black aeonik-trial-font mb-10 leading-[65px]">What Our Clients Say</h2>
         </div>
         <div className="slider-container relative">
               <Slider {...settings}>
-                    <div className="bg-white rounded-[20px] py-5 px-4 relative text-left">
+                    <div className="bg-white rounded-[20px] p-7 relative text-left">
                       <div className="mb-4">
                         <Image src={doubleQuotes} alt="#" />
                       </div>
@@ -71,7 +71,7 @@ const ClientTestimonials = () => {
                         </p>
                       </div>
 
-                      <div className="flex items-center justify-start mt-8">
+                      <div className="flex items-center justify-start mt-20">
                         <div className="me-3">
                           <Image src={UserImg1} alt="#" />
                         </div>
@@ -82,7 +82,7 @@ const ClientTestimonials = () => {
                       </div>
                     </div>
 
-                    <div className="bg-white rounded-[20px] py-5 px-4 relative text-left">
+                    <div className="bg-white rounded-[20px] p-7 relative text-left">
                       <div className="mb-4">
                         <Image src={doubleQuotes} alt="#" />
                       </div>
@@ -93,7 +93,7 @@ const ClientTestimonials = () => {
                         </p>
                       </div>
 
-                      <div className="flex items-center justify-start mt-8">
+                      <div className="flex items-center justify-start mt-20">
                         <div className="me-3">
                           <Image src={UserImg1} alt="#" />
                         </div>
@@ -104,7 +104,7 @@ const ClientTestimonials = () => {
                       </div>
                     </div>
 
-                    <div className="bg-white rounded-[20px] py-5 px-4 relative text-left">
+                    <div className="bg-white rounded-[20px] p-7 relative text-left">
                       <div className="mb-4">
                         <Image src={doubleQuotes} alt="#" />
                       </div>
@@ -115,7 +115,7 @@ const ClientTestimonials = () => {
                         </p>
                       </div>
 
-                      <div className="flex items-center justify-start mt-8">
+                      <div className="flex items-center justify-start mt-20">
                         <div className="me-3">
                           <Image src={UserImg1} alt="#" />
                         </div>
@@ -126,7 +126,7 @@ const ClientTestimonials = () => {
                       </div>
                     </div>
 
-                    <div className="bg-white rounded-[20px] py-5 px-4 relative text-left">
+                    <div className="bg-white rounded-[20px] p-7 relative text-left">
                       <div className="mb-4">
                         <Image src={doubleQuotes} alt="#" />
                       </div>
@@ -137,7 +137,7 @@ const ClientTestimonials = () => {
                         </p>
                       </div>
 
-                      <div className="flex items-center justify-start mt-8">
+                      <div className="flex items-center justify-start mt-20">
                         <div className="me-3">
                           <Image src={UserImg1} alt="#" />
                         </div>
@@ -148,7 +148,7 @@ const ClientTestimonials = () => {
                       </div>
                     </div>
 
-                    <div className="bg-white rounded-[20px] py-5 px-4 relative text-left">
+                    <div className="bg-white rounded-[20px] p-7 relative text-left">
                       <div className="mb-4">
                         <Image src={doubleQuotes} alt="#" />
                       </div>
@@ -159,7 +159,7 @@ const ClientTestimonials = () => {
                         </p>
                       </div>
 
-                      <div className="flex items-center justify-start mt-8">
+                      <div className="flex items-center justify-start mt-20">
                         <div className="me-3">
                           <Image src={UserImg1} alt="#" />
                         </div>
@@ -170,7 +170,7 @@ const ClientTestimonials = () => {
                       </div>
                     </div>
 
-                    <div className="bg-white rounded-[20px] py-5 px-4 relative text-left">
+                    <div className="bg-white rounded-[20px] p-7 relative text-left">
                       <div className="mb-4">
                         <Image src={doubleQuotes} alt="#" />
                       </div>
@@ -181,7 +181,7 @@ const ClientTestimonials = () => {
                         </p>
                       </div>
 
-                      <div className="flex items-center justify-start mt-8">
+                      <div className="flex items-center justify-start mt-20">
                         <div className="me-3">
                           <Image src={UserImg1} alt="#" />
                         </div>

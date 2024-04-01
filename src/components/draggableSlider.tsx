@@ -27,7 +27,7 @@ const DraggableSlider = () => {
         </figure>
 
         <div className="card-body md:pr-12">
-          <h3 className="text-2xl mt-4 mb-3 aeonik_trialregular">Flourish</h3>
+          <h3 className="text-[28px] mt-4 mb-3 aeonik-trial-font">Flourish</h3>
           <p>Financial service that offers premium credit cards with a unique health & wellness reward program.</p>
         </div>
       </div>
@@ -50,7 +50,7 @@ const DraggableSlider = () => {
         </figure>
 
         <div className="card-body md:pr-12">
-          <h3 className="text-2xl mt-4 mb-3 aeonik_trialregular">Flourish</h3>
+          <h3 className="text-[28px] mt-4 mb-3 aeonik-trial-font">Flourish</h3>
           <p>Financial service that offers premium credit cards with a unique health & wellness reward program.</p>
         </div>
       </div>
@@ -73,7 +73,7 @@ const DraggableSlider = () => {
         </figure>
 
         <div className="card-body md:pr-12">
-          <h3 className="text-2xl mt-4 mb-3 aeonik_trialregular">Flourish</h3>
+          <h3 className="text-[28px] mt-4 mb-3 aeonik-trial-font">Flourish</h3>
           <p>Financial service that offers premium credit cards with a unique health & wellness reward program.</p>
         </div>
       </div>
