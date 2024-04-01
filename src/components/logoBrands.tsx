@@ -21,7 +21,7 @@ const LogoBrands = () => {
   return (
     <div>
 
-      <section className="bg-white py-40 h-screen flex items-center justify-center">
+      <section className="bg-white py-40 lg:h-screen md:flex lg:items-center lg:justify-center">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl text-black w-full text-center mb-12 aeonik-trial-font">2000+ companies are focused using Frame.</h2>
           <div className="flex flex-wrap gap-4 justify-center">

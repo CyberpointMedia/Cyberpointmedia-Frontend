@@ -56,7 +56,7 @@ const ClientTestimonials = () => {
       <section className="bg-[#efeae3] pt-16 pb-48 overflow-hidden">
         <div className="text-center">
           <div className="subtitle mb-4 flex mx-auto justify-center items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>06 —Testimonials</div>
-            <h2 className="text-4xl md:text-[62px] text-black aeonik-trial-font mb-10 leading-[65px]">What Our Clients Say</h2>
+            <h2 className="text-4xl md:text-[62px] text-black aeonik-trial-font mb-10 md:leading-[65px] leading-[42px]">What Our Clients Say</h2>
         </div>
         <div className="slider-container relative">
               <Slider {...settings}>

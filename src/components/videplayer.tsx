@@ -11,7 +11,7 @@ import clickToplay from '@/assets/click-to-play.svg';
 
 
     return (
-      <div className="relative md:w-[405px] md:h-[320px]">
+      <div className="relative lg:w-[405px] lg:h-[320px] md:w-[305px] md:h-[220px]">
         <div className="md:absolute md:inset-0 md:z-10 w-full h-full">
           <video ref={videoRef} autoPlay={true} controls={true} loop={true} >
             <source src="/videos/video.mp4" type="video/mp4" />

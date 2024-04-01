@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
+import DropIcon from '@/assets/drop-arrow.svg';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -67,7 +69,7 @@ const Navbar = () => {
         <div className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block text-center">
             <div className="text-sm lg:flex-grow">
                 <Link href="/" className="text-black font-medium text-base hover:text-orange-400 mr-8">
-                Services
+                Services <Image src={DropIcon} alt='#' className='inline-block ms-2' />
                 </Link>
                 <Link href="/" className="text-black font-medium text-base hover:text-orange-400 mr-8">
                 Case Studies
