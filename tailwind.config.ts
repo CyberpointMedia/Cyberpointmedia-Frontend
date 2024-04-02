@@ -15,6 +15,11 @@ const config: Config = {
         black: '#2E2F30',
       },
     },
+    container: {
+      padding: {
+        DEFAULT: '2rem',
+      },
+    },
   },
   
   plugins: [],

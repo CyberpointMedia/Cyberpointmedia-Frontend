@@ -39,7 +39,7 @@ const VideoComponent = () => {
 
   return (
     <div className="video-bg-color">
-        <div className="container 3xl:container mx-auto px-6 relative">
+        <div className="container 3xl:container mx-auto relative">
             {/* <video ref={videoRef} autoPlay={true} controls={true} loop={true}
                   className="video"
                   src="/videos/hero-video3.mp4"

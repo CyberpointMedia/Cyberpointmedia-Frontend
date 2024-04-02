@@ -146,6 +146,10 @@ svg{
     margin: 0px 10px;
 }
 
+.dragSlider .slick-slide + div{
+    width: 462px !important;
+}
+
 .faq-item.active .question::before{
     background-image: url(../assets/minus-icon.svg);
 }
@@ -179,6 +183,16 @@ svg{
     left: 0px;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+.truncate-line-4{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-overflow: clip;
+    white-space: nowrap;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
 }
 
 @keyframes hero-video_rotateClickIcon__mz4Z7 {

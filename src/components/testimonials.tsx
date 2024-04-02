@@ -5,6 +5,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import doubleQuotes from '@/assets/quotes.svg';
 import UserImg1 from '@/assets/testimonials-user1.svg';
+import UserImg2 from '@/assets/testimonials-user2.svg';
+import UserImg3 from '@/assets/testimonials-user3.svg';
+import UserImg4 from '@/assets/testimonials-user4.svg';
 import TestimonialsPrevArrow from "./testimonialsPrevArrow";
 import TestimonialsNextArrow from "./testimonialsNextArrow";
 import { useState, useEffect } from "react";
@@ -26,7 +29,7 @@ const ClientTestimonials = () => {
     nextArrow: <TestimonialsNextArrow />,
     prevArrow: <TestimonialsPrevArrow />,
     initialSlide: 0,
-    draggable: true,
+    swipeToSlide: true,
 
     responsive: [
       {
@@ -65,9 +68,9 @@ const ClientTestimonials = () => {
                         <Image src={doubleQuotes} alt="#" />
                       </div>
 
-                      <div className="testimonials_desc">
+                      <div className="testimonials_desc line-clamp-4">
                         <p>
-                          This team knows their stuff. I'm grateful for their guidance. The expertise and knowledge demonstrated by this team were invaluable to me.
+                        Life-changing experience! I learned so much from their program. Participating in their program was a transformative experience for me.
                         </p>
                       </div>
 
@@ -76,7 +79,7 @@ const ClientTestimonials = () => {
                           <Image src={UserImg1} alt="#" />
                         </div>
                         <div className="">
-                          <h3 className="text-[#2E2F30] text-base font-medium mb-1">Nguyen, Shane</h3>
+                          <h3 className="text-[#2E2F30] text-base font-semibold mb-1">Black, Marvin</h3>
                           <p className="text-sm text-[#2C2D36] font-normal">President of Sales</p>
                         </div>
                       </div>
@@ -87,18 +90,18 @@ const ClientTestimonials = () => {
                         <Image src={doubleQuotes} alt="#" />
                       </div>
 
-                      <div className="testimonials_desc">
+                      <div className="testimonials_desc line-clamp-4">
                         <p>
-                          This team knows their stuff. I'm grateful for their guidance. The expertise and knowledge demonstrated by this team were invaluable to me.
+                        Prompt delivery and top-notch quality. Impressed with the speed and accuracy. The efficiency and speed at which they delivered the product were impressive.
                         </p>
                       </div>
 
                       <div className="flex items-center justify-start mt-20">
                         <div className="me-3">
-                          <Image src={UserImg1} alt="#" />
+                          <Image src={UserImg2} alt="#" />
                         </div>
                         <div className="">
-                          <h3 className="text-[#2E2F30] text-base font-medium mb-1">Nguyen, Shane</h3>
+                          <h3 className="text-[#2E2F30] text-base font-semibold mb-1">Miles, Esther</h3>
                           <p className="text-sm text-[#2C2D36] font-normal">President of Sales</p>
                         </div>
                       </div>
@@ -109,7 +112,7 @@ const ClientTestimonials = () => {
                         <Image src={doubleQuotes} alt="#" />
                       </div>
 
-                      <div className="testimonials_desc">
+                      <div className="testimonials_desc line-clamp-4">
                         <p>
                           This team knows their stuff. I'm grateful for their guidance. The expertise and knowledge demonstrated by this team were invaluable to me.
                         </p>
@@ -120,7 +123,7 @@ const ClientTestimonials = () => {
                           <Image src={UserImg1} alt="#" />
                         </div>
                         <div className="">
-                          <h3 className="text-[#2E2F30] text-base font-medium mb-1">Nguyen, Shane</h3>
+                          <h3 className="text-[#2E2F30] text-base font-semibold mb-1">Nguyen, Shane</h3>
                           <p className="text-sm text-[#2C2D36] font-normal">President of Sales</p>
                         </div>
                       </div>
@@ -131,18 +134,18 @@ const ClientTestimonials = () => {
                         <Image src={doubleQuotes} alt="#" />
                       </div>
 
-                      <div className="testimonials_desc">
+                      <div className="testimonials_desc line-clamp-4">
                         <p>
-                          This team knows their stuff. I'm grateful for their guidance. The expertise and knowledge demonstrated by this team were invaluable to me.
+                        Reliable and trustworthy. They have earned my trust and loyalty. This company has consistently demonstrated reliability and trustworthiness.
                         </p>
                       </div>
 
                       <div className="flex items-center justify-start mt-20">
                         <div className="me-3">
-                          <Image src={UserImg1} alt="#" />
+                          <Image src={UserImg3} alt="#" />
                         </div>
                         <div className="">
-                          <h3 className="text-[#2E2F30] text-base font-medium mb-1">Nguyen, Shane</h3>
+                          <h3 className="text-[#2E2F30] text-base font-semibold mb-1">Cooper, Kristin</h3>
                           <p className="text-sm text-[#2C2D36] font-normal">President of Sales</p>
                         </div>
                       </div>
@@ -153,18 +156,18 @@ const ClientTestimonials = () => {
                         <Image src={doubleQuotes} alt="#" />
                       </div>
 
-                      <div className="testimonials_desc">
+                      <div className="testimonials_desc line-clamp-4">
                         <p>
-                          This team knows their stuff. I'm grateful for their guidance. The expertise and knowledge demonstrated by this team were invaluable to me.
+                        An absolute pleasure to work with. They made the process seamless. Working with this team was a seamless and enjoyable experience.
                         </p>
                       </div>
 
                       <div className="flex items-center justify-start mt-20">
                         <div className="me-3">
-                          <Image src={UserImg1} alt="#" />
+                          <Image src={UserImg4} alt="#" />
                         </div>
                         <div className="">
-                          <h3 className="text-[#2E2F30] text-base font-medium mb-1">Nguyen, Shane</h3>
+                          <h3 className="text-[#2E2F30] text-base font-semibold mb-1">Miles, Esther</h3>
                           <p className="text-sm text-[#2C2D36] font-normal">President of Sales</p>
                         </div>
                       </div>
@@ -175,7 +178,7 @@ const ClientTestimonials = () => {
                         <Image src={doubleQuotes} alt="#" />
                       </div>
 
-                      <div className="testimonials_desc">
+                      <div className="testimonials_desc line-clamp-4">
                         <p>
                           This team knows their stuff. I'm grateful for their guidance. The expertise and knowledge demonstrated by this team were invaluable to me.
                         </p>
@@ -183,10 +186,10 @@ const ClientTestimonials = () => {
 
                       <div className="flex items-center justify-start mt-20">
                         <div className="me-3">
-                          <Image src={UserImg1} alt="#" />
+                          <Image src={UserImg2} alt="#" />
                         </div>
                         <div className="">
-                          <h3 className="text-[#2E2F30] text-base font-medium mb-1">Nguyen, Shane</h3>
+                          <h3 className="text-[#2E2F30] text-base font-semibold mb-1">Nguyen, Shane</h3>
                           <p className="text-sm text-[#2C2D36] font-normal">President of Sales</p>
                         </div>
                       </div>
