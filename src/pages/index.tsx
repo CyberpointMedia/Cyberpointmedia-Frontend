@@ -15,6 +15,7 @@ import LogoBrands from "@/components/logoBrands";
 import ClientTestimonials from "@/components/testimonials";
 import FAQAccordion from "@/components/faqAccordion";
 import Footer from "@/components/footer";
+import DragSlider from "@/components/DragSlider";
 
 export default function Page() {
     return <div>
@@ -113,8 +114,7 @@ export default function Page() {
               </div>
             </div>
           </div>
-
-          <DraggableSlider />
+          <DragSlider />
         </div>
       </section>
 

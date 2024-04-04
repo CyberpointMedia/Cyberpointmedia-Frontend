@@ -184,16 +184,56 @@ svg{
     top: 50%;
     transform: translate(-50%, -50%);
 }
-.truncate-line-4{
-    overflow: hidden;
-    text-overflow: ellipsis;
-    text-overflow: clip;
-    white-space: nowrap;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
+
+.slick-list {
+    cursor: none;
+    position: fixed;
 }
+
+/* .slick-list:hover::after {
+    content: "Drag";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;   
+    background: #fff;
+    text-align: center;
+    color: #2E2F30;
+    border-radius: 100%;
+    cursor: grabbing;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  /* styles/CustomCursor.module.css */
+
+  
+
+  /* .slick-list:active{
+    cursor: grabbing;
+    content: "Drag";
+    width: 120px;
+    height: 120px;   
+    background: #fff;
+    text-align: center;
+    color: #2E2F30;
+    border-radius: 100%;
+    cursor: grabbing;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  */
+  /* .slick-disabled{
+    cursor:none !important;
+  }
+   */
 
 @keyframes hero-video_rotateClickIcon__mz4Z7 {
     0% {

@@ -8,9 +8,9 @@ import UserImg1 from '@/assets/testimonials-user1.svg';
 import UserImg2 from '@/assets/testimonials-user2.svg';
 import UserImg3 from '@/assets/testimonials-user3.svg';
 import UserImg4 from '@/assets/testimonials-user4.svg';
-import TestimonialsPrevArrow from "./testimonialsPrevArrow";
-import TestimonialsNextArrow from "./testimonialsNextArrow";
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import { BsChevronRight } from 'react-icons/bs';
+import { BsChevronLeft } from 'react-icons/bs';
 
 
 const ClientTestimonials = () => {
@@ -205,5 +205,28 @@ const ClientTestimonials = () => {
     </div>
   );
 };
+
+// next slide button
+const TestimonialsNextArrow = ({ onClick }: any) => {
+  return (
+      <div className="absolute left-[50%] -bottom-[120px] transform buttonArrow" onClick={onClick}>
+          <div className="nextArrow hover:bg-[#2E2F30] h-[45px] w-[45px] rounded-full grid place-items-center cursor-pointer hover:text-white">
+              <BsChevronRight />
+          </div>
+      </div>
+  )
+};
+
+// prev slide button
+const TestimonialsPrevArrow = ({ onClick }: any) => {
+  return (
+      <div className="absolute md:left-[45%] -bottom-[120px] transform buttonArrow" onClick={onClick}>
+          <div className="prevArrow hover:bg-[#2E2F30] h-[45px] w-[45px] rounded-full grid place-items-center cursor-pointer hover:text-white">
+              <BsChevronLeft />
+          </div>
+      </div>
+  )
+};
+
 
 export default ClientTestimonials;
