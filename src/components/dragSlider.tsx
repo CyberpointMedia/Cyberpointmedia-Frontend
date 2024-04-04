@@ -18,8 +18,8 @@ const DragSlider = () => {
         arrows: false,
         rows: 1,
         adaptiveHeight: true,
-        autoplay: false,
-        autoplaySpeed: 3000,
+        autoplay: true,
+        autoplaySpeed: 5000,
       };
 
       
