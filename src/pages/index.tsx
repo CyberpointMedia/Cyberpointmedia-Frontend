@@ -8,7 +8,6 @@ import readmoreIcon from '@/assets/read-more-icon.svg';
 import VideoComponent from '@/components/homeVideo';
 import designEngineering from '@/assets/design-engineering.svg';
 import devopsIcon from '@/assets/devops-icon.svg';
-import DraggableSlider from '@/components/draggableSlider';
 import OurTechnology from '@/components/ourTechnology';
 import AboutImg from '@/assets/about-img.svg';
 import LogoBrands from "@/components/logoBrands";
