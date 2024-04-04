@@ -37,6 +37,8 @@ body{
     color: #484848;
     font-size: 18px;
     line-height: 28px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 svg{
@@ -187,53 +189,22 @@ svg{
 
 .slick-list {
     cursor: none;
-    position: fixed;
 }
 
-/* .slick-list:hover::after {
-    content: "Drag";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 120px;
-    height: 120px;   
-    background: #fff;
-    text-align: center;
-    color: #2E2F30;
-    border-radius: 100%;
-    cursor: grabbing;
-    transform: translate(-50%, -50%);
-    font-size: 22px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } */
+@keyframes k {
+    0% {
+        transform: translateX(0)
+    }
 
-  /* styles/CustomCursor.module.css */
+    to {
+        transform: translateX(50%)
+    }
+}
 
-  
+.animate-landing-packages-right {
+    animation: 10s linear infinite k;
+}
 
-  /* .slick-list:active{
-    cursor: grabbing;
-    content: "Drag";
-    width: 120px;
-    height: 120px;   
-    background: #fff;
-    text-align: center;
-    color: #2E2F30;
-    border-radius: 100%;
-    cursor: grabbing;
-    transform: translate(-50%, -50%);
-    font-size: 22px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  */
-  /* .slick-disabled{
-    cursor:none !important;
-  }
-   */
 
 @keyframes hero-video_rotateClickIcon__mz4Z7 {
     0% {
@@ -245,3 +216,4 @@ svg{
     }
 }
 
+.animation-paused:hover{animation-play-state:paused}

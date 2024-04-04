@@ -4,6 +4,7 @@ import Header from '../components/header';
 import VideoPlayer from "@/components/videplayer";
 import BackgroundVideo from "@/components/backgroundvideo";
 import Image from 'next/image';
+import {motion} from 'framer-motion';
 import readmoreIcon from '@/assets/read-more-icon.svg';
 import VideoComponent from '@/components/homeVideo';
 import designEngineering from '@/assets/design-engineering.svg';
@@ -26,7 +27,8 @@ export default function Page() {
           </div>
           <div className="flex flex-col md:flex-row items-center justify-between hero_content mb-20">
                 <div className="hero_left xl:w-[858px] lg:w-[640px] w-full">
-                    <h1 className="text-[40px] leading-[50px] md:text-[40px] lg:text-[50px] xl:text-[70px] 2xl:text-[76px] text-black xl:leading-[85px] aeonik-trial-font mb-28 md:mb-0">Transform Your Business With Cyberpoint Media's Digital Excellence</h1>
+                    <motion.h1 className="text-[40px] leading-[50px] md:text-[40px] lg:text-[50px] xl:text-[70px] 2xl:text-[76px] text-black xl:leading-[85px] aeonik-trial-font mb-28 md:mb-0" initial={{ opacity:0 }}
+  animate={{ opacity:1 }}>Transform Your Business With Cyberpoint Media's Digital Excellence</motion.h1>
                 </div>
                 <div className="">
                   <VideoPlayer/>
@@ -52,7 +54,7 @@ export default function Page() {
         </div>
         
       </section>
-      <section className="">
+      <section className="md:-mt-[60px]">
         <div className="">
           <VideoComponent />
         </div>
@@ -69,13 +71,13 @@ export default function Page() {
           <div className="grid grid-cols-1 md:grid-cols-3 mt-16 gap-7">
             <div className="bg-white lg:p-12 p-4 shadow-sm">
                 <div className="service_icon"><Image src={designEngineering} alt="#" className="lg:w-16 w-8" /></div>
-                <h3 className="my-5 lg:text-4xl text-2xl aeonik-trial-font">Design & Engineering</h3>
+                <h3 className="my-5 lg:text-4xl text-2xl aeonik-trial-font">Design &amp; Engineering</h3>
                 <p>Your online business needs to be appealing and functional for excellent user engagement. We bring your concepts to life through MVP Software Development and UI/UX Design.</p>
             </div>
 
             <div className="bg-white lg:p-12 p-4 shadow-sm">
                 <div className="service_icon"><Image src={devopsIcon} alt="#" className="lg:w-16 w-8" /></div>
-                <h3 className="my-5 lg:text-4xl text-2xl aeonik-trial-font">Cloud & DevOps</h3>
+                <h3 className="my-5 lg:text-4xl text-2xl aeonik-trial-font">Cloud &amp; DevOps</h3>
                 <p>Our Cloud Consulting and DevOps services will enhance the agility and scalability of your projects. Harness the power of AWS, Azure and Google Cloud for agile development.</p>
             </div>
 

@@ -34,11 +34,11 @@ import NginxIcon from '@/assets/technology-icon/nginx-icon.svg';
 
 const OurTechnology = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       {/* mobile app technology start */}
     <div className="flex flex-col md:flex-row items-center border-b border-[#DAD2C7] py-8 gap-6">
-        <h2 className="tehcnology_name lg:text-5xl text-3xl text-[#878787] md:w-1/4 w-full text-center sm:text-left aeonik-trial-font">Mobile App</h2>
-        <div className="gap-3 flex flex-col md:w-3/4 sm:flex-row w-full flex-wrap items-center">
+        <h2 className="tehcnology_name lg:text-5xl text-3xl text-[#878787] md:w-1/4 2xl:w-[27%] 3xl:w-4/12 w-full text-center sm:text-left aeonik-trial-font">Mobile App</h2>
+        <div className="gap-3 flex flex-col md:w-3/4 2xl:w[73%] 3xl:w-8/12 sm:flex-row w-full flex-wrap items-center">
             <span className="text-xl bg-[#E7E2DC] rounded-full py-1 px-3 pe-4 flex items-center">
               <Image src={AndroidIcon} alt="Android" className="inline-block me-1 w-8" />
               Android
@@ -72,8 +72,8 @@ const OurTechnology = () => {
 
     {/* front-end technology start */}
     <div className="flex flex-col md:flex-row items-center border-b border-[#DAD2C7] py-8 gap-6">
-    <h2 className="tehcnology_name lg:text-5xl text-3xl text-[#878787] md:w-1/4 w-full text-center sm:text-left aeonik-trial-font">Front-end </h2>
-    <div className="gap-3 flex flex-col md:w-3/4 sm:flex-row w-full flex-wrap items-center">
+    <h2 className="tehcnology_name lg:text-5xl text-3xl text-[#878787] md:w-1/4 2xl:w-[27%] 3xl:w-4/12 w-full text-center sm:text-left aeonik-trial-font">Front-end </h2>
+    <div className="gap-3 flex flex-col md:w-3/4 2xl:w[73%] 3xl:w-8/12 sm:flex-row w-full flex-wrap items-center ">
         <span className="text-xl bg-[#E7E2DC] rounded-full py-1 px-3 pe-4 flex items-center">
           <Image src={HtmlIcon} alt="HTML5" className="inline-block me-1 w-8" />
           HTML5
@@ -107,8 +107,8 @@ const OurTechnology = () => {
 
     {/* back-end technology start */}
     <div className="flex flex-col md:flex-row items-center border-b border-[#DAD2C7] py-8 gap-6">
-    <h2 className="tehcnology_name lg:text-5xl text-3xl text-[#878787] md:w-1/4 w-full text-center sm:text-left aeonik-trial-font">Back-end</h2>
-    <div className="gap-3 flex flex-col md:w-3/4 sm:flex-row w-full flex-wrap items-center">
+    <h2 className="tehcnology_name lg:text-5xl text-3xl text-[#878787] md:w-1/4 2xl:w-[27%] 3xl:w-4/12 w-full text-center sm:text-left aeonik-trial-font">Back-end</h2>
+    <div className="gap-3 flex flex-col md:w-3/4 2xl:w[73%] 3xl:w-8/12 sm:flex-row w-full flex-wrap items-center">
         <span className="text-xl bg-[#E7E2DC] rounded-full py-1 px-3 pe-4 flex items-center">
           <Image src={NodeIcon} alt="Node" className="inline-block me-1 w-8" />
           Node
@@ -142,8 +142,8 @@ const OurTechnology = () => {
 
     {/* database technology start */}
     <div className="flex flex-col md:flex-row items-center border-b border-[#DAD2C7] py-8 gap-6">
-    <h2 className="tehcnology_name lg:text-5xl text-3xl text-[#878787] md:w-1/4 w-full text-center sm:text-left aeonik-trial-font">Database</h2>
-    <div className="gap-3 flex flex-col md:w-3/4 sm:flex-row w-full flex-wrap items-center">
+    <h2 className="tehcnology_name lg:text-5xl text-3xl text-[#878787] md:w-1/4 2xl:w-[27%] 3xl:w-4/12 w-full text-center sm:text-left aeonik-trial-font">Database</h2>
+    <div className="gap-3 flex flex-col md:w-3/4 2xl:w[73%] 3xl:w-8/12 sm:flex-row w-full flex-wrap items-center">
         <span className="text-xl bg-[#E7E2DC] rounded-full py-1 px-3 pe-4 flex items-center">
           <Image src={MongodbIcon} alt="MongoDB" className="inline-block me-1 w-8" />
           MongoDB
@@ -173,8 +173,8 @@ const OurTechnology = () => {
 
     {/* server technology start */}
     <div className="flex flex-col  md:flex-row items-center pt-8 gap-6">
-    <h2 className="tehcnology_name lg:text-5xl text-3xl text-[#878787] md:w-1/4 w-full text-center sm:text-left aeonik-trial-font">Server</h2>
-    <div className="gap-3 flex flex-col md:w-3/4 sm:flex-row w-full flex-wrap items-center">
+    <h2 className="tehcnology_name lg:text-5xl text-3xl text-[#878787] md:w-1/4 2xl:w-[27%] 3xl:w-4/12 w-full text-center sm:text-left aeonik-trial-font">Server</h2>
+    <div className="gap-3 flex flex-col md:w-3/4 2xl:w[73%] 3xl:w-8/12 sm:flex-row w-full flex-wrap items-center">
         <span className="text-xl bg-[#E7E2DC] rounded-full py-1 px-3 pe-4 flex items-center">
           <Image src={AwsIcon} alt="AWS" className="inline-block me-1 w-8" />
           AWS
