@@ -1,5 +1,5 @@
 import styles from '@/styles/CustomCursor.module.css';
-import video1 from '../../public/videos/video.mp4'; // Path to your video file
+// import video1 from '../../public/videos/video.mp4'; // Path to your video file
 import { useScroll, useTransform, motion } from 'framer-motion';
 import { useRef } from 'react';
 
@@ -29,7 +29,7 @@ export default function ScrollVideo() {
                                 return <motion.div key={index} style={{scale}} className={styles.el}>
                                     <div className={styles.videoContainer}>
                                         <video autoPlay loop muted className={styles.video}>
-                                            <source src={video1} type="video/mp4" />
+                                            <source  type="video/mp4" />
                                         </video>
                                     </div>
                                 </motion.div>
