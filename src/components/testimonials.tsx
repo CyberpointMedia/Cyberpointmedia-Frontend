@@ -63,7 +63,7 @@ const ClientTestimonials = () => {
         variants={fadeIn("up", 0.5)}
         initial="hidden"
         whileInView={"show"}
-        viewport={{once: false, amount: 1}}
+        viewport={{once: true, amount: 1}}
         className="text-center">
           <div className="subtitle mb-4 flex mx-auto justify-center items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>06 —Testimonials</div>
             <h2 className="text-4xl md:text-[62px] text-black aeonik-trial-font mb-10 md:leading-[65px] leading-[42px]">What Our Clients Say</h2>

@@ -55,7 +55,7 @@ const FAQAccordion = () => {
               variants={fadeIn("up", 0.5)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{once: false, amount: 1}}
+              viewport={{once: true, amount: 1}}
               className=''>
                 <div className="subtitle mb-4 flex items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>08 — FAQ</div>
                 <h2 className="text-4xl md:text-[62px] text-black aeonik-trial-font mb-10 md:leading-[65px] leading-[42px]">Frequently Asked Questions</h2>

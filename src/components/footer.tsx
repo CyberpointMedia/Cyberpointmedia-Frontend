@@ -14,7 +14,7 @@ const Footer = () => {
           variants={fadeIn("up", 0.5)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{once: false, amount: 1}}
+          viewport={{once: true, amount: 1}}
           className="flex flex-col items-center justify-between md:flex-row mb-10">
             <h2 className="text-4xl md:text-5xl text-white md:w-3/5 w-full aeonik-trial-font mb-6 md:mb-0">Get industry insights and creative inspiration straight to your inbox.</h2>
             <div className="">
