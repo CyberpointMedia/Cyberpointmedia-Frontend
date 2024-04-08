@@ -44,7 +44,7 @@ export default function Page() {
           variants={fadeIn("up", 0.5)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{once: false, amount: 1}}
+          viewport={{once: true, amount: 1}}
           className="text-center">
             <div className="subtitle mb-4 flex mx-auto justify-center items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>03 - Our Services</div>
             <h2 className="lg:text-7xl md:text-5xl text-4xl text-black underline aeonik-trial-font">Explore our services <br />and engagement models</h2>
@@ -55,7 +55,7 @@ export default function Page() {
             variants={fadeIn("up", 0.3)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{once: false, amount: 1}}
+            viewport={{once: true, amount: 1}}
             className="bg-white lg:p-12 p-4 shadow-sm">
                 <div className="service_icon"><Image src={designEngineering} alt="#" className="lg:w-16 w-8" /></div>
                 <h3 className="my-5 lg:text-4xl text-2xl aeonik-trial-font">Design &amp; Engineering</h3>
@@ -66,7 +66,7 @@ export default function Page() {
             variants={fadeIn("up", 0.3)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{once: false, amount: 1}}
+            viewport={{once: true, amount: 1}}
             className="bg-white lg:p-12 p-4 shadow-sm">
                 <div className="service_icon"><Image src={devopsIcon} alt="#" className="lg:w-16 w-8" /></div>
                 <h3 className="my-5 lg:text-4xl text-2xl aeonik-trial-font">Cloud &amp; DevOps</h3>
@@ -77,7 +77,7 @@ export default function Page() {
             variants={fadeIn("up", 0.3)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{once: false, amount: 1}}
+            viewport={{once: true, amount: 1}}
             className="bg-white lg:p-12 p-4 shadow-sm">
                 <div className="service_icon"><Image src={designEngineering} alt="#" className="lg:w-16 w-8" /></div>
                 <h3 className="my-5 lg:text-4xl text-2xl aeonik-trial-font">Digital Marketing</h3>
@@ -95,7 +95,7 @@ export default function Page() {
             <motion.h2 className="text-4xl lg:text-[62px] md:text-[30px] md:leading-[32px] text-black lg:w-[812px] md:w-[362px] w-full aeonik-trial-font mb-6 md:mb-0 lg:leading-[65px] leading-[42px]" variants={fadeIn("up", 0.5)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{once: false, amount: 1}}>Showcase of selected projects and archive</motion.h2>
+          viewport={{once: true, amount: 1}}>Showcase of selected projects and archive</motion.h2>
             <div className="">
               <div className="flex flex-col lg:flex-row uppercase lg:items-center">
                 <p className="md:mr-5 mb-6 md:mb-0">Featuring</p>
@@ -126,7 +126,7 @@ export default function Page() {
           variants={fadeIn("up", 0.5)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{once: false, amount: 1}}
+          viewport={{once: true, amount: 1}}
           className="flex flex-col items-center justify-between md:flex-row mb-10">
             <h2 className="text-4xl lg:text-[62px] md:text-[30px] md:leading-[32px] text-black lg:w-2/3 md:w-2/4 w-full aeonik-trial-font mb-6 md:mb-0 lg:leading-[65px] leading-[42px]">Tools And Technologies<br /> That We Work With</h2>
             <div className="lg:w-1/3 md:w-2/4 w-full">
@@ -148,7 +148,7 @@ export default function Page() {
             variants={fadeIn("up", 0.3)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{once: false, amount: 1}}
+            viewport={{once: true, amount: 1}}
             className="md:w-2/4 w-full mb-6 md:mb-0">
               <Image src={AboutImg} alt="About" />
             </motion.div>
@@ -156,7 +156,7 @@ export default function Page() {
             variants={fadeIn("up", 0.5)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{once: false, amount: 1}}
+            viewport={{once: true, amount: 1}}
              className="md:w-2/4 w-full md:ms-32">
               <div className="subtitle mb-4 flex items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>03 - About Us</div>
               <h2 className="text-4xl lg:text-[62px] md:text-[30px] md:leading-[32px] text-black aeonik-trial-font lg:leading-[65px] mb-[30px] leading-[42px]">We’re Your Digital Technological Partners</h2>
