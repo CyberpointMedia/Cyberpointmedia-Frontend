@@ -1,4 +1,6 @@
 import React from "react";
+import { motion } from "framer-motion";
+import { fadeIn } from "@/components/variants";
 import Image from "next/image";
 import BrandLogo1 from '@/assets/brand-logos/netflix-logo.svg';
 import BrandLogo2 from '@/assets/brand-logos/united-nations-logo.svg';
@@ -22,7 +24,12 @@ const LogoBrands = () => {
     <div>
 
       <section className="bg-white py-40 lg:h-screen md:flex lg:items-center lg:justify-center">
-        <div className="container 3xl:container mx-auto">
+        <motion.div 
+        variants={fadeIn("up", 0.5)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{once: false, amount: 1}}
+        className="container 3xl:container mx-auto">
           <h2 className="text-4xl text-black w-full text-center mb-12 aeonik-trial-font">2000+ companies are focused using Frame.</h2>
           <div className="flex flex-wrap gap-4 justify-center">
             <div className="p-5 text-center">
@@ -106,7 +113,7 @@ const LogoBrands = () => {
               </a>
             </div>
           </div>
-        </div>
+        </motion.div>
       </section>
 </div>
     

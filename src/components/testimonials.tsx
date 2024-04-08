@@ -1,4 +1,6 @@
 import React from "react";
+import { motion } from "framer-motion";
+import { fadeIn } from "@/components/variants";
 import Image from "next/image";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -57,10 +59,15 @@ const ClientTestimonials = () => {
   return (
     <div>
       <section className="bg-[#efeae3] pt-16 pb-48 overflow-hidden">
-        <div className="text-center">
+        <motion.div 
+        variants={fadeIn("up", 0.5)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{once: false, amount: 1}}
+        className="text-center">
           <div className="subtitle mb-4 flex mx-auto justify-center items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>06 —Testimonials</div>
             <h2 className="text-4xl md:text-[62px] text-black aeonik-trial-font mb-10 md:leading-[65px] leading-[42px]">What Our Clients Say</h2>
-        </div>
+        </motion.div>
         <div className="slider-container relative">
               <Slider {...settings}>
                     <div className="bg-white rounded-[20px] p-7 relative text-left">

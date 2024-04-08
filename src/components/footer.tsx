@@ -1,4 +1,6 @@
 import React from "react";
+import { motion } from "framer-motion";
+import { fadeIn } from "@/components/variants";
 import Image from "next/image";
 import Link from "next/link";
 import rightArrow from '@/assets/right-arrow.svg';
@@ -8,7 +10,12 @@ const Footer = () => {
     <div>
       <footer className="bg-[#2C2D36] pt-20">
         <div className="container 3xl:container mx-auto">
-          <div className="flex flex-col items-center justify-between md:flex-row mb-10">
+          <motion.div 
+          variants={fadeIn("up", 0.5)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{once: false, amount: 1}}
+          className="flex flex-col items-center justify-between md:flex-row mb-10">
             <h2 className="text-4xl md:text-5xl text-white md:w-3/5 w-full aeonik-trial-font mb-6 md:mb-0">Get industry insights and creative inspiration straight to your inbox.</h2>
             <div className="">
                   <form className="">
@@ -21,7 +28,7 @@ const Footer = () => {
                     </div>
                   </form>
             </div>
-          </div>
+          </motion.div>
         </div>
 
         <hr className="border-[#3E3F49]" />
