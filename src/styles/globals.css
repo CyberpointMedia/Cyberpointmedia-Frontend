@@ -191,20 +191,6 @@ svg{
     cursor: none;
 }
 
-@keyframes k {
-    0% {
-        transform: translateX(0)
-    }
-
-    to {
-        transform: translateX(50%)
-    }
-}
-
-.animate-landing-packages-right {
-    animation: 10s linear infinite k;
-}
-
 
 @keyframes hero-video_rotateClickIcon__mz4Z7 {
     0% {
@@ -215,5 +201,9 @@ svg{
         transform: translate(-50%,-50%) rotate(1turn)
     }
 }
+.hero_content{
+    height: 100vh;
+    overflow: hidden;
+  }
 
-.animation-paused:hover{animation-play-state:paused}
+
