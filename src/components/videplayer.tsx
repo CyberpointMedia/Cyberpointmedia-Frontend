@@ -20,8 +20,8 @@ import ScrollVideo from './ScrollVideo';
       <section className="bg-white lg:flex lg:items-center lg:justify-center hero_sec">
         <div className="container mx-auto 3xl:container relative">
           
-          <div className="flex flex-col md:flex-row items-center justify-between hero_content overflow-hidden lg:h-screen mb-20 relative">
-              <div className="absolute md:top-10 xl:top-32 2xl:top-80 top-28 left-2/4 -translate-x-1/2 -translate-y-1/2 xl:w-[500px] 2xl:w-[500px] lg:w-[390px] md:w-[290px] w-[250px]">
+          <div className="flex flex-col md:flex-row items-center justify-between hero_content overflow-hidden lg:h-screen mb-20 relative md:py-16 lg:pt-0">
+              <div className="absolute md:top-36 lg:top-52 xl:top-32 2xl:top-80 top-28 left-2/4 -translate-x-1/2 -translate-y-1/2 xl:w-[500px] 2xl:w-[500px] lg:w-[390px] md:w-[290px] w-[250px]">
                 <BackgroundVideo url="/videos/bg-video.webm" />
               </div>
                 <motion.div className="hero_left xl:w-[858px] lg:w-[640px] w-full relative" initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }}   transition={{ duration: 2 }} >
@@ -31,11 +31,11 @@ import ScrollVideo from './ScrollVideo';
                 <div className="">
                     <div className="relative xl:w-[405px] xl:h-[320px] lg:w-[255px] lg:h-[190px] md:w-[205px] md:h-[160px]">
                       {/* for desktop */}
-                      <div className="md:absolute md:inset-0 md:z-10 w-full h-full hidden md:block ">
+                      <div className="md:absolute md:inset-0 md:z-10 w-full h-full hidden lg:block ">
                         <ScrollVideo />
                       </div>
                       {/* for mobile */}
-                      <div className="md:absolute md:inset-0 md:z-10 w-full h-full md:hidden">
+                      <div className="md:absolute md:inset-0 md:z-10 w-full h-full lg:hidden">
                         <video autoPlay={true} controls={true} loop={true}
                             className="video"
                             src="/videos/video.mp4"

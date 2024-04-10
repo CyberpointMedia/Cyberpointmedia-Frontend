@@ -58,7 +58,7 @@ const FAQAccordion = () => {
               viewport={{once: true, amount: 0.1}}
               className=''>
                 <div className="subtitle mb-4 flex items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>08 — FAQ</div>
-                <h2 className="text-4xl md:text-[62px] text-black aeonik-trial-font mb-10 md:leading-[65px] leading-[42px]">Frequently Asked Questions</h2>
+                <h2 className="text-4xl xl:text-[62px] lg:text-[52px] md:text-[30px] text-black aeonik-trial-font mb-10 md:leading-[65px] leading-[42px]">Frequently Asked Questions</h2>
               </motion.div>
                 {/* <FAQAccordion faqs={faqs} /> */}
                 <div className="faq-accordion"> 

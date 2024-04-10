@@ -15,14 +15,14 @@ const Footer = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{once: true, amount: 0.1}}
-          className="flex flex-col items-center justify-between md:flex-row mb-10">
+          className="flex flex-col items-center justify-between md:flex-row mb-10 gap-4">
             <h2 className="text-4xl md:text-5xl text-white md:w-3/5 w-full aeonik-trial-font mb-6 md:mb-0">Get industry insights and creative inspiration straight to your inbox.</h2>
-            <div className="">
+            <div className="md:w-2/5 w-full">
                   <form className="">
                     <div className="relative max-w-md">
-                      <input className="w-full rounded-full bg-[#3E3F49] p-4 pe-36 text-white" id="email" type="email" placeholder="Enter your email" />
+                      <input className="w-full rounded-full bg-[#3E3F49] p-4 xl:pe-36 md:pe-44 pe-36 text-white" id="email" type="email" placeholder="Enter your email" />
 
-                      <button className="absolute end-1 top-1/2 -translate-y-1/2 rounded-full bg-orange-600 px-4 md:px-8 py-3 text-xl font-medium text-white transition hover:bg-orange-700 focus:outline-none">
+                      <button className="sm:absolute sm:end-1 sm:top-1/2 sm:-translate-y-1/2 rounded-full bg-orange-600 px-4 md:px-8 py-3 text-xl font-medium text-white transition hover:bg-orange-700 focus:outline-none mt-5 sm:mt-0 w-full sm:w-auto">
                         Subscribe
                       </button>
                     </div>
@@ -35,7 +35,7 @@ const Footer = () => {
 
         <div className="container 3xl:container mx-auto">
           <div className="pb-6 pt-16 lg:pt-24">
-            <div className="mt-8 grid grid-cols-2 md:gap-32 gap-8 lg:mt-0 lg:grid-cols-5 lg:gap-y-16">
+            <div className="mt-8 grid grid-cols-2 xl:gap-32 md:gap-16 gap-8 lg:mt-0 lg:grid-cols-5 lg:gap-y-16">
               
               <div className="col-span-2 sm:col-span-1">
                 <h5 className="text-white text-base">CyberPoint</h5>

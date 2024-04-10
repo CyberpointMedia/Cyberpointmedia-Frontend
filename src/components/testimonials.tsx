@@ -37,14 +37,12 @@ const ClientTestimonials = () => {
       {
         breakpoint: 768,
         settings: {
-          arrows: false,
           slidesToShow: 3,
         },
       },
       {
         breakpoint: 480,
         settings: {
-          arrows: false,
           slidesToShow: 1,
         },
       },
@@ -66,7 +64,7 @@ const ClientTestimonials = () => {
         viewport={{once: true, amount: 0.1}}
         className="text-center">
           <div className="subtitle mb-4 flex mx-auto justify-center items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>06 —Testimonials</div>
-            <h2 className="text-4xl md:text-[62px] text-black aeonik-trial-font mb-10 md:leading-[65px] leading-[42px]">What Our Clients Say</h2>
+            <h2 className="text-4xl xl:text-[62px] lg:text-[52px] md:text-[30px] text-black aeonik-trial-font mb-10 md:leading-[65px] leading-[42px]">What Our Clients Say</h2>
         </motion.div>
         <div className="slider-container relative">
               <Slider {...settings}>
@@ -216,7 +214,7 @@ const ClientTestimonials = () => {
 // next slide button
 const TestimonialsNextArrow = ({ onClick }: any) => {
   return (
-      <div className="absolute left-[50%] -bottom-[120px] transform buttonArrow" onClick={onClick}>
+      <div className="absolute left-[50%] -bottom-[150px] -translate-x-1/2 -translate-y-1/2 buttonArrow" onClick={onClick}>
           <div className="nextArrow hover:bg-[#2E2F30] h-[45px] w-[45px] rounded-full grid place-items-center cursor-pointer hover:text-white">
               <BsChevronRight />
           </div>
@@ -227,7 +225,7 @@ const TestimonialsNextArrow = ({ onClick }: any) => {
 // prev slide button
 const TestimonialsPrevArrow = ({ onClick }: any) => {
   return (
-      <div className="absolute md:left-[45%] -bottom-[120px] transform buttonArrow" onClick={onClick}>
+      <div className="absolute left-[30%] sm:left-[40%] md:left-[43%] 2xl:left-[46%] -bottom-[150px] -translate-x-1/2 -translate-y-1/2 buttonArrow" onClick={onClick}>
           <div className="prevArrow hover:bg-[#2E2F30] h-[45px] w-[45px] rounded-full grid place-items-center cursor-pointer hover:text-white">
               <BsChevronLeft />
           </div>

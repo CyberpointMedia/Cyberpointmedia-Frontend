@@ -27,7 +27,7 @@ export default function Page() {
       <VideoPlayer />
       
       {/* 2nd Section Start */}
-      <section className="md:-mt-[60px]">
+      <section className="lg:-mt-[60px]">
         <div className="">
         <ZoomVideoParallax videoSrc={videoSrc} />
         {/* <ScrollVideo /> */}
@@ -89,7 +89,7 @@ export default function Page() {
       <section className="bg-white py-16">
         <div className="container 3xl:container mx-auto">
           <div className="flex flex-col md:items-center md:justify-between md:flex-row mb-10">
-            <motion.h2 className="text-4xl lg:text-[62px] md:text-[30px] md:leading-[32px] text-black lg:w-[812px] md:w-[362px] w-full aeonik-trial-font mb-6 md:mb-0 lg:leading-[65px] leading-[42px]" variants={fadeIn("up", 0.1)}
+            <motion.h2 className="text-4xl xl:text-[62px] lg:text-[52px] md:text-[30px] md:leading-[32px] text-black xl:w-[812px] lg:w-[560px] md:w-[362px] w-full aeonik-trial-font mb-6 md:mb-0 lg:leading-[65px] leading-[42px]" variants={fadeIn("up", 0.1)}
           initial="hidden"
           whileInView={"show"}
           viewport={{once: true, amount: 0.1}}>Showcase of selected projects and archive</motion.h2>
@@ -106,7 +106,7 @@ export default function Page() {
                 </div>
               </div>
 
-              <div className="flex uppercase mt-4 justify-end items-center">
+              <div className="flex uppercase mt-4 lg:justify-end items-center">
                 <p className="mr-5">From</p>
                 <div className="gap-3 flex items-center text-base md:text-lg">
                   <span className="py-1 px-3 rounded-full bg-[#EFEAE3]">2020</span>
@@ -129,7 +129,7 @@ export default function Page() {
           whileInView={"show"}
           viewport={{once: true, amount: 0.1}}
           className="flex flex-col items-center justify-between md:flex-row mb-10">
-            <h2 className="text-4xl lg:text-[62px] md:text-[30px] md:leading-[32px] text-black lg:w-2/3 md:w-2/4 w-full aeonik-trial-font mb-6 md:mb-0 lg:leading-[65px] leading-[42px]">Tools And Technologies<br /> That We Work With</h2>
+            <h2 className="text-4xl lg:text-[52px] xl:text-[62px] md:text-[30px] md:leading-[32px] text-black lg:w-2/3 md:w-2/4 w-full aeonik-trial-font mb-6 md:mb-0 lg:leading-[65px] leading-[42px]">Tools And Technologies<br /> That We Work With</h2>
             <div className="lg:w-1/3 md:w-2/4 w-full">
                <div className="subtitle mb-4 flex items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>07 - Technologies</div>
                <h2 className="text-[22px] text-black">Our proficiency spans cutting-edge technologies, ensuring the best solutions for your business needs.</h2>
@@ -158,16 +158,16 @@ export default function Page() {
             initial="hidden"
             whileInView={"show"}
             viewport={{once: true, amount: 0.1}}
-             className="md:w-2/4 w-full md:ms-32">
+             className="md:w-2/4 w-full xl:ms-32 lg:ms-16 md:ms-12">
               <div className="subtitle mb-4 flex items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>03 - About Us</div>
-              <h2 className="text-4xl lg:text-[62px] md:text-[30px] md:leading-[32px] text-black aeonik-trial-font lg:leading-[65px] mb-[30px] leading-[42px]">We’re Your Digital Technological Partners</h2>
+              <h2 className="text-4xl xl:text-[62px] lg:text-[52px] md:text-[30px] md:leading-[32px] text-black aeonik-trial-font lg:leading-[65px] mb-[30px] leading-[42px]">We’re Your Digital Technological Partners</h2>
               <p className="mb-6">
                 Cyberpoint Media helps establish a powerful online presence for your business. We're passionate about transforming ideas into powerful digital solutions. These solutions will elevate your business reputation, build customer trust, drive sales, and help reach new clients.
               </p>
               <p>
                 With a focus on innovation and expertise, we specialize in delivering top-tier services in Design & Engineering, Cloud & DevOps, Digital Product Development, and Digital Marketing.
               </p>
-              <div className="items-center my-8 flex gap-[30px]">
+              <div className="items-center my-8 flex flex-col sm:flex-row sm:gap-[30px] gap-5">
                   <a href="javasript:void(0);" className="uppercase rounded-full py-[10px] px-5 border border-[#2E2F30] hover:bg-[#FF561D] hover:border-[#FF561D] hover:text-white inline-block transition duration-500">More About Us</a>
                   <a href="javascript:void(0);" className="underline hover:text-[#FF561D] transition duration-300">Get In Touch</a>
               </div>
