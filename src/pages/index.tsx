@@ -167,9 +167,9 @@ export default function Page() {
               <p>
                 With a focus on innovation and expertise, we specialize in delivering top-tier services in Design & Engineering, Cloud & DevOps, Digital Product Development, and Digital Marketing.
               </p>
-              <div className="items-center my-8">
-                  <a href="javasript:void(0);" className="uppercase rounded-full py-2 px-5 border border-[#2E2F30] me-4">More About Us</a>
-                  <a href="javascript:void(0);" className="underline">Get In Touch</a>
+              <div className="items-center my-8 flex gap-[30px]">
+                  <a href="javasript:void(0);" className="uppercase rounded-full py-[10px] px-5 border border-[#2E2F30] hover:bg-[#FF561D] hover:border-[#FF561D] hover:text-white inline-block transition duration-500">More About Us</a>
+                  <a href="javascript:void(0);" className="underline hover:text-[#FF561D] transition duration-300">Get In Touch</a>
               </div>
             </motion.div>
           </div>
