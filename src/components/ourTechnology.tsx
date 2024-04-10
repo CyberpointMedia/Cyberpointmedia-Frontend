@@ -31,12 +31,19 @@ import GitlabIcon from '@/assets/technology-icon/gitlab-icon.svg';
 import JenkinsIcon from '@/assets/technology-icon/jenkins-icon.svg';
 import WhmIcon from '@/assets/technology-icon/whm-icon.svg';
 import NginxIcon from '@/assets/technology-icon/nginx-icon.svg';
+import { motion } from 'framer-motion';
+import { fadeIn } from "@/components/variants";
 
 const OurTechnology = () => {
   return (
     <div className="overflow-hidden">
       {/* mobile app technology start */}
-    <div className="flex flex-col md:flex-row items-center border-b border-[#DAD2C7] py-8 gap-6">
+    <motion.div     
+    variants={fadeIn("up", 0.2)}
+    initial="hidden"
+    whileInView={"show"}
+    viewport={{once: true, amount: 0.2}}
+    className="flex flex-col md:flex-row items-center border-b border-[#DAD2C7] py-8 gap-6">
         <h2 className="tehcnology_name lg:text-5xl text-3xl text-[#878787] md:w-1/4 2xl:w-[27%] 3xl:w-4/12 w-full text-center sm:text-left aeonik-trial-font">Mobile App</h2>
         <div className="gap-3 flex flex-col md:w-3/4 2xl:w[73%] 3xl:w-8/12 sm:flex-row w-full flex-wrap items-center">
             <span className="text-xl bg-[#E7E2DC] rounded-full py-1 px-3 pe-4 flex items-center">
@@ -68,10 +75,15 @@ const OurTechnology = () => {
               Flutter
             </span>
         </div>
-    </div>
+    </motion.div>
 
     {/* front-end technology start */}
-    <div className="flex flex-col md:flex-row items-center border-b border-[#DAD2C7] py-8 gap-6">
+    <motion.div 
+    variants={fadeIn("up", 0.2)}
+    initial="hidden"
+    whileInView={"show"}
+    viewport={{once: true, amount: 0.2}}
+    className="flex flex-col md:flex-row items-center border-b border-[#DAD2C7] py-8 gap-6">
     <h2 className="tehcnology_name lg:text-5xl text-3xl text-[#878787] md:w-1/4 2xl:w-[27%] 3xl:w-4/12 w-full text-center sm:text-left aeonik-trial-font">Front-end </h2>
     <div className="gap-3 flex flex-col md:w-3/4 2xl:w[73%] 3xl:w-8/12 sm:flex-row w-full flex-wrap items-center ">
         <span className="text-xl bg-[#E7E2DC] rounded-full py-1 px-3 pe-4 flex items-center">
@@ -103,10 +115,15 @@ const OurTechnology = () => {
           Vue
         </span>
     </div>
-    </div>
+    </motion.div>
 
     {/* back-end technology start */}
-    <div className="flex flex-col md:flex-row items-center border-b border-[#DAD2C7] py-8 gap-6">
+    <motion.div 
+    variants={fadeIn("up", 0.2)}
+    initial="hidden"
+    whileInView={"show"}
+    viewport={{once: true, amount: 0.2}}
+    className="flex flex-col md:flex-row items-center border-b border-[#DAD2C7] py-8 gap-6">
     <h2 className="tehcnology_name lg:text-5xl text-3xl text-[#878787] md:w-1/4 2xl:w-[27%] 3xl:w-4/12 w-full text-center sm:text-left aeonik-trial-font">Back-end</h2>
     <div className="gap-3 flex flex-col md:w-3/4 2xl:w[73%] 3xl:w-8/12 sm:flex-row w-full flex-wrap items-center">
         <span className="text-xl bg-[#E7E2DC] rounded-full py-1 px-3 pe-4 flex items-center">
@@ -138,10 +155,15 @@ const OurTechnology = () => {
           Python
         </span>
     </div>
-    </div>
+    </motion.div>
 
     {/* database technology start */}
-    <div className="flex flex-col md:flex-row items-center border-b border-[#DAD2C7] py-8 gap-6">
+    <motion.div 
+    variants={fadeIn("up", 0.2)}
+    initial="hidden"
+    whileInView={"show"}
+    viewport={{once: true, amount: 0.2}}
+    className="flex flex-col md:flex-row items-center border-b border-[#DAD2C7] py-8 gap-6">
     <h2 className="tehcnology_name lg:text-5xl text-3xl text-[#878787] md:w-1/4 2xl:w-[27%] 3xl:w-4/12 w-full text-center sm:text-left aeonik-trial-font">Database</h2>
     <div className="gap-3 flex flex-col md:w-3/4 2xl:w[73%] 3xl:w-8/12 sm:flex-row w-full flex-wrap items-center">
         <span className="text-xl bg-[#E7E2DC] rounded-full py-1 px-3 pe-4 flex items-center">
@@ -169,10 +191,15 @@ const OurTechnology = () => {
           Elasticsearch
         </span>
     </div>
-    </div>
+    </motion.div>
 
     {/* server technology start */}
-    <div className="flex flex-col  md:flex-row items-center pt-8 gap-6">
+    <motion.div 
+    variants={fadeIn("up", 0.2)}
+    initial="hidden"
+    whileInView={"show"}
+    viewport={{once: true, amount: 0.2}}
+    className="flex flex-col  md:flex-row items-center pt-8 gap-6">
     <h2 className="tehcnology_name lg:text-5xl text-3xl text-[#878787] md:w-1/4 2xl:w-[27%] 3xl:w-4/12 w-full text-center sm:text-left aeonik-trial-font">Server</h2>
     <div className="gap-3 flex flex-col md:w-3/4 2xl:w[73%] 3xl:w-8/12 sm:flex-row w-full flex-wrap items-center">
         <span className="text-xl bg-[#E7E2DC] rounded-full py-1 px-3 pe-4 flex items-center">
@@ -196,7 +223,7 @@ const OurTechnology = () => {
           Nginx
         </span>
     </div>
-    </div>
+    </motion.div>
 </div>
     
   );

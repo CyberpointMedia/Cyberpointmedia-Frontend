@@ -1,13 +1,11 @@
 
 import { motion } from 'framer-motion';
-import { fadeIn } from "@/components/variants";
 import React, { useState, useRef } from 'react';
 import Image from 'next/image';
 import playIcon from '@/assets/play-icon.svg';
 import clickToplay from '@/assets/click-to-play.svg';
 import BackgroundVideo from "@/components/backgroundvideo";
 import readmoreIcon from '@/assets/read-more-icon.svg';
-import HeroVideo from './TopHeroVideo';
 import ScrollVideo from './ScrollVideo';
 
   export default function VideoPlayer() {
@@ -22,20 +20,28 @@ import ScrollVideo from './ScrollVideo';
       <section className="bg-white lg:flex lg:items-center lg:justify-center hero_sec">
         <div className="container mx-auto 3xl:container relative">
           
-          <div className="flex flex-col md:flex-row items-center justify-between hero_content mb-20 relative">
-              <div className="absolute md:top-10 xl:top-32 2xl:top-80 top-20 left-2/4 -translate-x-1/2 -translate-y-1/2 xl:w-[500px] 2xl:w-[500px] lg:w-[390px] md:w-[290px] w-full">
+          <div className="flex flex-col md:flex-row items-center justify-between hero_content overflow-hidden lg:h-screen mb-20 relative">
+              <div className="absolute md:top-10 xl:top-32 2xl:top-80 top-28 left-2/4 -translate-x-1/2 -translate-y-1/2 xl:w-[500px] 2xl:w-[500px] lg:w-[390px] md:w-[290px] w-[250px]">
                 <BackgroundVideo url="/videos/bg-video.webm" />
               </div>
                 <motion.div className="hero_left xl:w-[858px] lg:w-[640px] w-full relative" initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }}   transition={{ duration: 2 }} >
-                    <h1 className="text-[40px] leading-[50px] md:text-[40px] lg:text-[50px] xl:text-[70px] 2xl:text-[76px] text-black xl:leading-[85px] aeonik-trial-font mb-28 md:mb-0">Transform Your Business With Cyberpoint Media's Digital Excellence</h1>
+                    <h1 className="text-[36px] leading-[50px] md:text-[40px] lg:text-[50px] xl:text-[70px] 2xl:text-[76px] text-black xl:leading-[85px] aeonik-trial-font mb-28 md:mb-0">Transform Your Business With Cyberpoint Media's Digital Excellence</h1>
                 </motion.div>
 
                 <div className="">
                     <div className="relative xl:w-[405px] xl:h-[320px] lg:w-[255px] lg:h-[190px] md:w-[205px] md:h-[160px]">
-                      <div className="md:absolute md:inset-0 md:z-10 w-full h-full">
+                      {/* for desktop */}
+                      <div className="md:absolute md:inset-0 md:z-10 w-full h-full hidden md:block ">
                         <ScrollVideo />
                       </div>
-                      <button className="absolute left-2/4 md:-left-1 lg:-left-5 lg:-top-8 md:-top-1 -translate-x-1/2 -translate-y-1/2 md:w-20 lg:w-auto -z-10">
+                      {/* for mobile */}
+                      <div className="md:absolute md:inset-0 md:z-10 w-full h-full md:hidden">
+                        <video autoPlay={true} controls={true} loop={true}
+                            className="video"
+                            src="/videos/video.mp4"
+                        />
+                      </div>
+                      <button className="absolute left-2/4 -top-9 md:-left-1 lg:-left-5 lg:-top-8 md:-top-1 -translate-x-1/2 -translate-y-1/2 md:w-20 lg:w-auto -z-10">
                         <Image src={clickToplay} className="hero-video_root_playBtn_click absolute top-2/4 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="click icon" />
                         {isPlaying ? <Image src={playIcon} alt="play icon" /> : <Image src={playIcon} alt="play icon" />}
                       </button>
