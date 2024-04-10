@@ -19,7 +19,7 @@ import ScrollVideo from './ScrollVideo';
 
 
     return (
-      <section className="bg-white lg:h-screen lg:flex lg:items-center lg:justify-center hero_sec">
+      <section className="bg-white lg:flex lg:items-center lg:justify-center hero_sec">
         <div className="container mx-auto 3xl:container relative">
           
           <div className="flex flex-col md:flex-row items-center justify-between hero_content mb-20 relative">
