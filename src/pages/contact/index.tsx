@@ -210,7 +210,7 @@ export default function Index() {
     </section>
 
       {/* faq section start */}
-      <FAQAccordion className="white-bg"/>
+      <FAQAccordion/>
 
       {/* footer section start */}
       <Footer />
