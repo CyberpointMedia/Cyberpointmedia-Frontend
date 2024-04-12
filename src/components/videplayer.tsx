@@ -25,7 +25,7 @@ import ScrollVideo from './ScrollVideo';
                 <BackgroundVideo url="/videos/bg-video.webm" />
               </div>
                 <motion.div className="hero_left xl:w-[858px] lg:w-[640px] w-full relative" initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }}   transition={{ duration: 2 }} >
-                    <h1 className="text-[36px] leading-[50px] md:text-[40px] lg:text-[50px] xl:text-[70px] 2xl:text-[76px] text-black xl:leading-[85px] aeonik-trial-font mb-28 md:mb-0">Transform Your Business With Cyberpoint Media's Digital Excellence</h1>
+                    <h1 className="text-[36px] leading-[50px] md:text-[40px] lg:text-[50px] xl:text-[70px] 2xl:text-[76px] text-black xl:leading-[85px] font-aeonik mb-28 md:mb-0">Transform Your Business With Cyberpoint Media's Digital Excellence</h1>
                 </motion.div>
 
                 <div className="">

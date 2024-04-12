@@ -89,7 +89,7 @@ const Navbar = () => {
                 EN<span className='ms-3 border-b border-[#000] inline-block'>FR</span>
                 <span className='v-border'></span>
                 </Link>
-                <Link href="/" className="text-black font-medium text-base hover:text-orange-400 mr-8">
+                <Link href="/contact" className="text-black font-medium text-base hover:text-orange-400 mr-8">
                 Contact
                 </Link>
             </div>
@@ -109,7 +109,7 @@ const Navbar = () => {
                 <Link href="/" className="block mt-4 font-medium text-base text-black hover:text-orange-400">
                     Service
                 </Link>
-                <Link href="/" className="block mt-4 font-medium text-base text-black hover:text-orange-400">
+                <Link href="contact" className="block mt-4 font-medium text-base text-black hover:text-orange-400">
                     Contact
                 </Link>
             {/* Add more links as needed */}

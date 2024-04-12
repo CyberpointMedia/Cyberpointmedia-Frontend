@@ -2,7 +2,7 @@
 import React from "react";
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
-import Header from '../components/header';
+import Header from './header';
 import VideoPlayer from "@/components/videplayer";
 import { fadeIn } from "@/components/variants";
 import Image from 'next/image';
@@ -13,11 +13,11 @@ import AboutImg from '@/assets/about-img.svg';
 import LogoBrands from "@/components/logoBrands";
 import ClientTestimonials from "@/components/testimonials";
 import FAQAccordion from "@/components/faqAccordion";
-import Footer from "@/components/footer";
+import Footer from "@/pages/footer";
 import DragSlider from "@/components/DragSlider";
 import ZoomVideoParallax from "@/components/videoParallax";
 
-export default function Page() {
+export default function Index() {
   const videoSrc = '/videos/video.mp4';
 
     return <div>
@@ -44,7 +44,7 @@ export default function Page() {
           viewport={{once: true, amount: 0.1}}
           className="text-center">
             <div className="subtitle mb-4 flex mx-auto justify-center items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>03 - Our Services</div>
-            <h2 className="lg:text-7xl md:text-5xl text-4xl text-black underline aeonik-trial-font">Explore our services <br />and engagement models</h2>
+            <h2 className="lg:text-7xl md:text-5xl text-4xl text-black underline font-aeonik">Explore our services <br />and engagement models</h2>
           </motion.div>
           {/* service box start */}
           <div className="grid grid-cols-1 md:grid-cols-3 mt-16 gap-7">
@@ -55,7 +55,7 @@ export default function Page() {
             viewport={{once: true, amount: 0.1}}
             className="bg-white lg:p-12 p-4 shadow-sm">
                 <div className="service_icon"><Image src={designEngineering} alt="#" className="lg:w-16 w-8" /></div>
-                <h3 className="my-5 lg:text-4xl text-2xl aeonik-trial-font">Design &amp; Engineering</h3>
+                <h3 className="my-5 lg:text-4xl text-2xl font-aeonik">Design &amp; Engineering</h3>
                 <p>Your online business needs to be appealing and functional for excellent user engagement. We bring your concepts to life through MVP Software Development and UI/UX Design.</p>
             </motion.div>
 
@@ -66,7 +66,7 @@ export default function Page() {
             viewport={{once: true, amount: 0.1}}
             className="bg-white lg:p-12 p-4 shadow-sm">
                 <div className="service_icon"><Image src={devopsIcon} alt="#" className="lg:w-16 w-8" /></div>
-                <h3 className="my-5 lg:text-4xl text-2xl aeonik-trial-font">Cloud &amp; DevOps</h3>
+                <h3 className="my-5 lg:text-4xl text-2xl font-aeonik">Cloud &amp; DevOps</h3>
                 <p>Our Cloud Consulting and DevOps services will enhance the agility and scalability of your projects. Harness the power of AWS, Azure and Google Cloud for agile development.</p>
             </motion.div>
 
@@ -77,7 +77,7 @@ export default function Page() {
             viewport={{once: true, amount: 0.1}}
             className="bg-white lg:p-12 p-4 shadow-sm">
                 <div className="service_icon"><Image src={designEngineering} alt="#" className="lg:w-16 w-8" /></div>
-                <h3 className="my-5 lg:text-4xl text-2xl aeonik-trial-font">Digital Marketing</h3>
+                <h3 className="my-5 lg:text-4xl text-2xl font-aeonik">Digital Marketing</h3>
                 <p>Connect with existing and prospective clients through strategic digital marketing solutions. Our tailored strategies, including SEO and SMM, will drive growth and engagement.</p>
             </motion.div>
           </div>
@@ -89,7 +89,7 @@ export default function Page() {
       <section className="bg-white py-16">
         <div className="container 3xl:container mx-auto">
           <div className="flex flex-col md:items-center md:justify-between md:flex-row mb-10">
-            <motion.h2 className="text-4xl xl:text-[62px] lg:text-[52px] md:text-[30px] md:leading-[32px] text-black xl:w-[812px] lg:w-[560px] md:w-[362px] w-full aeonik-trial-font mb-6 md:mb-0 lg:leading-[65px] leading-[42px]" variants={fadeIn("up", 0.1)}
+            <motion.h2 className="text-4xl xl:text-[62px] lg:text-[52px] md:text-[30px] md:leading-[32px] text-black xl:w-[812px] lg:w-[560px] md:w-[362px] w-full font-aeonik mb-6 md:mb-0 lg:leading-[65px] leading-[42px]" variants={fadeIn("up", 0.1)}
           initial="hidden"
           whileInView={"show"}
           viewport={{once: true, amount: 0.1}}>Showcase of selected projects and archive</motion.h2>
@@ -129,7 +129,7 @@ export default function Page() {
           whileInView={"show"}
           viewport={{once: true, amount: 0.1}}
           className="flex flex-col items-center justify-between md:flex-row mb-10">
-            <h2 className="text-4xl lg:text-[52px] xl:text-[62px] md:text-[30px] md:leading-[32px] text-black lg:w-2/3 md:w-2/4 w-full aeonik-trial-font mb-6 md:mb-0 lg:leading-[65px] leading-[42px]">Tools And Technologies<br /> That We Work With</h2>
+            <h2 className="text-4xl lg:text-[52px] xl:text-[62px] md:text-[30px] md:leading-[32px] text-black lg:w-2/3 md:w-2/4 w-full font-aeonik mb-6 md:mb-0 lg:leading-[65px] leading-[42px]">Tools And Technologies<br /> That We Work With</h2>
             <div className="lg:w-1/3 md:w-2/4 w-full">
                <div className="subtitle mb-4 flex items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>07 - Technologies</div>
                <h2 className="text-[22px] text-black">Our proficiency spans cutting-edge technologies, ensuring the best solutions for your business needs.</h2>
@@ -160,7 +160,7 @@ export default function Page() {
             viewport={{once: true, amount: 0.1}}
              className="md:w-2/4 w-full xl:ms-32 lg:ms-16 md:ms-12">
               <div className="subtitle mb-4 flex items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>03 - About Us</div>
-              <h2 className="text-4xl xl:text-[62px] lg:text-[52px] md:text-[30px] md:leading-[32px] text-black aeonik-trial-font lg:leading-[65px] mb-[30px] leading-[42px]">We’re Your Digital Technological Partners</h2>
+              <h2 className="text-4xl xl:text-[62px] lg:text-[52px] md:text-[30px] md:leading-[32px] text-black font-aeonik lg:leading-[65px] mb-[30px] leading-[42px]">We’re Your Digital Technological Partners</h2>
               <p className="mb-6">
                 Cyberpoint Media helps establish a powerful online presence for your business. We're passionate about transforming ideas into powerful digital solutions. These solutions will elevate your business reputation, build customer trust, drive sales, and help reach new clients.
               </p>

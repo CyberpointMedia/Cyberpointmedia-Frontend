@@ -10,16 +10,6 @@
     font-style: normal;
 }
 
-
-@font-face {
-    font-family: 'aeonik_trialregular';
-    src: url('./fonts/aeoniktrial-regular-webfont.woff2') format('woff2'),
-         url('./fonts/AeonikTRIAL-Regular.otf') format('otf');
-
-    font-weight: normal;
-    font-style: normal;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 .aeonik-trial-font{

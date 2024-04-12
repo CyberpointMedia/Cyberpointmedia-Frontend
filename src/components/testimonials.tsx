@@ -64,7 +64,7 @@ const ClientTestimonials = () => {
         viewport={{once: true, amount: 0.1}}
         className="text-center">
           <div className="subtitle mb-4 flex mx-auto justify-center items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>06 —Testimonials</div>
-            <h2 className="text-4xl xl:text-[62px] lg:text-[52px] md:text-[30px] text-black aeonik-trial-font mb-10 md:leading-[65px] leading-[42px]">What Our Clients Say</h2>
+            <h2 className="text-4xl xl:text-[62px] lg:text-[52px] md:text-[30px] text-black font-aeonik mb-10 md:leading-[65px] leading-[42px]">What Our Clients Say</h2>
         </motion.div>
         <div className="slider-container relative">
               <Slider {...settings}>

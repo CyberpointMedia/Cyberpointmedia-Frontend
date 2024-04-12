@@ -20,6 +20,9 @@ const config: Config = {
         DEFAULT: '2rem',
       },
     },
+    fontFamily: {
+      'aeonik': ['aeonik_trialregular', 'sans-serif'],
+    },
   },
   
   plugins: [],

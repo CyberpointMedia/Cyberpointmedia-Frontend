@@ -58,13 +58,13 @@ const FAQAccordion = () => {
               viewport={{once: true, amount: 0.1}}
               className=''>
                 <div className="subtitle mb-4 flex items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>08 — FAQ</div>
-                <h2 className="text-4xl xl:text-[62px] lg:text-[52px] md:text-[30px] text-black aeonik-trial-font mb-10 md:leading-[65px] leading-[42px]">Frequently Asked Questions</h2>
+                <h2 className="text-4xl xl:text-[62px] lg:text-[52px] md:text-[30px] text-black font-aeonik mb-10 md:leading-[65px] leading-[42px]">Frequently Asked Questions</h2>
               </motion.div>
                 {/* <FAQAccordion faqs={faqs} /> */}
                 <div className="faq-accordion"> 
                   {faqs.map((faq, index) => (
                     <div key={index} className={`faq-item border-b border-[#DAD2C7] mb-4 pb-4 ${activeIndex === index ? 'active' : ''}`} onClick={() => toggleAccordion(index)}>
-                      <div className="question text-[22px] font-normal text-[#2C2D36] aeonik-trial-font">{faq.question}</div>
+                      <div className="question text-[22px] font-normal text-[#2C2D36] font-aeonik">{faq.question}</div>
                       <div className="answer text-[22px] text-[#878787] font-normal">{activeIndex === index && <p>{faq.answer}</p>}</div>
                     </div>
                   ))}
