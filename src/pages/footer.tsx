@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { fadeIn } from "@/components/variants";
+import { fadeIn } from "@/components/AnimationVariants";
 import Image from "next/image";
 import Link from "next/link";
 import rightArrow from '@/assets/right-arrow.svg';
@@ -20,7 +20,7 @@ const Footer = () => {
             <div className="md:w-2/5 w-full">
                   <form className="">
                     <div className="relative max-w-md">
-                      <input className="w-full rounded-full bg-[#3E3F49] p-4 xl:pe-36 md:pe-44 pe-36 text-white" id="email" type="email" placeholder="Enter your email" />
+                      <input className="w-full rounded-full bg-[#3E3F49] p-4 xl:pe-36 md:pe-44 sm:pe-36 text-white" id="email" type="email" placeholder="Enter your email" />
 
                       <button className="sm:absolute sm:end-1 sm:top-1/2 sm:-translate-y-1/2 rounded-full bg-orange-600 px-4 md:px-8 py-3 text-xl font-medium text-white transition hover:bg-orange-700 focus:outline-none mt-5 sm:mt-0 w-full sm:w-auto">
                         Subscribe

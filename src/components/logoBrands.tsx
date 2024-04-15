@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { fadeIn } from "@/components/variants";
+import { fadeIn } from "@/components/AnimationVariants";
 import Image from "next/image";
 import BrandLogo1 from '@/assets/brand-logos/netflix-logo.svg';
 import BrandLogo2 from '@/assets/brand-logos/united-nations-logo.svg';

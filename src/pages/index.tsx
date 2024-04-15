@@ -3,19 +3,19 @@ import React from "react";
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import Header from './header';
-import VideoPlayer from "@/components/videplayer";
-import { fadeIn } from "@/components/variants";
+import VideoPlayer from "@/components/VideoPlayer";
+import { fadeIn } from "@/components/AnimationVariants";
 import Image from 'next/image';
 import designEngineering from '@/assets/design-engineering.svg';
 import devopsIcon from '@/assets/devops-icon.svg';
-import OurTechnology from '@/components/ourTechnology';
+import OurTechnology from '@/components/OurTechnology';
 import AboutImg from '@/assets/about-img.svg';
-import LogoBrands from "@/components/logoBrands";
-import ClientTestimonials from "@/components/testimonials";
-import FAQAccordion from "@/components/faqAccordion";
+import LogoBrands from "@/components/LogoBrands";
+import ClientTestimonials from "@/components/Testimonials";
+import FAQAccordion from "@/components/FaqAccordion";
 import Footer from "@/pages/footer";
 import DragSlider from "@/components/DragSlider";
-import ZoomVideoParallax from "@/components/videoParallax";
+import HomeFullVideo from "@/components/HomeFullVideo";
 
 export default function Index() {
   const videoSrc = '/videos/video.mp4';
@@ -29,7 +29,7 @@ export default function Index() {
       {/* 2nd Section Start */}
       <section className="lg:-mt-[60px]">
         <div className="">
-        <ZoomVideoParallax videoSrc={videoSrc} />
+        <HomeFullVideo />
         {/* <ScrollVideo /> */}
         </div>
       </section>

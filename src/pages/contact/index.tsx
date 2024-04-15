@@ -2,9 +2,9 @@
 import React, { useState, ChangeEvent, FormEvent } from 'react';
 import Header from '../header';
 import Image from 'next/image';
-import LogoBrands from "@/components/logoBrands";
-import ClientTestimonials from "@/components/testimonials";
-import FAQAccordion from "@/components/faqAccordion";
+import LogoBrands from "@/components/LogoBrands";
+import ClientTestimonials from "@/components/Testimonials";
+import FAQAccordion from "@/components/FaqAccordion";
 import Footer from "@/pages/footer";
 
 export default function Index() {

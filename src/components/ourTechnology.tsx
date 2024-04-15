@@ -32,7 +32,7 @@ import JenkinsIcon from '@/assets/technology-icon/jenkins-icon.svg';
 import WhmIcon from '@/assets/technology-icon/whm-icon.svg';
 import NginxIcon from '@/assets/technology-icon/nginx-icon.svg';
 import { motion } from 'framer-motion';
-import { fadeIn } from "@/components/variants";
+import { fadeIn } from "@/components/AnimationVariants";
 
 const OurTechnology = () => {
   return (

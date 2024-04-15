@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from "framer-motion";
-import { fadeIn } from "@/components/variants";
+import { fadeIn } from "@/components/AnimationVariants";
 
 const FAQAccordion = () => {
   const [activeIndex, setActiveIndex] = useState(null);
