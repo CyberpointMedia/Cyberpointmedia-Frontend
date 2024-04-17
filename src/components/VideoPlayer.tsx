@@ -43,7 +43,7 @@ import Modal from './VideoModal';
                     <div className="relative xl:w-[350px] xl:h-[320px] lg:w-[255px] lg:h-[190px] md:w-[205px] md:h-[160px]">
                       {/* for desktop */}
                       <div className="md:absolute md:inset-0 md:z-10 w-full h-full ">
-                        <ScrollVideo videoUrl="/videos/video.mp4" />
+                        <ScrollVideo />
                       </div>
                       {/* for mobile */}
                       {/* <div className="md:absolute md:inset-0 md:z-10 w-full h-full lg:hidden">
