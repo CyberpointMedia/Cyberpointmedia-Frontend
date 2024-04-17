@@ -177,9 +177,43 @@ svg{
     transform: translate(-50%, -50%);
 }
 
-.slick-list {
+.dragSlidesr .slick-list {
     cursor: none;
 }
+
+.MultipleItemSildes{
+    overflow: hidden;
+}
+
+.MultipleItemSildes .slick-track{
+    display: flex !important;
+    align-items: center !important;
+}
+.MultipleItemSildes .slick-slide img{
+    border-radius: 20px;
+}
+
+
+
+
+.vslides{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* height: 100vh; */
+    padding-left: 110px;
+}
+.slideno{
+    position: absolute;
+    top: 0;
+    left: -96px;
+    color: #ff5a36;
+    font-size: .9rem;
+    font-family: "Aeonik-Medium", sans-serif;
+}
+
+
 
 
 @keyframes hero-video_rotateClickIcon__mz4Z7 {

@@ -1,9 +1,6 @@
 
 import React, { useState, ChangeEvent, FormEvent } from 'react';
 import Header from '../header';
-import Image from 'next/image';
-import LogoBrands from "@/components/LogoBrands";
-import ClientTestimonials from "@/components/Testimonials";
 import FAQAccordion from "@/components/FaqAccordion";
 import Footer from "@/pages/footer";
 
@@ -36,7 +33,7 @@ export default function Index() {
     <section className="bg-white py-16">
         <div className="container 3xl:container mx-auto">
             <div className="flex flex-col items-center justify-between md:flex-row">
-                <div className="md:w-2/4 w-full 3xl:me-60 xl:me-40 md:me-24">
+                <div className="md:w-2/4 w-full 3xl:me-60 xl:me-40 md:me-24 mb-6 md:mb-0">
                   <div className="subtitle mb-4 flex items-center">
                     <span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>
                     Contact
@@ -139,7 +136,7 @@ export default function Index() {
                 </div>
 
                 {/* form coloumn */}
-                <div className="md:w-2/4 bg-[#EFEAE3] border border-[#e9e9e9] py-[30px] px-[50px]">
+                <div className="md:w-2/4 w-full bg-[#EFEAE3] border border-[#e9e9e9] sm:py-[30px] sm:px-[50px] px-5 py-5">
                   <form onSubmit={handleSubmit}>
                     <div className='mb-5'>
                       <label htmlFor="name" className='w-full block text-black text-sm mb-2'>Name*</label>

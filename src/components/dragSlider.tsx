@@ -44,7 +44,7 @@ const DragSlider = () => {
   return (
     <div className='relative overflow-hidden' id="drag-section">
         <CustomDragCursor />
-        <Slider {...settings}>
+        <Slider {...settings} className='dragSlidesr'>
         <div className="card">
             <figure className="relative">
             <div className="absolute top-5 left-0 right-0 w-full px-5 hidden md:block">
