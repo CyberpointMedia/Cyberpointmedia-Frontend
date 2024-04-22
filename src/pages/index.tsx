@@ -35,7 +35,7 @@ export default function Index() {
       </section>
 
       {/* service section start */}
-      <section className="bg-[#efeae3] py-16">
+      <section className="bg-[#efeae3] py-16 2xl:pt-[350px] 3xl:pt-[60px]">
         <div className="container mx-auto 3xl:container">
           <motion.div 
           variants={fadeIn("up", 0.1)}

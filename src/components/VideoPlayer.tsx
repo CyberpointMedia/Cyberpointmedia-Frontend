@@ -40,27 +40,33 @@ import Modal from './VideoModal';
                 </motion.div>
 
                 <div className="">
-                    <div className="relative xl:w-[350px] xl:h-[320px] lg:w-[255px] lg:h-[190px] md:w-[205px] md:h-[160px]">
-                      {/* for desktop */}
-                      <div className="md:absolute md:inset-0 md:z-10 w-full h-full ">
-                        <ScrollVideo />
-                      </div>
-                      {/* for mobile */}
-                      {/* <div className="md:absolute md:inset-0 md:z-10 w-full h-full lg:hidden">
-                        <video autoPlay={true} controls={true} loop={true}
-                            className="video"
-                            src="/videos/video.mp4"
-                        />
-                      </div> */}
+                  {/* for desktop */}
+                    <div className="relative xl:w-[350px] xl:h-[320px] lg:w-[255px] lg:h-[190px] md:w-[205px] md:h-[160px] hidden lg:block">
+                      <ScrollVideo />
                       <button className="absolute left-2/4 -top-9 md:-left-1 lg:-left-5 lg:-top-8 md:-top-1 -translate-x-1/2 -translate-y-1/2 md:w-20 lg:w-auto -z-10" onClick={openModal}>
                         <Image src={clickToplay} className="hero-video_root_playBtn_click absolute top-2/4 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="click icon" />
                         {isPlaying ? <Image src={playIcon} alt="play icon" /> : <Image src={playIcon} alt="play icon" />}
                       </button>
 
-                        {isModalOpen && (
+                        {/* {isModalOpen && (
                           <Modal videoUrl={videoSrc} closeModal={closeModal} />
-                        )}
+                        )} */}
                     </div>
+
+                    {/* for mobile */}
+                    <div className="relative xl:w-[350px] xl:h-[320px] lg:w-[255px] lg:h-[190px] md:w-[205px] md:h-[160px] lg:hidden">
+                      <div className="md:absolute md:inset-0 md:z-10 w-full h-full">
+                        <video autoPlay={true} controls={true} loop={true}
+                            className="video"
+                            src="/videos/video.mp4"
+                        />
+                      </div>
+                      <button className="absolute left-2/4 -top-9 md:-left-1 lg:-left-5 lg:-top-8 md:-top-1 -translate-x-1/2 -translate-y-1/2 md:w-20 lg:w-auto -z-10" onClick={openModal}>
+                        <Image src={clickToplay} className="hero-video_root_playBtn_click absolute top-2/4 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="click icon" />
+                        {isPlaying ? <Image src={playIcon} alt="play icon" /> : <Image src={playIcon} alt="play icon" />}
+                      </button>
+                    </div>
+
                 </div>
             </div>
         </div>
