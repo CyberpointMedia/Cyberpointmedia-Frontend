@@ -7,8 +7,8 @@ const nextConfig = {
                 {
                     loader: 'file-loader',
                     options: {
-                        publicPath: '/_next', // Specifies the base path for the files
-                        name: 'static/videos/[name].[hash].[ext]', // Specifies the output path and filename pattern
+                        publicPath: '/_next',
+                        name: 'static/videos/[name].[hash].[ext]',
                     },
                 },
             ],
@@ -19,4 +19,3 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
-

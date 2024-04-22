@@ -1,5 +1,5 @@
+// ScrollVideo.tsx
 import styles from '@/styles/CustomCursor.module.css';
-import Video1 from '../../public/videos/video.mp4';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import { useRef } from 'react';
 
@@ -35,14 +35,13 @@ export default function ScrollVideo() {
                 <motion.div className={`${styles.el} aspect-video`} style={transformStyle}>
                     <div className={styles.videodiv1}>
                         <div className={styles.videodiv2}>
-                            <video
+                            <video 
                                 autoPlay
                                 loop
                                 muted
                                 controls
-                                className={`${styles.videos}`}
-                            >
-                                <source src={Video1} type="video/mp4" />
+                                className={`${styles.videos}`}>
+                                <source src="/videos/video.mp4" type="video/mp4" />
                             </video>
                         </div>
                     </div>
