@@ -213,6 +213,9 @@ svg{
     font-family: "Aeonik-Medium", sans-serif;
 }
 
+.verticalSlide .slick-slide + div{
+    margin: 0px;
+}
 
 
 
