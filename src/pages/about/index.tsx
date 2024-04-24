@@ -208,7 +208,7 @@ export default function Index() {
             whileInView={"show"}
             viewport={{once: true, amount: 0.1}}
             className="md:w-2/4 w-full mb-6 md:mb-0">              
-              <p className="mb-6">
+              <p>
                 In order to create a better future, we start by creating a futuristic work environment. A place where imaginative minds thrive, inspire and work towards a common goal: A tomorrow with fewer limits and true independence.
               </p>
             </motion.div>
@@ -216,11 +216,8 @@ export default function Index() {
         </div>    
       </section>
 
-      <section className='h-screen overflow-hidden'>
-        <div className='container 3xl:container'>
-            <VerticalSlides />
-        </div>
-      </section>
+      {/* vertical slides start */}
+      <VerticalSlides />
 
       {/* our leadership section start */}
 
@@ -241,7 +238,7 @@ export default function Index() {
                     viewport={{once: true, amount: 0.1}}
                     className="md:w-2/4 w-full xl:me-[300px] lg:me-32 md:me-12">
                     <h2 className="text-4xl xl:text-[62px] lg:text-[52px] md:text-[30px] md:leading-[32px] text-black font-aeonik lg:leading-[65px] mb-[30px] leading-[42px]">Founders leading the way</h2>
-                    <a href="javasript:void(0);" className="uppercase rounded-full py-[10px] px-5 border border-[#2E2F30] hover:bg-[#FF561D] hover:border-[#FF561D] hover:text-white inline-block transition duration-500">Meet The Team</a>
+                    <a href="javasript:void(0);" className="uppercase rounded-full py-[10px] px-5 border border-[#2E2F30] hover:bg-[#FF561D] hover:border-[#FF561D] hover:text-white inline-block transition duration-500 mb-10">Meet The Team</a>
                     </motion.div>
 
                     <motion.div 
@@ -250,7 +247,7 @@ export default function Index() {
                     whileInView={"show"}
                     viewport={{once: true, amount: 0.1}}
                     className="md:w-2/4 w-full mb-6 md:mb-0">              
-                        <div className='grid grid-cols-2 gap-5'>
+                        <div className='grid sm:grid-cols-2 grid-cols gap-5'>
                             <div className=''>
                                 <Image src={TeamImg1} alt='#' />
                                 <div className='py-4'>

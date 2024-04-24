@@ -217,6 +217,9 @@ svg{
     margin: 0px;
 }
 
+.verticalSlide .slick-list{
+    height: 500px !important;
+}
 
 
 @keyframes hero-video_rotateClickIcon__mz4Z7 {
@@ -226,5 +229,17 @@ svg{
 
     to {
         transform: translate(-50%,-50%) rotate(1turn)
+    }
+}
+
+@media (min-width: 601px) and (max-width: 767px) {
+    .verticalSlide .slick-list{
+        height: 320px !important;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+    .verticalSlide .slick-list{
+        height: 480px !important;
     }
 }
