@@ -13,6 +13,7 @@ import ClientTestimonials from '@/components/Testimonials';
 import LogoBrands from '@/components/LogoBrands';
 import MultipleImageSlider from '@/components/ImageSlider';
 import VerticalSlides from '@/components/VerticalSlideContent';
+import CounterComponent from '@/components/CountDown';
 
 export default function Index() {
 
@@ -65,41 +66,8 @@ export default function Index() {
                         viewport={{once: true, amount: 0.1}}
                         className="text-4xl md:text-[30px] leading-[42px] text-black font-aeonik lg:leading-[48px] mb-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ante augue, condimentum a dapibus vel, congue ultricies justo. Praesent ac hendrerit tortor. Fusce convallis, nunc sit amet fermentum consectetur, felis ante pulvinar est, id dictum nulla eros in magna. 
                     </motion.h2>
-                    <div className="flex flex-col justify-between sm:flex-row gap-6 mt-16">
-                        <motion.div 
-                            variants={fadeIn("up", 0.1)}
-                            initial="hidden"
-                            whileInView={"show"}
-                            viewport={{once: true, amount: 0.1}}
-                            className='sm:w-2/6 w-full mb-6'>
-                            <p className='text-[22px] font-medium line-clamp-2 h-14'>
-                                Active users on<br /> product we created
-                            </p>
-                            <h4 className='font-aeonik text-[#2E2F30] text-[82px] mt-14'>40+</h4>
-                        </motion.div>
-                        <motion.div 
-                            variants={fadeIn("up", 0.1)}
-                            initial="hidden"
-                            whileInView={"show"}
-                            viewport={{once: true, amount: 0.1}}
-                            className='sm:w-2/6 w-full mb-6'>
-                            <p className='text-[22px] font-medium line-clamp-2 h-14'>
-                            Project we completed<br /> along the way
-                            </p>
-                            <h4 className='font-aeonik text-[#2E2F30] text-[82px] mt-14'>36+</h4>
-                        </motion.div>
-                        <motion.div 
-                            variants={fadeIn("up", 0.1)}
-                            initial="hidden"
-                            whileInView={"show"}
-                            viewport={{once: true, amount: 0.1}}
-                            className='sm:w-2/6 w-full mb-6'>
-                            <p className='text-[22px] font-medium line-clamp-2 h-14'>
-                            Years of oparation
-                            </p>
-                            <h4 className='font-aeonik text-[#2E2F30] text-[82px] mt-14'>20+</h4>
-                        </motion.div>
-                    </div>
+                    {/* countdown start */}
+                    <CounterComponent />
                 </div>
             </div>
         </div>
