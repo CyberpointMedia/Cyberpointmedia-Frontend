@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white p-6">
+    <nav className={`bg-white p-6 ${isOpen ? 'mobile-menu-open' : ''}`}>
         <div className='bg-[#FF561D] absolute top-0 right-0 left-0 w-full h-2'></div>
         <div className="flex lg:items-center justify-between flex-wrap flex-col lg:flex-row">
             <div className="flex items-center justify-between text-black lg:mr-32">
@@ -22,7 +22,7 @@ const Navbar = () => {
             <button
               onClick={toggleMenu}
               type="button"
-              className="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+              className="bg-[#FF561D] inline-flex items-center justify-center p-2 rounded-md text-white focus:outline-none MenuToggle"
               aria-expanded="false"
             >
               <span className="sr-only">Open main menu</span>
@@ -98,18 +98,18 @@ const Navbar = () => {
         </div>
 
       {isOpen && (
-        <div className="lg:hidden" id="mobile-menu">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <Link href="/" className="block mt-4 font-medium text-base text-black hover:text-orange-400">
+        <div className="lg:hidden transition-all" id="mobile-menu">
+          <div className="px-4 pt-2 pb-3 sm:px-3 h-full mt-12">
+                <Link href="/" className="block font-medium text-base text-white hover:text-orange-400 px-2 py-4 border-white border-b">
                     Home
                 </Link>
-                <Link href="/about" className="block mt-4 font-medium text-base text-black hover:text-orange-400">
+                <Link href="/about" className="block font-medium text-base text-white hover:text-orange-400 py-4 px-2 border-white border-b">
                     About
                 </Link>
-                <Link href="/" className="block mt-4 font-medium text-base text-black hover:text-orange-400">
+                <Link href="/" className="block font-medium text-base text-white hover:text-orange-400 py-4 px-2 border-white border-b">
                     Service
                 </Link>
-                <Link href="/contact" className="block mt-4 font-medium text-base text-black hover:text-orange-400">
+                <Link href="/contact" className="block font-medium text-base text-white hover:text-orange-400 py-4 px-2 border-white border-b">
                     Contact
                 </Link>
             {/* Add more links as needed */}

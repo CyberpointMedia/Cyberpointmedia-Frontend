@@ -75,7 +75,7 @@ const Footer = () => {
                     </li>
 
                     <li>
-                      <Link href="javascript:void(0);" className="text-white hover:text-orange-400 font-aeonik">
+                      <Link href="/about" className="text-white hover:text-orange-400 font-aeonik">
                       About Us
                       </Link>
                     </li>
@@ -93,7 +93,7 @@ const Footer = () => {
                     </li>
 
                     <li>
-                      <Link href="javascript:void(0);" className="text-white hover:text-orange-400 font-aeonik">
+                      <Link href="/contact" className="text-white hover:text-orange-400 font-aeonik">
                       Contact
                       </Link>
                     </li>
