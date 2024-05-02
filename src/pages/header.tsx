@@ -68,25 +68,33 @@ const Navbar = () => {
 
         <div className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block text-center">
             <div className="text-sm lg:flex-grow">
-                <Link href="/" className="text-black font-medium text-base hover:text-orange-400 mr-8">
-                Services <Image src={DropIcon} alt='#' className='inline-block ms-2' />
+                <Link href="/" className="text-black font-medium text-base hover:text-orange-400 mr-8 pr-8 relative">
+                Services
+                <span className='absolute top-0 right-0'>
+                  <svg className='block' xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M13.333 7.80717L8.68952 7.80717L8.68952 2L7.14018 2L7.14018 7.80717L2.49368 7.80717L2.49368 9.35272L4.04227 9.35272L4.04227 10.9021L5.5916 10.9021L5.5916 12.4506L7.14018 12.4514L7.14018 14L8.68952 14L8.68952 12.4514L10.2373 12.4514L10.2381 10.9028C10.7554 10.9029 11.2702 10.902 11.7875 10.902L11.7875 9.35269L13.333 9.35269L13.333 7.80717Z" fill="#2E2F30"/>
+                  </svg>
+                </span>
                 </Link>
-                <Link href="/" className="text-black font-medium text-base hover:text-orange-400 mr-8">
+                <Link href="/" className="text-black font-medium text-base hover:text-orange-400 mr-4 relative pr-8">
                 Case Studies
                 </Link>
-                <Link href="/about" className="text-black font-medium text-base hover:text-orange-400 mr-8">
+                <Link href="/about" className="text-black font-medium text-base hover:text-orange-400 mr-4 relative pr-8">
                 About
                 </Link>
-                <Link href="/" className="text-black font-medium text-base hover:text-orange-400 mr-4">
+                <Link href="/" className="text-black font-medium text-base hover:text-orange-400 mr-4 relative pr-8">
                 Career
                 </Link>
-                <Link href="/" className="text-black font-medium text-base hover:text-orange-400 mr-8">
+                <Link href="/" className="text-black font-medium text-base hover:text-orange-400 mr-4 relative pr-8">
                 Blog
                 </Link>
             </div>
             <div>
-                <Link href="/" className="text-black font-medium text-base hover:text-orange-400 mr-8 relative">
-                EN<span className='ms-3 border-b border-[#000] inline-block'>FR</span>
+                <Link href="/" className="text-black font-medium text-base hover:text-orange-400 mr-3 relative border-b border-[#000] hover:border-orange-400 pb-1">
+                EN
+                </Link>
+                <Link href="/" className="text-black font-medium text-base hover:text-orange-400 mr-8 relative border-b border-[#000] hover:border-orange-400 pb-1">
+                FR
                 <span className='v-border'></span>
                 </Link>
                 <Link href="/contact" className="text-black font-medium text-base hover:text-orange-400 mr-8">

@@ -38,7 +38,7 @@ const Footer = () => {
             <div className="mt-8 grid grid-cols-2 xl:gap-32 md:gap-16 gap-8 lg:mt-0 lg:grid-cols-5 lg:gap-y-16">
               
               <div className="col-span-2 sm:col-span-1">
-                <h5 className="text-white text-base">CyberPoint</h5>
+                <h5 className="text-white text-base"><a href="javascript:void(0);">CyberPoint</a></h5>
               </div>
 
               <div className="col-span-2 sm:col-span-1">
@@ -123,38 +123,68 @@ const Footer = () => {
 
                   <ul className="mt-6 space-y-3 social_links">
                     <li>
-                      <Link href="javascript:void(0);" className="text-white hover:text-orange-400 font-aeonik">
+                      <Link href="javascript:void(0);" className="text-white hover:text-orange-400 font-aeonik relative">
                       Facebook
+                      <span className="absolute left-full top-[3px] ml-3">
+                        <svg className="block" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                          <path d="M8.76365 1.9999L0.888672 9.87487L2.12611 11.1123L10.0011 3.23732L10.0011 9.8749L11.7511 9.8749L11.7511 0.249897L2.12608 0.249897L2.12608 1.9999L8.76365 1.9999Z" fill="white"/>
+                        </svg>
+                      </span>
                       </Link>
                     </li>
 
                     <li>
-                      <Link href="javascript:void(0);" className="text-white hover:text-orange-400 font-aeonik">
+                      <Link href="javascript:void(0);" className="text-white hover:text-orange-400 font-aeonik relative">
                       Linkedin
+                      <span className="absolute left-full top-[3px] ml-3">
+                        <svg className="block" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                          <path d="M8.76365 1.9999L0.888672 9.87487L2.12611 11.1123L10.0011 3.23732L10.0011 9.8749L11.7511 9.8749L11.7511 0.249897L2.12608 0.249897L2.12608 1.9999L8.76365 1.9999Z" fill="white"/>
+                        </svg>
+                      </span>
                       </Link>
                     </li>
 
                     <li>
-                      <Link href="javascript:void(0);" className="text-white hover:text-orange-400 font-aeonik">
+                      <Link href="javascript:void(0);" className="text-white hover:text-orange-400 font-aeonik relative">
                       Twitter
+                      <span className="absolute left-full top-[3px] ml-3">
+                        <svg className="block" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                          <path d="M8.76365 1.9999L0.888672 9.87487L2.12611 11.1123L10.0011 3.23732L10.0011 9.8749L11.7511 9.8749L11.7511 0.249897L2.12608 0.249897L2.12608 1.9999L8.76365 1.9999Z" fill="white"/>
+                        </svg>
+                      </span>
                       </Link>
                     </li>
 
                     <li>
-                      <Link href="javascript:void(0);" className="text-white hover:text-orange-400 font-aeonik">
+                      <Link href="javascript:void(0);" className="text-white hover:text-orange-400 font-aeonik relative">
                       Instagram
+                      <span className="absolute left-full top-[3px] ml-3">
+                        <svg className="block" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                          <path d="M8.76365 1.9999L0.888672 9.87487L2.12611 11.1123L10.0011 3.23732L10.0011 9.8749L11.7511 9.8749L11.7511 0.249897L2.12608 0.249897L2.12608 1.9999L8.76365 1.9999Z" fill="white"/>
+                        </svg>
+                      </span>
                       </Link>
                     </li>
 
                     <li>
-                      <Link href="javascript:void(0);" className="text-white hover:text-orange-400 font-aeonik">
+                      <Link href="javascript:void(0);" className="text-white hover:text-orange-400 font-aeonik relative">
                       Behance
+                      <span className="absolute left-full top-[3px] ml-3">
+                        <svg className="block" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                          <path d="M8.76365 1.9999L0.888672 9.87487L2.12611 11.1123L10.0011 3.23732L10.0011 9.8749L11.7511 9.8749L11.7511 0.249897L2.12608 0.249897L2.12608 1.9999L8.76365 1.9999Z" fill="white"/>
+                        </svg>
+                      </span>
                       </Link>
                     </li>
 
                     <li>
-                      <Link href="javascript:void(0);" className="text-white hover:text-orange-400 font-aeonik">
+                      <Link href="javascript:void(0);" className="text-white hover:text-orange-400 font-aeonik relative">
                       Dribbble
+                      <span className="absolute left-full top-[3px] ml-3">
+                        <svg className="block" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                          <path d="M8.76365 1.9999L0.888672 9.87487L2.12611 11.1123L10.0011 3.23732L10.0011 9.8749L11.7511 9.8749L11.7511 0.249897L2.12608 0.249897L2.12608 1.9999L8.76365 1.9999Z" fill="white"/>
+                        </svg>
+                      </span>
                       </Link>
                     </li>
                   </ul>

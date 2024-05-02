@@ -204,8 +204,8 @@ export default function Index() {
                     initial="hidden"
                     whileInView={"show"}
                     viewport={{once: true, amount: 0.1}}
-                    className="md:w-2/4 w-full xl:me-[300px] lg:me-32 md:me-12">
-                    <h2 className="text-4xl xl:text-[62px] lg:text-[52px] md:text-[30px] md:leading-[32px] text-black font-aeonik lg:leading-[65px] mb-[30px] leading-[42px]">Founders leading the way</h2>
+                    className="md:w-2/4">
+                    <h2 className="text-4xl xl:text-[62px] lg:text-[52px] md:text-[30px] md:leading-[32px] text-black font-aeonik lg:leading-[65px] mb-[30px] leading-[42px]">Founders leading <br />the way</h2>
                     <a href="javasript:void(0);" className="uppercase rounded-full py-[10px] px-5 border border-[#2E2F30] hover:bg-[#FF561D] hover:border-[#FF561D] hover:text-white inline-block transition duration-500 mb-10">Meet The Team</a>
                     </motion.div>
 

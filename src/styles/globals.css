@@ -96,20 +96,6 @@ svg{
 .video-bg-color{
     background-color: #e0e0e0;
 }
-.social_links li a{
-    position: relative;
-}
-.social_links li a::after {
-    position: absolute;
-    content: "";
-    left: 100%;
-    top: -1px;
-    width: 15px;
-    height: 15px;
-    background-image: url(../assets/right-arrow.svg);
-    background-repeat: no-repeat;
-    margin-left: 10px;
-}
 
 .faq-item.active .question{
     margin-bottom: 20px;
@@ -151,10 +137,6 @@ svg{
     left: 50%;
     bottom: -50px;
     transform: translate(-50%, -50%);
-}
-.buttonArrow .nextArrow{
-    background-color: #2E2F30;
-    color: #fff;
 }
 .max-w-custom{
     max-width: 1800px;
@@ -221,6 +203,14 @@ svg{
     position: fixed;
     top: 12px;
     right: 20px;
+}
+
+.hoverIcon svg:hover path {
+    fill: #FF561D;
+}
+
+nav a:hover svg path, .social_links li a:hover svg path{
+    fill: #FF561D;
 }
 
 @keyframes hero-video_rotateClickIcon__mz4Z7 {

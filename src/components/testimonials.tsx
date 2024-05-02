@@ -73,7 +73,7 @@ const ClientTestimonials = () => {
                         <Image src={doubleQuotes} alt="#" />
                       </div>
 
-                      <div className="testimonials_desc line-clamp-4">
+                      <div className="testimonials_desc line-clamp-4 3xl:line-clamp-3">
                         <p>
                         Life-changing experience! I learned so much from their program. Participating in their program was a transformative experience for me.
                         </p>
@@ -95,7 +95,7 @@ const ClientTestimonials = () => {
                         <Image src={doubleQuotes} alt="#" />
                       </div>
 
-                      <div className="testimonials_desc line-clamp-4">
+                      <div className="testimonials_desc line-clamp-4 3xl:line-clamp-3">
                         <p>
                         Prompt delivery and top-notch quality. Impressed with the speed and accuracy. The efficiency and speed at which they delivered the product were impressive.
                         </p>
@@ -117,7 +117,7 @@ const ClientTestimonials = () => {
                         <Image src={doubleQuotes} alt="#" />
                       </div>
 
-                      <div className="testimonials_desc line-clamp-4">
+                      <div className="testimonials_desc line-clamp-4 3xl:line-clamp-3">
                         <p>
                           This team knows their stuff. I'm grateful for their guidance. The expertise and knowledge demonstrated by this team were invaluable to me.
                         </p>
@@ -139,7 +139,7 @@ const ClientTestimonials = () => {
                         <Image src={doubleQuotes} alt="#" />
                       </div>
 
-                      <div className="testimonials_desc line-clamp-4">
+                      <div className="testimonials_desc line-clamp-4 3xl:line-clamp-3">
                         <p>
                         Reliable and trustworthy. They have earned my trust and loyalty. This company has consistently demonstrated reliability and trustworthiness.
                         </p>
@@ -161,7 +161,7 @@ const ClientTestimonials = () => {
                         <Image src={doubleQuotes} alt="#" />
                       </div>
 
-                      <div className="testimonials_desc line-clamp-4">
+                      <div className="testimonials_desc line-clamp-4 3xl:line-clamp-3">
                         <p>
                         An absolute pleasure to work with. They made the process seamless. Working with this team was a seamless and enjoyable experience.
                         </p>
@@ -183,7 +183,7 @@ const ClientTestimonials = () => {
                         <Image src={doubleQuotes} alt="#" />
                       </div>
 
-                      <div className="testimonials_desc line-clamp-4">
+                      <div className="testimonials_desc line-clamp-4 3xl:line-clamp-3">
                         <p>
                           This team knows their stuff. I'm grateful for their guidance. The expertise and knowledge demonstrated by this team were invaluable to me.
                         </p>
