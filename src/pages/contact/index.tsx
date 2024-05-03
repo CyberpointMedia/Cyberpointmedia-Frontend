@@ -17,30 +17,6 @@ const options = [
 
 export default function Index() {
 
-  const [selectedOption, setSelectedOption] = useState(null);
-
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    number: '',
-    topic: '',
-    message: '',
-  });
-
-  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
-  };
-
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    // Handle form submission here
-    console.log(formData);
-  };
-
     return <div>
       <Header></Header>
 
@@ -152,7 +128,7 @@ export default function Index() {
 
                 {/* form coloumn */}
                 <div className="md:w-2/4 w-full bg-[#EFEAE3] border border-[#e9e9e9] sm:py-[30px] sm:px-[50px] px-5 py-5">
-                  <form onSubmit={handleSubmit}>
+                  <form>
                     <div className='mb-5'>
                       <label htmlFor="name" className='w-full block text-black text-sm mb-2'>Name*</label>
                       <input
@@ -160,8 +136,6 @@ export default function Index() {
                         id="name"
                         name="name"
                         placeholder='e.g. John Deo'
-                        value={formData.name}
-                        onChange={handleChange}
                         required
                         className='bg-white border border-[#e9e9e9] py-3 inline-block w-full px-4 text-sm focus:outline-none'
                       />
@@ -173,8 +147,6 @@ export default function Index() {
                         id="email"
                         name="email"
                         placeholder='e.g. john@gmail.com'
-                        value={formData.email}
-                        onChange={handleChange}
                         required
                         className='bg-white border border-[#e9e9e9] py-3 inline-block w-full px-4 text-sm focus:outline-none'
                       />
@@ -186,8 +158,6 @@ export default function Index() {
                         id="number"
                         name="number"
                         placeholder='e.g. 301-123-4567'
-                        value={formData.number}
-                        onChange={handleChange}
                         required
                         className='bg-white border border-[#e9e9e9] py-3 inline-block w-full px-4 text-sm focus:outline-none'
                       />
@@ -197,9 +167,8 @@ export default function Index() {
 
                       <Select
                         placeholder='Select a topic'
-                        defaultValue={selectedOption}
-                        onChange={setSelectedOption}
                         options={options}
+                        required
                         className='bg-white border border-[#e9e9e9] text-sm focus:outline-none'
                       />
                       
@@ -210,8 +179,6 @@ export default function Index() {
                         id="message"
                         name="message"
                         placeholder='Details'
-                        value={formData.message}
-                        onChange={handleChange}
                         required
                         className='bg-white border border-[#e9e9e9] py-3 inline-block w-full px-4 text-sm focus:outline-none' rows={4}
                       />
