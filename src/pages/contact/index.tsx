@@ -3,8 +3,21 @@ import React, { useState, ChangeEvent, FormEvent } from 'react';
 import Header from '../header';
 import FAQAccordion from "@/components/FaqAccordion";
 import Footer from "@/pages/footer";
+import Select from "react-select";
+
+
+const options = [
+  { value: "Design & Engineering", label: "Design & Engineering" },
+  { value: "Cloud & DevOps", label: "Cloud & DevOps" },
+  { value: "Digital Marketing", label: "Digital Marketing" },
+  { value: "MVP Software Development", label: "MVP Software Development" },
+  { value: "UI/UX Design", label: "UI/UX Design" },
+  { value: "Saas Development", label: "Saas Development" },
+];
 
 export default function Index() {
+
+  const [selectedOption, setSelectedOption] = useState(null);
 
   const [formData, setFormData] = useState({
     name: '',
@@ -181,15 +194,13 @@ export default function Index() {
                     </div>
                     <div className='mb-5'>
                       <label htmlFor="topic" className='w-full block text-black text-sm mb-2'>Topic*</label>
-                      <input
-                        type="text"
-                        id="topic"
-                        name="topic"
+
+                      <Select
                         placeholder='Select a topic'
-                        value={formData.topic}
-                        onChange={handleChange}
-                        required
-                        className='bg-white border border-[#e9e9e9] py-3 inline-block w-full px-4 text-sm focus:outline-none'
+                        defaultValue={selectedOption}
+                        onChange={setSelectedOption}
+                        options={options}
+                        className='bg-white border border-[#e9e9e9] text-sm focus:outline-none'
                       />
                       
                     </div>

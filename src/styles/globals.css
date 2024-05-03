@@ -213,6 +213,56 @@ nav a:hover svg path, .social_links li a:hover svg path{
     fill: #FF561D;
 }
 
+
+.card-hover:hover h3{
+    color: #FF561D;
+}
+
+
+/* custom select css start */
+.css-13cymwt-control{
+    border: none !important;
+}
+
+.css-13cymwt-control:hover{
+    border-color: transparent !important;
+}
+
+.css-1n6sfyn-MenuList{
+    padding: 0px !important;
+}
+
+.css-qbdosj-Input{
+    margin: 0px !important;
+    padding: 12px 8px !important;
+}
+
+.css-1dimb5e-singleValue, .css-1jqq78o-placeholder{
+    margin-left: 8px !important;
+}
+
+.css-1nmdiq5-menu{
+    border-radius: 0px !important;
+}
+
+.css-1u9des2-indicatorSeparator{
+    display: none !important;
+}
+
+.css-1nmdiq5-menu, .css-t3ipsp-control{
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.css-tr4s17-option, .css-tr4s17-option:active, .css-d7l1ni-option{
+    background-color: #FF561D !important;
+    color: #fff !important;
+}
+/* custom select css end */
+
+
+
+
 @keyframes hero-video_rotateClickIcon__mz4Z7 {
     0% {
         transform: translate(-50%,-50%) rotate(0)
