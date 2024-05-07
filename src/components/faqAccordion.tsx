@@ -17,32 +17,32 @@ const FAQAccordion = () => {
     
     {
       question: "What are the stages of developing a digital product?",
-      answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      answer: "A digital product development process involves five stages. These stages are research and ideation, project planning, prototype design, development and testing, and launch.",
     },
 
     {
-      question: "What are the stages of developing a digital product?",
-      answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      question: "What sets you apart from other digital product development services?",
+      answer: "We focus on innovation, personalized solutions, and results-driven approaches to create your digital products. Besides, we employ cutting-edge technology that elevates your brand uniquely.",
     },
 
     {
-      question: "What are the stages of developing a digital product?",
-      answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      question: "How do you get digital product ideas?",
+      answer: "As a leading digital product company, our focus is on solving our client's pain points. In this regard, our digital product ideas are inspired by the problem we are trying to solve with this product. We also look up trends on social media and draw inspiration from competing solutions.",
     },
 
     {
-      question: "What are the stages of developing a digital product?",
-      answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      question: "What is a digital product development agency?",
+      answer: "It is a company that specializes in the strategy, planning, designing, and creating digital products like websites, apps, and software. It is also referred to as a digital product engineering company or digital product design company.",
     },
 
     {
-      question: "What are the stages of developing a digital product?",
-      answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      question: "Can I hire a digital product company to design my mobile application?",
+      answer: "Sure. Designing a mobile application is within the project scope of digital product engineering services.",
     },
 
     {
-      question: "What are the stages of developing a digital product?",
-      answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      question: "How long do you take to develop a mobile app?",
+      answer: "The timeline for mobile app development varies depending on the project. To give you an estimate, we would need your project's scope and complexity. At Cyberpoint Media, we prioritize quality but still aim for efficient delivery.",
     },
     // Add more FAQ items as needed
   ];

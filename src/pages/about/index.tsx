@@ -46,7 +46,7 @@ export default function Index() {
     <MultipleImageSlider />
 
     {/* our mission start */}
-    <section className="bg-white py-20">
+    <section className="bg-white py-20 section ">
         <div className="container 3xl:container mx-auto">
             <div className="flex flex-col justify-between md:flex-row">
                 <motion.div 
@@ -74,7 +74,7 @@ export default function Index() {
     </section>
 
     {/* our values section start */}
-    <section className="bg-[#EFEAE3] py-16">
+    <section className="bg-[#EFEAE3] py-16 z-50 relative">
         <div className="container 3xl:container mx-auto">
           <div className="flex flex-col items-center justify-between md:flex-row">
             <motion.div
@@ -157,7 +157,7 @@ export default function Index() {
       </section>
 
       {/* why choose us section start */}
-      <section className="bg-white py-16">
+      <section className="bg-white py-16 z-50 relative">
         <div className="container 3xl:container mx-auto">
           <div className="flex flex-col items-center justify-between md:flex-row">
             <motion.div
@@ -189,7 +189,7 @@ export default function Index() {
 
       {/* our leadership section start */}
 
-      <section className='bg-white py-16'>
+      <section className='bg-white py-16 section min-h'>
             <div className='container 3xl:container mx-auto'>
                 <motion.div                                                                                                             
                     variants={fadeIn("up", 0.1)}

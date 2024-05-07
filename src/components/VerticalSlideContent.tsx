@@ -8,7 +8,7 @@ import ChooseUsImg from '@/assets/why-choose-us.svg';
 const VerticalSlides = () => {
     
     return (
-        <section className=''>
+        <section className=' z-50 relative bg-white'>
             <div className='container 3xl:container mx-auto'>
                 <div className='flex flex-col justify-between md:flex-row gap-3 md:gap-8 xl:gap-60'>
                     <div className='w-full md:w-4/5 3xl:w-2/5 verticalSlide pt-4 md:pt-14 overflow-hidden h-fit'>
