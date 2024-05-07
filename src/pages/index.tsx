@@ -27,7 +27,7 @@ export default function Index() {
       <VideoPlayer />
       
       {/* 2nd Section Start */}
-      <section className="lg:-mt-[60px] h-screen bg-[#efeae3]">
+      <section className="lg:-mt-[60px] lg:block hidden h-screen bg-[#efeae3]">
         {/* <div className="">
         <HomeFullVideo />
         <ScrollVideo />
