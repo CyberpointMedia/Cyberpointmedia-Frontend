@@ -17,7 +17,7 @@ const Footer = () => {
           viewport={{once: true, amount: 0.1}}
           className="flex flex-col items-center justify-between md:flex-row mb-10 gap-4">
             <h2 className="text-4xl md:text-5xl text-white md:w-3/5 w-full font-aeonik mb-6 md:mb-0">Get industry insights and creative inspiration straight to your inbox.</h2>
-            <div className="md:w-2/5 w-full">
+            <div className="md:w-2/5 w-full md:justify-end md:flex">
                   <form className="">
                     <div className="relative max-w-md">
                       <input className="w-full rounded-full bg-[#3E3F49] p-4 xl:pe-44 md:pe-44 sm:pe-36 text-white" id="email" type="email" placeholder="Enter your email" />
