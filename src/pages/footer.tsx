@@ -7,8 +7,8 @@ import rightArrow from '@/assets/right-arrow.svg';
 
 const Footer = () => {
   return (
-    <div>
-      <footer className="bg-[#2C2D36] pt-20">
+    <div className="section bg-[#2C2D36] min-h">
+      <footer className="pt-20 w-full">
         <div className="container 3xl:container mx-auto">
           <motion.div 
           variants={fadeIn("up", 0.1)}
@@ -195,7 +195,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-8 bg-[#3E3F49] py-4">
+        <div className="mt-8 bg-[#3E3F49] py-4 copyrights">
           <div className="container 3xl:container mx-auto">
             <div className="sm:flex sm:justify-between">
               <p className="text-base text-white">© 2024 CyberPoint Media LLC | All Rights Reserved</p>
@@ -223,7 +223,7 @@ const Footer = () => {
           </div>
       </div>
       </footer>
-</div>
+    </div>
     
   );
 };

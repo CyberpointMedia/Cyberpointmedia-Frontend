@@ -126,9 +126,9 @@ height: 230vh;
     }
     
     @media (min-width: 1366px) and (max-width: 1536px) {
-      .serviceSec{
+      /* .serviceSec{
         margin: 700px !important;
-      }
+      } */
     }
 
    

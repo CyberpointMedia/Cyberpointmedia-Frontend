@@ -228,7 +228,7 @@ nav a:hover svg path, .social_links li a:hover svg path{
     border-color: transparent !important;
 }
 
-.css-1n6sfyn-MenuList{
+.css-1n6sfyn-MenuList, .css-1nmdiq5-menu{
     padding: 0px !important;
 }
 
@@ -263,6 +263,8 @@ nav a:hover svg path, .social_links li a:hover svg path{
 
 
 
+
+
 @keyframes hero-video_rotateClickIcon__mz4Z7 {
     0% {
         transform: translate(-50%,-50%) rotate(0)
@@ -272,6 +274,34 @@ nav a:hover svg path, .social_links li a:hover svg path{
         transform: translate(-50%,-50%) rotate(1turn)
     }
 }
+
+@media (min-width: 1600px) and (max-width: 1920px){
+    .copyrights{
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1366px) and (max-width: 1920px) {
+    .section {
+        position:sticky;
+        position:-webkit-sticky;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+      }
+      .section.min-h{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
+
+}
+
 
 @media (min-width: 601px) and (max-width: 767px) {
     .verticalSlide .slick-list{

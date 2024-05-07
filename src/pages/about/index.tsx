@@ -30,7 +30,7 @@ export default function Index() {
                 viewport={{once: true, amount: 0.1}}
                 className="md:w-3/5 3xl:w-3/6 w-full">
                 <div className="subtitle mb-4 flex items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>About Us</div>
-                <h2 className="text-4xl xl:text-[76px] lg:text-[52px] md:text-[30px] md:leading-[32px] text-black font-aeonik xl:leading-[86px] lg:leading-[65px] mb-[30px] leading-[42px]">CyberPoint Media<br />
+                <h2 className="text-4xl xl:text-[76px] lg:text-[48px] md:text-[30px] md:leading-[32px] text-black font-aeonik xl:leading-[86px] lg:leading-[65px] mb-[30px] leading-[42px]">CyberPoint Media<br />
     Talents brought together.</h2>
                 <p className="mb-6 text-[22px]">
                 Cyberpoint Media helps establish a powerful online presence for your business. We're passionate about transforming ideas into powerful digital solutions. These solutions will elevate your business reputation, build customer trust, drive sales, and help reach new clients.
@@ -84,7 +84,7 @@ export default function Index() {
             viewport={{once: true, amount: 0.1}}
              className="md:w-2/5 w-full xl:me-64 lg:me-32 md:me-12">
               <div className="subtitle mb-4 flex items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>Our Values</div>
-              <h2 className="text-4xl xl:text-[62px] lg:text-[52px] md:text-[30px] md:leading-[32px] text-black font-aeonik lg:leading-[65px] mb-[30px] leading-[42px]">Get the job done with a team you can trust.</h2>
+              <h2 className="text-4xl 2xl:text-[62px] xl:text-[54px] lg:text-[48px] md:text-[30px] md:leading-[32px] text-black font-aeonik lg:leading-[65px] mb-[30px] leading-[42px]">Get the job done with a team you can trust.</h2>
               <p className="mb-6">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu tempor diam. Maecenas congue ullamcorper blandit. Vestibulum massa nibh, vehicula congue mi eget, congue facilisis dui. Sed non augue vel.
               </p>
@@ -167,7 +167,7 @@ export default function Index() {
             viewport={{once: true, amount: 0.1}}
              className="md:w-2/4 w-full xl:me-64 lg:me-32 md:me-12">
               <div className="subtitle mb-4 flex items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>Why Choose Us</div>
-              <h2 className="text-4xl xl:text-[62px] lg:text-[52px] md:text-[30px] md:leading-[32px] text-black font-aeonik lg:leading-[65px] mb-[30px] leading-[42px]">Our values: the only code we insist on keeping!</h2>
+              <h2 className="text-4xl 2xl:text-[62px] xl:text-[54px] lg:text-[48px] md:text-[30px] md:leading-[32px] text-black font-aeonik lg:leading-[65px] mb-[30px] leading-[42px]">Our values: the only code we insist on keeping!</h2>
             </motion.div>
 
             <motion.div 
@@ -205,7 +205,7 @@ export default function Index() {
                     whileInView={"show"}
                     viewport={{once: true, amount: 0.1}}
                     className="md:w-2/4">
-                    <h2 className="text-4xl xl:text-[62px] lg:text-[52px] md:text-[30px] md:leading-[32px] text-black font-aeonik lg:leading-[65px] mb-[30px] leading-[42px]">Founders leading <br />the way</h2>
+                    <h2 className="text-4xl 2xl:text-[62px] xl:text-[54px] lg:text-[48px] md:text-[30px] md:leading-[32px] text-black font-aeonik lg:leading-[65px] mb-[30px] leading-[42px]">Founders leading <br />the way</h2>
                     <a href="javasript:void(0);" className="uppercase rounded-full py-[10px] px-5 border border-[#2E2F30] hover:bg-[#FF561D] hover:border-[#FF561D] hover:text-white inline-block transition duration-500 mb-10">Meet The Team</a>
                     </motion.div>
 

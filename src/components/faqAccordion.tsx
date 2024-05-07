@@ -48,8 +48,7 @@ const FAQAccordion = () => {
   ];
 
   return (
-    <div>
-      <section className="bg-[#efeae3] py-16">
+    <section className="section bg-[#efeae3] py-16 2xl:py-16 xl:pt-8 min-h">
             <div className="xl:max-w-[1190px] mx-auto container">
               <motion.div 
               variants={fadeIn("up", 0.1)}
@@ -58,7 +57,7 @@ const FAQAccordion = () => {
               viewport={{once: true, amount: 0.1}}
               className=''>
                 <div className="subtitle mb-4 flex items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>08 — FAQ</div>
-                <h2 className="text-4xl xl:text-[62px] lg:text-[52px] md:text-[30px] text-black font-aeonik mb-10 md:leading-[65px] leading-[42px]">Frequently Asked Questions</h2>
+                <h2 className="text-4xl 2xl:text-[62px] xl:text-[54px] lg:text-[48px] md:text-[30px] text-black font-aeonik 2xl:mb-10 xl:mb-5 mb-10 md:leading-[65px] leading-[42px]">Frequently Asked Questions</h2>
               </motion.div>
                 {/* <FAQAccordion faqs={faqs} /> */}
                 <div className="faq-accordion"> 
@@ -71,7 +70,6 @@ const FAQAccordion = () => {
                 </div>
             </div>
       </section>
-    </div>
   );
 };
 

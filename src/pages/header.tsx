@@ -90,7 +90,7 @@ const Navbar = () => {
                 </Link>
             </div>
             <div>
-                <Link href="/" className="text-black font-medium text-base hover:text-orange-400 mr-3 relative border-b border-[#000] hover:border-orange-400 pb-1">
+                <Link href="/" className="text-black font-medium text-base hover:text-orange-400 mr-3 relative border-b border-transparent hover:border-orange-400 pb-1">
                 EN
                 </Link>
                 <Link href="/" className="text-black font-medium text-base hover:text-orange-400 mr-8 relative border-b border-[#000] hover:border-orange-400 pb-1">

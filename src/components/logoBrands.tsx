@@ -21,9 +21,8 @@ import BrandLogo16 from '@/assets/brand-logos/microsoft-logo.svg';
 
 const LogoBrands = () => {
   return (
-    <div>
-
-      <section className="bg-white py-40 lg:h-screen md:flex lg:items-center lg:justify-center">
+    <div className="section bg-white logoBrands min-h">
+      <section className="py-40 lg:h-screen md:flex lg:items-center lg:justify-center">
         <motion.div 
         variants={fadeIn("up", 0.1)}
         initial="hidden"

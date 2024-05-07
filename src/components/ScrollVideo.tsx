@@ -17,7 +17,7 @@ export default function ScrollVideo() {
 
     // Adjust translateX to fix video position from the right when scrolling down
     const fixedPositionTranslateX = useTransform(scrollYProgress, [0, 1], [0, -552]);
-    const fixedPositionTranslateY = useTransform(scrollYProgress, [0, 1], [0, 1280]);
+    const fixedPositionTranslateY = useTransform(scrollYProgress, [0, 1], [0, 600]);
 
     // Combine the transformations into a single object
     const transformStyle = {
