@@ -33,82 +33,82 @@ const LogoBrands = () => {
           <div className="flex flex-wrap gap-4 justify-center">
             <div className="p-5 text-center">
               <a href="javascript:void(0);" className="">
-                <Image src={BrandLogo1} alt="Netflix" />
+                <Image src={BrandLogo1} alt="Netflix" loading="lazy" />
               </a>
             </div>
             <div className="p-5 text-center">
               <a href="javascript:void(0);" className="">
-                <Image src={BrandLogo2} alt="United Nations" />
+                <Image src={BrandLogo2} alt="United Nations" loading="lazy" />
               </a>
             </div>
             <div className="p-5 text-center">
               <a href="javascript:void(0);" className="">
-                <Image src={BrandLogo3} alt="Netflix" />
+                <Image src={BrandLogo3} alt="Netflix" loading="lazy" />
               </a>
             </div>
             <div className="p-5 text-center">
               <a href="javascript:void(0);" className="">
-                <Image src={BrandLogo4} alt="Netflix" />
+                <Image src={BrandLogo4} alt="Netflix" loading="lazy" />
               </a>
             </div>
             <div className="p-5 text-center">
               <a href="javascript:void(0);" className="">
-                <Image src={BrandLogo5} alt="Netflix" />
+                <Image src={BrandLogo5} alt="Netflix" loading="lazy" />
               </a>
             </div>
             <div className="p-5 text-center">
               <a href="javascript:void(0);" className="">
-                <Image src={BrandLogo6} alt="Netflix" />
+                <Image src={BrandLogo6} alt="Netflix" loading="lazy" />
               </a>
             </div>
             <div className="p-5 text-center">
               <a href="javascript:void(0);" className="">
-                <Image src={BrandLogo7} alt="Netflix" />
+                <Image src={BrandLogo7} alt="Netflix" loading="lazy" />
               </a>
             </div>
             <div className="p-5 text-center">
               <a href="javascript:void(0);" className="">
-                <Image src={BrandLogo8} alt="Netflix" />
+                <Image src={BrandLogo8} alt="Netflix" loading="lazy" />
               </a>
             </div>
             <div className="p-5 text-center">
               <a href="javascript:void(0);" className="">
-                <Image src={BrandLogo9} alt="Netflix" />
+                <Image src={BrandLogo9} alt="Netflix" loading="lazy" />
               </a>
             </div>
             <div className="p-5 text-center">
               <a href="javascript:void(0);" className="">
-                <Image src={BrandLogo10} alt="Netflix" />
+                <Image src={BrandLogo10} alt="Netflix" loading="lazy" />
               </a>
             </div>
             <div className="p-5 text-center">
               <a href="javascript:void(0);" className="">
-                <Image src={BrandLogo11} alt="Netflix" />
+                <Image src={BrandLogo11} alt="Netflix" loading="lazy" />
               </a>
             </div>
             <div className="p-5 text-center">
               <a href="javascript:void(0);" className="">
-                <Image src={BrandLogo12} alt="Netflix" />
+                <Image src={BrandLogo12} alt="Netflix" loading="lazy" />
               </a>
             </div>
             <div className="p-5 text-center">
               <a href="javascript:void(0);" className="">
-                <Image src={BrandLogo13} alt="Netflix" />
+                <Image src={BrandLogo13} alt="Netflix" loading="lazy" />
               </a>
             </div>
             <div className="p-5 text-center">
               <a href="javascript:void(0);" className="">
-                <Image src={BrandLogo14} alt="Netflix" />
+                <Image src={BrandLogo14} alt="Netflix" loading="lazy" />
               </a>
             </div>
             <div className="p-5 text-center">
               <a href="javascript:void(0);" className="">
-                <Image src={BrandLogo15} alt="Netflix" />
+                <Image src={BrandLogo15} alt="Netflix" loading="lazy" />
               </a>
             </div>
             <div className="p-5 text-center">
               <a href="javascript:void(0);" className="">
-                <Image src={BrandLogo16} alt="Netflix" />
+                <Image src={BrandLogo16} alt="Netflix" loading="lazy" />
               </a>
             </div>
           </div>

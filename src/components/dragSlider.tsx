@@ -59,7 +59,7 @@ const DragSlider = () => {
                         </div>
                     </div>
                 </div>
-                <Image src={showcaseImg1} alt="" />
+                <Image src={showcaseImg1} alt="" loading="lazy" />
             </figure>
 
             <div className="card-body md:pr-12">
@@ -82,7 +82,7 @@ const DragSlider = () => {
                     </div>
                 </div>
                 </div>
-                <Image src={showcaseImg2} alt="" />
+                <Image src={showcaseImg2} alt="" loading="lazy" />
             </figure>
 
             <div className="card-body md:pr-12">
@@ -105,7 +105,7 @@ const DragSlider = () => {
                     </div>
                 </div>
                 </div>
-                <Image src={showcaseImg3} alt="" />
+                <Image src={showcaseImg3} alt="" loading="lazy" />
             </figure>
 
             <div className="card-body md:pr-12">
@@ -128,7 +128,7 @@ const DragSlider = () => {
                     </div>
                 </div>
                 </div>
-                <Image src={showcaseImg2} alt="" />
+                <Image src={showcaseImg2} alt="" loading="lazy" />
             </figure>
 
             <div className="card-body md:pr-12">

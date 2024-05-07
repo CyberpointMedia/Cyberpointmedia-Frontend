@@ -70,7 +70,7 @@ const ClientTestimonials = () => {
               <Slider {...settings}>
                     <div className="bg-white rounded-[20px] p-7 relative text-left">
                       <div className="mb-4">
-                        <Image src={doubleQuotes} alt="#" />
+                        <Image src={doubleQuotes} alt="#" loading="lazy" />
                       </div>
 
                       <div className="testimonials_desc line-clamp-4 3xl:line-clamp-3">
@@ -81,7 +81,7 @@ const ClientTestimonials = () => {
 
                       <div className="flex items-center justify-start mt-8 2xl:mt-20">
                         <div className="me-3">
-                          <Image src={UserImg1} alt="#" />
+                          <Image src={UserImg1} alt="#" loading="lazy" />
                         </div>
                         <div className="">
                           <h3 className="text-[#2E2F30] text-base font-semibold mb-1">Black, Marvin</h3>
@@ -92,7 +92,7 @@ const ClientTestimonials = () => {
 
                     <div className="bg-white rounded-[20px] p-7 relative text-left">
                       <div className="mb-4">
-                        <Image src={doubleQuotes} alt="#" />
+                        <Image src={doubleQuotes} alt="#" loading="lazy" />
                       </div>
 
                       <div className="testimonials_desc line-clamp-4 3xl:line-clamp-3">
@@ -103,7 +103,7 @@ const ClientTestimonials = () => {
 
                       <div className="flex items-center justify-start mt-8 2xl:mt-20">
                         <div className="me-3">
-                          <Image src={UserImg2} alt="#" />
+                          <Image src={UserImg2} alt="#" loading="lazy" />
                         </div>
                         <div className="">
                           <h3 className="text-[#2E2F30] text-base font-semibold mb-1">Miles, Esther</h3>
@@ -114,7 +114,7 @@ const ClientTestimonials = () => {
 
                     <div className="bg-white rounded-[20px] p-7 relative text-left">
                       <div className="mb-4">
-                        <Image src={doubleQuotes} alt="#" />
+                        <Image src={doubleQuotes} alt="#" loading="lazy" />
                       </div>
 
                       <div className="testimonials_desc line-clamp-4 3xl:line-clamp-3">
@@ -125,7 +125,7 @@ const ClientTestimonials = () => {
 
                       <div className="flex items-center justify-start mt-8 2xl:mt-20">
                         <div className="me-3">
-                          <Image src={UserImg1} alt="#" />
+                          <Image src={UserImg1} alt="#" loading="lazy" />
                         </div>
                         <div className="">
                           <h3 className="text-[#2E2F30] text-base font-semibold mb-1">Nguyen, Shane</h3>
@@ -136,7 +136,7 @@ const ClientTestimonials = () => {
 
                     <div className="bg-white rounded-[20px] p-7 relative text-left">
                       <div className="mb-4">
-                        <Image src={doubleQuotes} alt="#" />
+                        <Image src={doubleQuotes} alt="#" loading="lazy" />
                       </div>
 
                       <div className="testimonials_desc line-clamp-4 3xl:line-clamp-3">
@@ -147,7 +147,7 @@ const ClientTestimonials = () => {
 
                       <div className="flex items-center justify-start mt-8 2xl:mt-20">
                         <div className="me-3">
-                          <Image src={UserImg3} alt="#" />
+                          <Image src={UserImg3} alt="#" loading="lazy" />
                         </div>
                         <div className="">
                           <h3 className="text-[#2E2F30] text-base font-semibold mb-1">Cooper, Kristin</h3>
@@ -158,7 +158,7 @@ const ClientTestimonials = () => {
 
                     <div className="bg-white rounded-[20px] p-7 relative text-left">
                       <div className="mb-4">
-                        <Image src={doubleQuotes} alt="#" />
+                        <Image src={doubleQuotes} alt="#" loading="lazy" />
                       </div>
 
                       <div className="testimonials_desc line-clamp-4 3xl:line-clamp-3">
@@ -169,7 +169,7 @@ const ClientTestimonials = () => {
 
                       <div className="flex items-center justify-start mt-8 2xl:mt-20">
                         <div className="me-3">
-                          <Image src={UserImg4} alt="#" />
+                          <Image src={UserImg4} alt="#" loading="lazy" />
                         </div>
                         <div className="">
                           <h3 className="text-[#2E2F30] text-base font-semibold mb-1">Miles, Esther</h3>
@@ -180,7 +180,7 @@ const ClientTestimonials = () => {
 
                     <div className="bg-white rounded-[20px] p-7 relative text-left">
                       <div className="mb-4">
-                        <Image src={doubleQuotes} alt="#" />
+                        <Image src={doubleQuotes} alt="#" loading="lazy" />
                       </div>
 
                       <div className="testimonials_desc line-clamp-4 3xl:line-clamp-3">
@@ -191,7 +191,7 @@ const ClientTestimonials = () => {
 
                       <div className="flex items-center justify-start mt-8 2xl:mt-20">
                         <div className="me-3">
-                          <Image src={UserImg2} alt="#" />
+                          <Image src={UserImg2} alt="#" loading="lazy" />
                         </div>
                         <div className="">
                           <h3 className="text-[#2E2F30] text-base font-semibold mb-1">Nguyen, Shane</h3>

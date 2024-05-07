@@ -59,7 +59,7 @@ const VerticalSlides = () => {
                         whileInView={"show"}
                         viewport={{once: true, amount: 0.1}}
                         className='w-full h-full md:sticky md:top-20 md:bottom-auto'>
-                        <Image src={ChooseUsImg} alt='#' className='mx-auto w-[500px]' />
+                        <Image src={ChooseUsImg} alt='#' loading="lazy" className='mx-auto w-[500px]' />
                     </motion.div>
 
                 </div>

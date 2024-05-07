@@ -173,7 +173,7 @@ export default function Index() {
             whileInView={"show"}
             viewport={{once: true, amount: 0.1}}
             className="md:w-2/4 w-full mb-6 md:mb-0">
-              <Image src={AboutImg} alt="About" />
+              <Image src={AboutImg} alt="About" loading="lazy" />
             </motion.div>
             <motion.div
             variants={fadeIn("up", 0.1)}

@@ -46,19 +46,19 @@ const MultipleImageSlider = () => {
             <section className='py-10'>
                 <Slider {...settings} className='MultipleItemSildes'>
                     <div>
-                        <Image src={AboutSildeImg1} alt='#' />
+                        <Image src={AboutSildeImg1} alt='#' loading="lazy" />
                     </div>
                     <div>
-                        <Image src={AboutSildeImg2} alt='#' />
+                        <Image src={AboutSildeImg2} alt='#' loading="lazy" />
                     </div>
                     <div>
-                        <Image src={AboutSildeImg3} alt='#' />
+                        <Image src={AboutSildeImg3} alt='#' loading="lazy" />
                     </div>
                     <div>
-                        <Image src={AboutSildeImg4} alt='#' />
+                        <Image src={AboutSildeImg4} alt='#' loading="lazy" />
                     </div>
                     <div>
-                        <Image src={AboutSildeImg2} alt='#' />
+                        <Image src={AboutSildeImg2} alt='#' loading="lazy" />
                     </div>
                 </Slider>
 

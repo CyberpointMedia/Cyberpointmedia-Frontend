@@ -44,8 +44,8 @@ import Modal from './VideoModal';
                     <div className="relative xl:w-[350px] xl:h-[320px] lg:w-[255px] lg:h-[190px] md:w-[205px] md:h-[160px] hidden lg:block">
                       <ScrollVideo />
                       <button className="absolute left-2/4 -top-9 md:-left-1 lg:-left-5 lg:-top-8 md:-top-1 -translate-x-1/2 -translate-y-1/2 md:w-20 lg:w-auto -z-10" onClick={openModal}>
-                        <Image src={clickToplay} className="hero-video_root_playBtn_click absolute top-2/4 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="click icon" />
-                        {isPlaying ? <Image src={playIcon} alt="play icon" /> : <Image src={playIcon} alt="play icon" />}
+                        <Image src={clickToplay} className="hero-video_root_playBtn_click absolute top-2/4 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="click icon" loading="lazy" />
+                        {isPlaying ? <Image src={playIcon} alt="play icon" loading="lazy" /> : <Image src={playIcon} alt="play icon" loading="lazy" />}
                       </button>
 
                         {/* {isModalOpen && (
@@ -62,8 +62,8 @@ import Modal from './VideoModal';
                         />
                       </div>
                       <button className="absolute left-2/4 -top-9 md:-left-1 lg:-left-5 lg:-top-8 md:-top-1 -translate-x-1/2 -translate-y-1/2 md:w-20 lg:w-auto -z-10" onClick={openModal}>
-                        <Image src={clickToplay} className="hero-video_root_playBtn_click absolute top-2/4 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="click icon" />
-                        {isPlaying ? <Image src={playIcon} alt="play icon" /> : <Image src={playIcon} alt="play icon" />}
+                        <Image src={clickToplay} className="hero-video_root_playBtn_click absolute top-2/4 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="click icon" loading="lazy" />
+                        {isPlaying ? <Image src={playIcon} alt="play icon" loading="lazy" /> : <Image src={playIcon} alt="play icon" loading="lazy" />}
                       </button>
                     </div>
 
@@ -78,10 +78,10 @@ import Modal from './VideoModal';
                 We are an industry leader in <b className="">Design and Engineering, Digital Product Design and<br className="md:hidden lg:block" /> Development, Digital Marketing,</b> and <b className="">Cloud and DevOps.</b>
                 </p>
               </motion.div>
-              <motion.div className="border py-4 lg:px-5 px-4 2xl:w-1/5 md:w-1/4 w-full border-b-0" initial={{ opacity: 0, x: 50 }} animate={{ opacity: 1, x: 0 }}   transition={{ duration: 1 }}>
+              <motion.div className="border py-4 lg:px-5 px-4 2xl:w-1/5 md:w-1/4 w-full border-b-0 z-10" initial={{ opacity: 0, x: 50 }} animate={{ opacity: 1, x: 0 }}   transition={{ duration: 1 }}>
                 <a href="javascript:void(0)" className="text-black xl:text-[22px] lg:text-[17px] md:text-[14px] text-[18px] flex justify-between items-center">
                   <span>Become a Client</span>
-                <Image src={readmoreIcon} alt="" className="md:w-6 lg:w-auto" />
+                <Image src={readmoreIcon} alt="" loading="lazy" className="md:w-6 lg:w-auto" />
                 </a>
               </motion.div>
             </div>

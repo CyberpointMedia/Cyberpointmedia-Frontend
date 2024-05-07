@@ -96,7 +96,7 @@ export default function Index() {
             whileInView={"show"}
             viewport={{once: true, amount: 0.1}}
             className="md:w-3/5 w-full mb-6 md:mb-0">
-              <Image src={OurValueImg} alt="About" />
+              <Image src={OurValueImg} alt="About" loading="lazy" />
             </motion.div>
           </div>
 
@@ -217,14 +217,14 @@ export default function Index() {
                     className="md:w-2/4 w-full mb-6 md:mb-0">              
                         <div className='grid sm:grid-cols-2 grid-cols gap-5'>
                             <div className=''>
-                                <Image src={TeamImg1} alt='#' />
+                                <Image src={TeamImg1} alt='#' loading="lazy" />
                                 <div className='py-4'>
                                     <h6 className='text-[#2E2F30] text-[22px] font-aeonik mb-1'>Pooja Yadav</h6>
                                     <p className='text-sm'>Founder & CEO</p>
                                 </div>
                             </div>
                             <div className=''>
-                                <Image src={TeamImg2} alt='#' />
+                                <Image src={TeamImg2} alt='#' loading="lazy" />
                                 <div className='py-4'>
                                     <h6 className='text-[#2E2F30] text-[22px] font-aeonik mb-1'>Navdeep Yadav</h6>
                                     <p className='text-sm'>Director, Operations</p>
