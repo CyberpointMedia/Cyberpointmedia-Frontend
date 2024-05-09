@@ -78,7 +78,7 @@ import Modal from './VideoModal';
                 We are an industry leader in <b className="">Design and Engineering, Digital Product Design and<br className="md:hidden lg:block" /> Development, Digital Marketing,</b> and <b className="">Cloud and DevOps.</b>
                 </p>
               </motion.div>
-              <motion.div className="border py-4 lg:px-5 px-4 2xl:w-1/5 md:w-1/4 w-full border-b-0 z-10" initial={{ opacity: 0, x: 50 }} animate={{ opacity: 1, x: 0 }}   transition={{ duration: 1 }}>
+              <motion.div className="border py-4 lg:px-5 px-4 2xl:w-1/5 md:w-1/4 w-full border-b-0" initial={{ opacity: 0, x: 50 }} animate={{ opacity: 1, x: 0 }}   transition={{ duration: 1 }}>
                 <a href="javascript:void(0)" className="text-black xl:text-[22px] lg:text-[17px] md:text-[14px] text-[18px] flex justify-between items-center">
                   <span>Become a Client</span>
                 <Image src={readmoreIcon} alt="" loading="lazy" className="md:w-6 lg:w-auto" />
