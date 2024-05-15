@@ -35,9 +35,15 @@ const ClientTestimonials = () => {
 
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 1024,
         settings: {
           slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
         },
       },
       {
@@ -64,7 +70,7 @@ const ClientTestimonials = () => {
         viewport={{once: true, amount: 0.1}}
         className="text-center">
           <div className="subtitle mb-4 flex mx-auto justify-center items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>06 —Testimonials</div>
-            <h2 className="text-4xl 2xl:text-[62px] xl:text-[54px] lg:text-[48px] md:text-[30px] text-black font-aeonik mb-10 md:leading-[65px] leading-[42px]">What Our Clients Say</h2>
+            <h2 className="text-4xl 3xl:text-[62px] xl:text-[56px] lg:text-[48px] md:text-[30px] text-black font-aeonik mb-10 md:leading-[65px] leading-[42px]">What Our Clients Say</h2>
         </motion.div>
         <div className="slider-container relative">
               <Slider {...settings}>

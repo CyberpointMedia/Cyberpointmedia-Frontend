@@ -68,7 +68,7 @@ const Navbar = () => {
 
         <div className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block text-center">
             <div className="text-sm lg:flex-grow">
-                <Link href="/" className="text-black font-medium text-base hover:text-orange-400 mr-8 pr-8 relative">
+                <Link href="/services" className="text-black font-medium text-base hover:text-orange-400 mr-8 pr-8 relative">
                 Services
                 <span className='absolute top-0 right-0'>
                   <svg className='block' xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">

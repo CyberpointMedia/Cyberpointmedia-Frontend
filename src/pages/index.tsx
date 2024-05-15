@@ -15,7 +15,6 @@ import ClientTestimonials from "@/components/Testimonials";
 import FAQAccordion from "@/components/FaqAccordion";
 import Footer from "@/pages/footer";
 import DragSlider from "@/components/DragSlider";
-import HomeFullVideo from "@/components/HomeFullVideo";
 
 export default function Index() {
   const videoSrc = '/videos/video.mp4';
@@ -27,12 +26,7 @@ export default function Index() {
       <VideoPlayer />
       
       {/* 2nd Section Start */}
-      <section className="lg:-mt-[60px] lg:block hidden h-screen bg-[#efeae3]">
-        {/* <div className="">
-        <HomeFullVideo />
-        <ScrollVideo />
-        </div> */}
-      </section>
+      <section className="lg:-mt-[60px] lg:block hidden h-70vh bg-[#efeae3]"></section>
 
       {/* service section start */}
       <section className="section bg-[#efeae3] pt-12 pb-16">
@@ -106,7 +100,7 @@ export default function Index() {
       <section className="section bg-white pt-16">
         <div className="container 3xl:container mx-auto">
           <div className="flex flex-col md:items-center md:justify-between md:flex-row pb-10">
-            <motion.h2 className="text-4xl 2xl:text-[62px] xl:text-[54px] lg:text-[48px] md:text-[30px] md:leading-[32px] text-black 2xl:w-[812px] xl:w-[720px] lg:w-[560px] md:w-[362px] w-full font-aeonik mb-6 md:mb-0 lg:leading-[65px] leading-[42px]" variants={fadeIn("up", 0.1)}
+            <motion.h2 className="text-4xl 3xl:text-[62px] xl:text-[56px] lg:text-[48px] md:text-[30px] md:leading-[32px] text-black xl:w-[720px] lg:w-[560px] md:w-[362px] w-full font-aeonik mb-6 md:mb-0 lg:leading-[65px] leading-[42px]" variants={fadeIn("up", 0.1)}
           initial="hidden"
           whileInView={"show"}
           viewport={{once: true, amount: 0.1}}>Showcase of selected projects and archive</motion.h2>
@@ -151,7 +145,7 @@ export default function Index() {
           whileInView={"show"}
           viewport={{once: true, amount: 0.1}}
           className="flex flex-col items-center justify-between md:flex-row mb-5 3xl:mb-10">
-            <h2 className="text-4xl lg:text-[48px] 2xl:text-[62px] xl:text-[54px] md:text-[30px] md:leading-[32px] text-black lg:w-2/3 md:w-2/4 w-full font-aeonik mb-6 md:mb-0 lg:leading-[65px] leading-[42px]">Tools And Technologies<br /> That We Work With</h2>
+            <h2 className="text-4xl lg:text-[48px] 3xl:text-[62px] xl:text-[56px] md:text-[30px] md:leading-[32px] text-black lg:w-2/3 md:w-2/4 w-full font-aeonik mb-6 md:mb-0 lg:leading-[65px] leading-[42px]">Tools And Technologies<br /> That We Work With</h2>
             <div className="lg:w-1/3 md:w-2/4 w-full">
                <div className="subtitle mb-4 flex items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>07 - Technologies</div>
                <h2 className="text-[22px] text-black">Our proficiency spans cutting-edge technologies, ensuring the best solutions for your business needs.</h2>
@@ -182,7 +176,7 @@ export default function Index() {
             viewport={{once: true, amount: 0.1}}
              className="md:w-2/4 w-full 2xl:ms-32 xl:ms-24 lg:ms-16 md:ms-12">
               <div className="subtitle mb-4 flex items-center"><span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>03 - About Us</div>
-              <h2 className="text-4xl 2xl:text-[62px] xl:text-[54px] lg:text-[48px] md:text-[30px] md:leading-[32px] text-black font-aeonik lg:leading-[65px] mb-[30px] leading-[42px]">We’re Your Digital Technological Partners</h2>
+              <h2 className="text-4xl 3xl:text-[62px] xl:text-[56px] lg:text-[48px] md:text-[30px] md:leading-[32px] text-black font-aeonik lg:leading-[65px] mb-[30px] leading-[42px]">We’re Your Digital Technological Partners</h2>
               <p className="mb-6">
                 Cyberpoint Media helps establish a powerful online presence for your business. We're passionate about transforming ideas into powerful digital solutions. These solutions will elevate your business reputation, build customer trust, drive sales, and help reach new clients.
               </p>

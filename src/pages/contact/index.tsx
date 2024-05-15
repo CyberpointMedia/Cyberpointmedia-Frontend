@@ -29,7 +29,7 @@ export default function Index() {
                     <span className="bg-[#FF561D] w-2 h-2 inline-block mr-2"></span>
                     Contact
                   </div>
-                  <h1 className="text-4xl 2xl:text-[62px] xl:text-[54px] lg:text-[48px] md:text-[30px] md:leading-[32px] text-black font-aeonik lg:leading-[65px] mb-[30px] leading-[42px]">
+                  <h1 className="text-4xl 3xl:text-[62px] xl:text-[56px] lg:text-[48px] md:text-[30px] md:leading-[32px] text-black font-aeonik lg:leading-[65px] mb-[30px] leading-[42px]">
                     Get in touch
                   </h1>
                   <h3 className="mb-14 text-[22px] text-black">

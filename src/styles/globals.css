@@ -56,43 +56,6 @@ svg{
     position: relative;
     z-index: 9;
 }
-
-.framer-2mnc36 {
-    aspect-ratio: 1.7777777777777777 / 1;
-    border-radius: 6px;
-    cursor: pointer;
-    flex: none;
-    height: var(--framer-aspect-ratio-supported, 234px);
-    overflow: hidden;
-    position: relative;
-    transform: perspective(1200px);
-    width: 416px;
-    will-change: var(--framer-will-change-override, transform);
-    z-index: 2;
-}
-.framer-pi7s9t-container {
-    flex: none;
-    inset: 0;
-    pointer-events: none;
-    position: absolute;
-}
-.framer-vTgVa.framer-1z0k8hp {
-    height: 234px;
-    overflow: hidden;
-    position: relative;
-    width: 416px;
-}
-.framer-vTgVa.framer-1z0k8hp video{
-    cursor: auto;
-    width: 100%;
-    height: 100%;
-    border-radius: 0px;
-    display: block;
-    object-fit: cover;
-    background-color: rgba(0, 0, 0, 0);
-    object-position: 50% 50%;
-}
-
 .video-bg-color{
     background-color: #e0e0e0;
 }
@@ -213,9 +176,12 @@ nav a:hover svg path, .social_links li a:hover svg path{
     fill: #FF561D;
 }
 
-
 .card-hover:hover h3{
     color: #FF561D;
+}
+
+.service-card:hover{
+    box-shadow: 0px 6px 12px -6px rgba(24, 39, 75, 0.12), 0px 8px 24px -4px rgba(24, 39, 75, 0.08);
 }
 
 
@@ -261,7 +227,10 @@ nav a:hover svg path, .social_links li a:hover svg path{
 /* custom select css end */
 
 
-
+.inds-card{
+    border-bottom: 2px dashed #DAD2C7;
+    border-right: 2px dashed #DAD2C7;
+}
 
 
 
@@ -282,6 +251,9 @@ nav a:hover svg path, .social_links li a:hover svg path{
         left: 0px;
         width: 100%;
     }
+    .h-70vh{
+        height: 60vh !important;
+    }
 }
 
 @media (min-width: 1366px) and (max-width: 1920px) {
@@ -299,9 +271,41 @@ nav a:hover svg path, .social_links li a:hover svg path{
         justify-content: center;
         width: 100%;
       }
-
 }
 
+@media (min-width:1024px) {
+    .border-b-lg-none{
+        border-bottom: 0px;
+    }
+    .h-70vh{
+        height: 70vh;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:1023px) {
+    .inds-card.border-r-md-none{
+        border-right: 0px;
+    }
+}
+
+@media (min-width:768px) {
+    .inds-card.border-b-none{
+        border-bottom: 0px;
+    }
+    .inds-card.border-r-none{
+        border-right: 0px;
+    }
+}
+
+@media (max-width:767px) {
+    .inds-card{
+        border-right: 0px;
+    }
+    .inds-card:last-child{
+        border-bottom: 0px;
+    }
+}
 
 @media (min-width: 601px) and (max-width: 767px) {
     .verticalSlide .slick-list{

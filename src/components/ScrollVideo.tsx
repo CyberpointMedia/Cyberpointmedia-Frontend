@@ -7,17 +7,15 @@ export default function ScrollVideo() {
     const videoboxRef = useRef(null);
     const { scrollYProgress } = useScroll({
         target: videoboxRef,
-        offset: ['start start', 'end end'],
+        offset: ['10% 30%', '100% 10%'],
     });
 
     // Define the transformations based on scrollYProgress
-    const translateX = useTransform(scrollYProgress, [0, 1], [0, 1]); // Adjust the range as needed
-    const translateY = useTransform(scrollYProgress, [0, 1], [0, 1]); // Adjust the range as needed
     const scale = useTransform(scrollYProgress, [0, 1], [1, 4.1]);
 
     // Adjust translateX to fix video position from the right when scrolling down
-    const fixedPositionTranslateX = useTransform(scrollYProgress, [0, 1], [0, -552]);
-    const fixedPositionTranslateY = useTransform(scrollYProgress, [0, 1], [0, 600]);
+    const fixedPositionTranslateX = useTransform(scrollYProgress, [0, 1], [0, -530]);
+    const fixedPositionTranslateY = useTransform(scrollYProgress, [0, 1], [0, 450]);
 
     // Combine the transformations into a single object
     const transformStyle = {
@@ -32,7 +30,7 @@ export default function ScrollVideo() {
     return (
         <div ref={videoboxRef} className={styles.videobox}>
             <div className={styles.videowrp}>
-                <motion.div className={`${styles.el} aspect-video`} style={transformStyle}>
+                <motion.div className={styles.el} style={transformStyle}>
                     <div className={styles.videodiv1}>
                         <div className={styles.videodiv2}>
                             <video 

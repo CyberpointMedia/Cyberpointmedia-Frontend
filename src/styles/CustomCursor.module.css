@@ -72,21 +72,24 @@ object-fit: cover;
 
 
 
-.videobox{
+/* .videobox{
 height: 230vh;
+} */
+.videobox{
+  width: 100%;
 }
 .videowrp{
   align-content: flex-start;
   align-items: flex-start;
-  border-radius: 12px;
   display: flex;
-  /* flex-direction: column;
-  flex-wrap: nowrap; */
-  /* gap: 12px; */
-  /* height: min-content; */
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 12px;
+  height: min-content;
   justify-content: flex-start;
   overflow: visible;
-  height: 248px;
+  padding: 0;
   position: relative;
   transform: perspective(1200px);
   width: 100%;
@@ -94,17 +97,21 @@ height: 230vh;
 }
 
     .el{
-  height: 100%;
-  overflow: hidden;
-  position: relative;
-  transform: perspective(1200px);
-  width: 100%;
-  z-index: 2;
+    cursor: pointer;
+    flex: none;
+    height: 220px;
+    overflow: hidden;
+    position: relative;
+    transform: perspective(1200px);
+    width: 100%;
+    z-index: 2;
     }
 
     .videodiv1{
-      width: 100%;
-      height: 100%;
+         flex: none;
+    inset: 0;
+    pointer-events: none;
+    position: absolute;
     }
 
     .videodiv2{
@@ -112,6 +119,8 @@ height: 230vh;
   position: relative;
   width: 100%;
   height: 100%;
+  transform: none;
+  transform-origin: 50% 50% 0px;
     }
 
     .videodiv2 video{
@@ -124,6 +133,11 @@ height: 230vh;
   background-color: rgba(0, 0, 0, 0);
   object-position: 50% 50%;
     }
+
+
+
+
+
     
     @media (min-width: 1366px) and (max-width: 1536px) {
       /* .serviceSec{
