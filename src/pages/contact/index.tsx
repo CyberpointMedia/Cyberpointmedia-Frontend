@@ -1,5 +1,5 @@
 
-import React, { useState, ChangeEvent, FormEvent } from 'react';
+import React from 'react';
 import Header from '../header';
 import FAQAccordion from "@/components/FaqAccordion";
 import Footer from "@/pages/footer";

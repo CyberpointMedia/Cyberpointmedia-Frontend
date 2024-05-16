@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import DropIcon from '@/assets/drop-arrow.svg';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

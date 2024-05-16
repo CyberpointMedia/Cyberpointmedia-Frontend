@@ -1,13 +1,11 @@
 
 import React from "react";
 import { motion } from 'framer-motion';
-import { useState, useEffect } from 'react';
 import Header from './header';
+import Link from 'next/link';
 import VideoPlayer from "@/components/VideoPlayer";
 import { fadeIn } from "@/components/AnimationVariants";
 import Image from 'next/image';
-import designEngineering from '@/assets/design-engineering.svg';
-import devopsIcon from '@/assets/devops-icon.svg';
 import OurTechnology from '@/components/OurTechnology';
 import AboutImg from '@/assets/about-img.svg';
 import LogoBrands from "@/components/LogoBrands";
@@ -55,7 +53,11 @@ export default function Index() {
                     </svg>
 
                 </div>
-                <h3 className="my-5 2xl:text-4xl lg:text-3xl text-2xl font-aeonik duration-300 transition"><a href="javascript:void(0);">Design &amp; Engineering</a></h3>
+                <h3 className="my-5 2xl:text-4xl lg:text-3xl text-2xl font-aeonik duration-300 transition">
+                  <Link href="services/MVPSoftwareDevelopment">
+                    Design &amp; Engineering
+                  </Link>
+                </h3>
                 <p className="line-clamp-3 2xl:line-clamp-4">Your online business needs to be appealing and functional for excellent user engagement. We bring your concepts to life through MVP Software Development and UI/UX Design.</p>
             </motion.div>
 
@@ -184,8 +186,12 @@ export default function Index() {
                 With a focus on innovation and expertise, we specialize in delivering top-tier services in Design & Engineering, Cloud & DevOps, Digital Product Development, and Digital Marketing.
               </p>
               <div className="items-center my-8 flex flex-col sm:flex-row sm:gap-[30px] gap-5">
-                  <a href="javasript:void(0);" className="uppercase rounded-full py-[10px] px-5 border border-[#2E2F30] hover:bg-[#FF561D] hover:border-[#FF561D] hover:text-white inline-block transition duration-500">More About Us</a>
-                  <a href="javascript:void(0);" className="underline hover:text-[#FF561D] transition duration-300">Get In Touch</a>
+                  <Link href="/about" className="uppercase rounded-full py-[10px] px-5 border border-[#2E2F30] hover:bg-[#FF561D] hover:border-[#FF561D] hover:text-white inline-block transition duration-500">
+                    More About Us
+                  </Link>
+                  <Link href="/contact" className="underline hover:text-[#FF561D] transition duration-300">
+                    Get In Touch
+                  </Link>
               </div>
             </motion.div>
           </div>

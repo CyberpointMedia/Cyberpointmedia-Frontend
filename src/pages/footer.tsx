@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { fadeIn } from "@/components/AnimationVariants";
 import Image from "next/image";
 import Link from "next/link";
-import rightArrow from '@/assets/right-arrow.svg';
 
 const Footer = () => {
   return (

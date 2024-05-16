@@ -1,5 +1,5 @@
 
-import React, { useState, ChangeEvent, FormEvent } from 'react';
+import React from 'react';
 import Header from '../header';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
@@ -85,9 +85,9 @@ Services Tailored to Your Needs.</h2>
 
                 </div>
                 <h3 className="my-5 3xl:text-4xl xl:text-3xl text-2xl font-aeonik duration-300 transition md:line-clamp-1 xl:line-clamp-none">
-                <Link href="services/MVPSoftwareDevelopment">
-                  MVP Software Development
-                </Link>
+                  <Link href="services/MVPSoftwareDevelopment">
+                    MVP Software Development
+                  </Link>
                 </h3>
                 <p className="md:line-clamp-3">We help you develop a minimum viable product to launch your idea, gather feedback, and engage early adopters.</p>
             </motion.div>
