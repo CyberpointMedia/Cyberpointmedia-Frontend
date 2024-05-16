@@ -73,9 +73,9 @@ import Modal from './VideoModal';
         <div className="lg:absolute lg:bottom-0 lg:left-0 w-full">
             <div className="container mx-auto 3xl:container relative">
             <div className="flex flex-col md:flex-row mt-10 justify-between gap-4 h-full">
-              <motion.div className="border py-4 lg:px-5 px-4 2xl:w-4/5 md:w-3/4 w-full border-b-0" initial={{ opacity: 0, x: -100 }} animate={{ opacity: 1, x: 0 }}   transition={{ duration: 1 }}>
+              <motion.div className="md:border py-4 lg:px-5 px-4 2xl:w-4/5 md:w-3/4 w-full border-b-0" initial={{ opacity: 0, x: -100 }} animate={{ opacity: 1, x: 0 }}   transition={{ duration: 1 }}>
                 <p className="xl:text-[22px] lg:text-[17px] md:text-[14px] text-[18px] md:leading-5 lg:leading-normal text-[#2E2F30]">
-                We are an industry leader in <b className="">Design and Engineering, Digital Product Design and<br className="md:hidden lg:block" /> Development, Digital Marketing,</b> and <b className="">Cloud and DevOps.</b>
+                We are an industry leader in <b className="">Design and Engineering, Digital Product Design and<br className="hidden lg:block" /> Development, Digital Marketing,</b> and <b className="">Cloud and DevOps.</b>
                 </p>
               </motion.div>
               <motion.div className="border py-4 lg:px-5 px-4 2xl:w-1/5 md:w-1/4 w-full border-b-0" initial={{ opacity: 0, x: 50 }} animate={{ opacity: 1, x: 0 }}   transition={{ duration: 1 }}>

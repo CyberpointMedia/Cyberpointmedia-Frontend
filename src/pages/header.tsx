@@ -113,7 +113,7 @@ const Navbar = () => {
                 <Link href="/about" className="block font-medium text-base text-white hover:text-orange-400 py-4 px-2 border-white border-b">
                     About
                 </Link>
-                <Link href="/" className="block font-medium text-base text-white hover:text-orange-400 py-4 px-2 border-white border-b">
+                <Link href="/services" className="block font-medium text-base text-white hover:text-orange-400 py-4 px-2 border-white border-b">
                     Service
                 </Link>
                 <Link href="/contact" className="block font-medium text-base text-white hover:text-orange-400 py-4 px-2 border-white border-b">
