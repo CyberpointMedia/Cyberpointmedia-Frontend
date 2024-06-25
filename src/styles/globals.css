@@ -226,6 +226,13 @@ nav a:hover svg path, .social_links li a:hover svg path{
 }
 /* custom select css end */
 
+.orange-bg{
+    background-image: url(../assets/orange-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 
 .inds-card{
     border-bottom: 2px dashed #DAD2C7;

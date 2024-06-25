@@ -17,7 +17,7 @@ export default function Index() {
       <Header></Header>
 
     {/* Services start */}
-    <section className="bg-white py-16 xl:h-screen flex items-center">
+    <section className="bg-white py-16">
         <div className="container 3xl:container mx-auto">
             <motion.div 
                 variants={fadeIn("up", 0.1)}
@@ -36,7 +36,7 @@ Services Tailored to Your Needs.</h2>
         </div>
     </section>
 
-    <section className='bg-[#DDD]'>
+    <section className=''>
       <Image src={DesignEngineeringImg} alt='' />
     </section>
 
@@ -123,7 +123,11 @@ Services Tailored to Your Needs.</h2>
                     <path d="M64.6667 10C66.5067 10 68 11.4933 68 13.3333C68 15.1733 66.5067 16.6667 64.6667 16.6667C62.8267 16.6667 61.3334 15.1733 61.3334 13.3333C61.3334 11.4933 62.8267 10 64.6667 10ZM64.6667 5.33333C59.1467 5.33333 54.6667 9.81333 54.6667 15.3333C54.6667 20.8533 59.1467 25.3333 64.6667 25.3333C70.1867 25.3333 74.6667 20.8533 74.6667 15.3333C74.6667 9.81333 70.1867 5.33333 64.6667 5.33333ZM69.1467 21.12C68.3734 19.7067 66.6134 18.6933 64.56 18.6933C62.5067 18.6933 60.8534 19.6267 60.0534 20.9867C58.4 19.6533 57.3334 17.6267 57.3334 15.3333C57.3334 11.28 60.6134 7.99999 64.6667 7.99999C68.72 7.99999 72 11.28 72 15.3333C72 17.68 70.8534 19.76 69.1467 21.12ZM64.6667 34.6667C66.5067 34.6667 68 36.16 68 38C68 39.84 66.5067 41.3333 64.6667 41.3333C62.8267 41.3333 61.3334 39.84 61.3334 38C61.3334 36.16 62.8267 34.6667 64.6667 34.6667ZM64.6667 30C59.1467 30 54.6667 34.48 54.6667 40C54.6667 45.52 59.1467 50 64.6667 50C70.1867 50 74.6667 45.52 74.6667 40C74.6667 34.48 70.1867 30 64.6667 30ZM69.1467 45.7867C68.3734 44.3733 66.6134 43.36 64.56 43.36C62.5067 43.36 60.8534 44.2933 60.0534 45.6533C58.4 44.32 57.3334 42.2933 57.3334 40C57.3334 35.9467 60.6134 32.6667 64.6667 32.6667C68.72 32.6667 72 35.9467 72 40C72 42.3467 70.8534 44.4267 69.1467 45.7867ZM64.6667 59.3333C66.5067 59.3333 68 60.8267 68 62.6667C68 64.5067 66.5067 66 64.6667 66C62.8267 66 61.3334 64.5067 61.3334 62.6667C61.3334 60.8267 62.8267 59.3333 64.6667 59.3333ZM64.6667 54.6667C59.1467 54.6667 54.6667 59.1467 54.6667 64.6667C54.6667 70.1867 59.1467 74.6667 64.6667 74.6667C70.1867 74.6667 74.6667 70.1867 74.6667 64.6667C74.6667 59.1467 70.1867 54.6667 64.6667 54.6667ZM69.1467 70.4533C68.3734 69.04 66.6134 68.0267 64.56 68.0267C62.5067 68.0267 60.8534 68.96 60.0534 70.32C58.4 68.9867 57.3334 66.96 57.3334 64.6667C57.3334 60.6133 60.6134 57.3333 64.6667 57.3333C68.72 57.3333 72 60.6133 72 64.6667C72 67.0133 70.8534 69.0933 69.1467 70.4533Z" fill="#FF561D"/>
                   </svg>
                 </div>
-                <h3 className="my-5 3xl:text-4xl xl:text-3xl text-2xl font-aeonik duration-300 transition md:line-clamp-1 xl:line-clamp-none"><a href="javascript:void(0);">SaaS Development</a></h3>
+                <h3 className="my-5 3xl:text-4xl xl:text-3xl text-2xl font-aeonik duration-300 transition md:line-clamp-1 xl:line-clamp-none">
+                  <Link href="services/SaasDevelopment">
+                    SaaS Development
+                  </Link>
+                </h3>
                 <p className="md:line-clamp-3">Got a futuristic idea? We will bring your ideas to life with our Software As a Service (SaaS) development services.</p>
             </motion.div>
 
@@ -142,7 +146,11 @@ Services Tailored to Your Needs.</h2>
                     <path d="M70 50V17.5C70 16.1739 69.4732 14.9021 68.5355 13.9645C67.5979 13.0268 66.3261 12.5 65 12.5H15C13.6739 12.5 12.4021 13.0268 11.4645 13.9645C10.5268 14.9021 10 16.1739 10 17.5V50C8.67392 50 7.40215 50.5268 6.46447 51.4645C5.52678 52.4021 5 53.6739 5 55C5 58.3152 6.31696 61.4946 8.66117 63.8388C11.0054 66.183 14.1848 67.5 17.5 67.5H62.5C65.8152 67.5 68.9946 66.183 71.3388 63.8388C73.683 61.4946 75 58.3152 75 55C75 53.6739 74.4732 52.4021 73.5355 51.4645C72.5979 50.5268 71.3261 50 70 50ZM15 17.5H65V50H50C49.5383 50.0014 49.0861 50.1306 48.6933 50.3733C48.3006 50.616 47.9827 50.9627 47.775 51.375L45.95 55H34.05L32.225 51.375C32.0173 50.9627 31.6994 50.616 31.3067 50.3733C30.9139 50.1306 30.4617 50.0014 30 50H15V17.5ZM62.5 62.5H17.5C15.5109 62.5 13.6032 61.7098 12.1967 60.3033C10.7902 58.8968 10 56.9891 10 55H28.45L30.275 58.625C30.4827 59.0373 30.8006 59.384 31.1933 59.6267C31.5861 59.8694 32.0383 59.9986 32.5 60H47.5C47.9617 59.9986 48.4139 59.8694 48.8067 59.6267C49.1994 59.384 49.5173 59.0373 49.725 58.625L51.55 55H70C70 56.9891 69.2098 58.8968 67.8033 60.3033C66.3968 61.7098 64.4891 62.5 62.5 62.5Z" fill="#484848"/>
                   </svg>
                 </div>
-                <h3 className="my-5 3xl:text-4xl xl:text-3xl text-2xl font-aeonik duration-300 transition md:line-clamp-1 xl:line-clamp-none"><a href="javascript:void(0);">Enterprise Software</a></h3>
+                <h3 className="my-5 3xl:text-4xl xl:text-3xl text-2xl font-aeonik duration-300 transition md:line-clamp-1 xl:line-clamp-none">
+                  <Link href="services/EnterpriseSoftware">
+                    Enterprise Software
+                  </Link>
+                </h3>
                 <p className="md:line-clamp-3">Stream your business operations using our enterprise software development service. We build efficient software solutions for businesses of all sizes.</p>
             </motion.div>
 

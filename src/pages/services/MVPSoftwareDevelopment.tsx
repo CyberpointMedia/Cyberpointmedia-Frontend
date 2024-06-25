@@ -16,7 +16,7 @@ const MVPSoftwareDevelopment = () => {
       <Header></Header>
 
     {/* Services start */}
-    <section className="bg-white py-16 xl:h-screen flex items-center">
+    <section className="bg-white py-16">
         <div className="container 3xl:container mx-auto">
             <motion.div 
                 variants={fadeIn("up", 0.1)}
