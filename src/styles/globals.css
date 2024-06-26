@@ -240,6 +240,10 @@ nav a:hover svg path, .social_links li a:hover svg path{
 }
 
 
+h2, h3, h4, h5, h6, p {
+    margin: 15px;
+}
+
 
 @keyframes hero-video_rotateClickIcon__mz4Z7 {
     0% {

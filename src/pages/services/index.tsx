@@ -107,7 +107,11 @@ Services Tailored to Your Needs.</h2>
                       <path d="M74.0625 50.955L52.5075 44.3975C50.9225 43.9175 49.1975 44.345 48.0225 45.5175C46.845 46.695 46.415 48.4125 46.9 50.005L53.4575 71.5625C54.0375 73.4675 55.7 74.7175 57.69 74.745H57.76C59.72 74.745 61.385 73.55 62.015 71.685L65.08 62.5775L74.1925 59.5075C76.08 58.87 77.28 57.17 77.25 55.1825C77.22 53.1925 75.9675 51.5325 74.0625 50.955ZM63.6425 58.3175C62.32 58.765 61.265 59.82 60.82 61.14L57.7625 70.2525L51.21 48.7075L72.755 55.25L63.6425 58.3175Z" fill="#FF561D"/>
                     </svg>
                 </div>
-                <h3 className="my-5 3xl:text-4xl xl:text-3xl text-2xl font-aeonik duration-300 transition md:line-clamp-1 xl:line-clamp-none"><a href="javascript:void(0);">UI/UX Design</a></h3>
+                <h3 className="my-5 3xl:text-4xl xl:text-3xl text-2xl font-aeonik duration-300 transition md:line-clamp-1 xl:line-clamp-none">
+                  <Link href="services/UI-UX-Development">
+                    UI/UX Design
+                  </Link>
+                </h3>
                 <p className="md:line-clamp-3">Our UI/UX design experts will create visually appealing, user-centric, and well-performing interfaces for your digital products.</p>
             </motion.div>
 
