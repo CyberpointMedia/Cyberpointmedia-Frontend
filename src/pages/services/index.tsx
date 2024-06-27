@@ -60,7 +60,7 @@ Services Tailored to Your Needs.</h2>
             initial="hidden"
             whileInView={"show"}
             viewport={{once: true, amount: 0.1}}
-            className="bg-white 3xl:p-12 xl:p-8 p-4 service-card card-hover border-t-8 border-white duration-500 transition hover:border-[#FF561D]">
+            className="bg-white 3xl:p-[40px] xl:p-8 p-4 service-card card-hover border-t-8 border-white duration-500 transition hover:border-[#FF561D]">
                 <div className="service_icon">
 
                     <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 80 80" fill="none">
